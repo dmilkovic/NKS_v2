@@ -1,0 +1,741 @@
+2016-09-02 18:03:10,302 [1] INFO  SharedPluginServer.Program [(null)] - ===============START================
+2016-09-02 18:03:10,437 [1] INFO  SharedPluginServer.Program [(null)] - ARGS:
+2017-02-27 17:15:56,645 [1] INFO  SharedPluginServer.Program [(null)] - ===============START================
+2017-02-27 17:15:56,743 [1] INFO  SharedPluginServer.Program [(null)] - Starting plugin, settings:width:500,height:500,url:http://www.google.com,memfile:48184c0b-8d2c-4074-bc0b-1011dae9f8a3,port:8315
+2017-02-27 17:16:05,327 [7] INFO  SharedPluginServer.App [(null)] - ==============SHUTTING DOWN==========
+2017-02-27 17:16:07,998 [1] INFO  SharedPluginServer.Program [(null)] - ===============START================
+2017-02-27 17:16:08,062 [1] INFO  SharedPluginServer.Program [(null)] - Starting plugin, settings:width:500,height:500,url:http://www.google.com,memfile:9bb0b443-e767-4514-a92c-de677ad8941e,port:8135
+2017-02-27 17:16:11,097 [7] INFO  SharedPluginServer.App [(null)] - ==============SHUTTING DOWN==========
+2017-02-27 18:24:29,979 [1] INFO  SharedPluginServer.Program [(null)] - ===============START================
+2017-02-27 18:24:30,046 [1] INFO  SharedPluginServer.Program [(null)] - Starting plugin, settings:width:500,height:500,url:http://www.google.com,memfile:0fdef6cd-1bda-4815-84fa-aabf5c41bc1b,port:8008
+2017-02-27 18:24:35,168 [1] ERROR SharedPluginServer.Program [(null)] - CefRuntime return 0
+2017-02-27 18:24:35,803 [1] INFO  SharedPluginServer.Program [(null)] - ===============START================
+2017-02-27 18:24:35,863 [1] INFO  SharedPluginServer.Program [(null)] - Starting plugin, settings:width:500,height:500,url:http://www.google.com,memfile:0fdef6cd-1bda-4815-84fa-aabf5c41bc1b,port:8008
+2017-02-27 18:24:40,837 [7] INFO  SharedPluginServer.App [(null)] - ==============SHUTTING DOWN==========
+2017-02-27 18:24:55,005 [1] INFO  SharedPluginServer.Program [(null)] - ===============START================
+2017-02-27 18:24:55,072 [1] INFO  SharedPluginServer.Program [(null)] - Starting plugin, settings:width:500,height:500,url:http://www.google.com,memfile:e3e562f6-4ddb-424d-b290-4f2f7fb63fb8,port:8426
+2017-02-27 18:25:06,324 [9] INFO  SharedPluginServer.App [(null)] - ==============SHUTTING DOWN==========
+2018-12-05 13:02:40,824 [1] INFO  SharedPluginServer.Program [(null)] - ===============START================
+2018-12-05 13:02:40,864 [1] INFO  SharedPluginServer.Program [(null)] - Starting plugin, settings:width:500,height:500,url:http://www.google.com,memfile:4e986ff3-774e-4467-b154-876217de53d2,port:8342
+2018-12-05 13:03:00,103 [9] INFO  SharedPluginServer.App [(null)] - ==============SHUTTING DOWN==========
+2018-12-05 13:11:04,008 [1] INFO  SharedPluginServer.Program [(null)] - ===============START================
+2018-12-05 13:11:04,044 [1] INFO  SharedPluginServer.Program [(null)] - Starting plugin, settings:width:500,height:500,url:http://www.google.com,memfile:9ba7f206-0612-435f-865c-fa4f6762d90a,port:8468
+2018-12-05 13:11:20,122 [9] INFO  SharedPluginServer.App [(null)] - ==============SHUTTING DOWN==========
+2018-12-05 13:11:27,652 [1] INFO  SharedPluginServer.Program [(null)] - ===============START================
+2018-12-05 13:11:27,686 [1] INFO  SharedPluginServer.Program [(null)] - Starting plugin, settings:width:500,height:500,url:http://www.google.com,memfile:52edd80b-65b2-4785-bf22-e121f8faf679,port:8732
+2018-12-05 13:11:34,495 [8] INFO  SharedPluginServer.App [(null)] - ==============SHUTTING DOWN==========
+2018-12-05 13:19:25,184 [1] INFO  SharedPluginServer.Program [(null)] - ===============START================
+2018-12-05 13:19:25,218 [1] INFO  SharedPluginServer.Program [(null)] - Starting plugin, settings:width:500,height:500,url:http://www.google.com,memfile:cfc0c1d0-28ae-46f8-a37d-08a651155ab7,port:8975
+2018-12-05 13:19:36,989 [7] INFO  SharedPluginServer.App [(null)] - ==============SHUTTING DOWN==========
+2018-12-05 13:19:59,683 [1] INFO  SharedPluginServer.Program [(null)] - ===============START================
+2018-12-05 13:19:59,719 [1] INFO  SharedPluginServer.Program [(null)] - Starting plugin, settings:width:500,height:500,url:http://www.google.com,memfile:9ab2e94b-4fbc-45c1-bacb-f0c046ff8170,port:8595
+2018-12-05 13:20:21,241 [8] INFO  SharedPluginServer.App [(null)] - ==============SHUTTING DOWN==========
+2018-12-05 13:48:20,331 [1] INFO  SharedPluginServer.Program [(null)] - ===============START================
+2018-12-05 13:48:20,366 [1] INFO  SharedPluginServer.Program [(null)] - Starting plugin, settings:width:500,height:500,url:http://www.google.com,memfile:6faf0d3d-ae99-4f49-a502-5987d5af1837,port:8735
+2018-12-05 13:48:34,688 [7] INFO  SharedPluginServer.App [(null)] - ==============SHUTTING DOWN==========
+2018-12-05 13:49:08,945 [1] INFO  SharedPluginServer.Program [(null)] - ===============START================
+2018-12-05 13:49:08,978 [1] INFO  SharedPluginServer.Program [(null)] - Starting plugin, settings:width:500,height:500,url:http://www.google.com,memfile:28666d95-f9c5-4f67-8e38-a1cb665d5314,port:8320
+2018-12-05 13:51:08,548 [9] INFO  SharedPluginServer.App [(null)] - ==============SHUTTING DOWN==========
+2018-12-05 13:51:23,862 [1] INFO  SharedPluginServer.Program [(null)] - ===============START================
+2018-12-05 13:51:23,901 [1] INFO  SharedPluginServer.Program [(null)] - Starting plugin, settings:width:500,height:500,url:http://www.google.com,memfile:ed535c39-a80f-4244-9c90-92e03c901233,port:8080
+2018-12-05 13:51:40,637 [8] INFO  SharedPluginServer.App [(null)] - ==============SHUTTING DOWN==========
+2018-12-05 13:53:02,026 [1] INFO  SharedPluginServer.Program [(null)] - ===============START================
+2018-12-05 13:53:02,088 [1] INFO  SharedPluginServer.Program [(null)] - Starting plugin, settings:width:500,height:500,url:http://www.google.com,memfile:7511ee03-6c73-401c-ac7f-ad5359cf079f,port:8327
+2018-12-05 13:53:20,314 [7] INFO  SharedPluginServer.App [(null)] - ==============SHUTTING DOWN==========
+2018-12-05 13:54:28,938 [1] INFO  SharedPluginServer.Program [(null)] - ===============START================
+2018-12-05 13:54:28,968 [1] INFO  SharedPluginServer.Program [(null)] - Starting plugin, settings:width:500,height:500,url:http://www.google.com,memfile:e889f3c1-c2af-450f-bb26-52b4c528d907,port:8477
+2018-12-05 13:55:38,306 [10] INFO  SharedPluginServer.App [(null)] - ==============SHUTTING DOWN==========
+2018-12-05 13:55:54,904 [1] INFO  SharedPluginServer.Program [(null)] - ===============START================
+2018-12-05 13:55:54,941 [1] INFO  SharedPluginServer.Program [(null)] - Starting plugin, settings:width:500,height:500,url:http://www.google.com,memfile:dc17d74a-b027-4608-9bf0-2258dd49d943,port:8953
+2018-12-05 13:56:21,755 [8] INFO  SharedPluginServer.App [(null)] - ==============SHUTTING DOWN==========
+2018-12-05 17:59:45,253 [1] INFO  SharedPluginServer.Program [(null)] - ===============START================
+2018-12-05 17:59:45,285 [1] INFO  SharedPluginServer.Program [(null)] - Starting plugin, settings:width:500,height:500,url:http://www.google.com,memfile:e172700b-1093-48ba-9668-b554273569ab,port:8254
+2018-12-05 17:59:49,925 [1] ERROR SharedPluginServer.Program [(null)] - CefRuntime return 0
+2018-12-05 17:59:55,547 [7] INFO  SharedPluginServer.App [(null)] - ==============SHUTTING DOWN==========
+2018-12-05 18:00:26,062 [1] INFO  SharedPluginServer.Program [(null)] - ===============START================
+2018-12-05 18:00:26,091 [1] INFO  SharedPluginServer.Program [(null)] - Starting plugin, settings:width:500,height:500,url:http://www.google.com,memfile:ff56d8ed-9403-487c-aed5-2315acec6e7e,port:8427
+2018-12-05 18:00:38,321 [9] INFO  SharedPluginServer.App [(null)] - ==============SHUTTING DOWN==========
+2018-12-05 18:00:51,288 [1] INFO  SharedPluginServer.Program [(null)] - ===============START================
+2018-12-05 18:00:51,316 [1] INFO  SharedPluginServer.Program [(null)] - Starting plugin, settings:width:500,height:500,url:http://www.google.com,memfile:30e51f27-0b31-4312-9105-66d0d3285257,port:8792
+2018-12-05 18:01:18,663 [8] INFO  SharedPluginServer.App [(null)] - ==============SHUTTING DOWN==========
+2018-12-05 18:01:23,324 [1] INFO  SharedPluginServer.Program [(null)] - ===============START================
+2018-12-05 18:01:23,352 [1] INFO  SharedPluginServer.Program [(null)] - Starting plugin, settings:width:500,height:500,url:http://www.google.com,memfile:a1075b6c-bb93-4474-8158-f10041509147,port:8132
+2018-12-05 18:01:46,087 [8] INFO  SharedPluginServer.App [(null)] - ==============SHUTTING DOWN==========
+2018-12-05 18:02:21,515 [1] INFO  SharedPluginServer.Program [(null)] - ===============START================
+2018-12-05 18:02:21,544 [1] INFO  SharedPluginServer.Program [(null)] - Starting plugin, settings:width:1024,height:720,url:http://www.google.com,memfile:ccc97c4b-a6e2-4324-a14d-f074143c0c60,port:8266
+2018-12-05 18:02:35,799 [9] INFO  SharedPluginServer.App [(null)] - ==============SHUTTING DOWN==========
+2018-12-05 18:02:46,819 [1] INFO  SharedPluginServer.Program [(null)] - ===============START================
+2018-12-05 18:02:46,848 [1] INFO  SharedPluginServer.Program [(null)] - Starting plugin, settings:width:1920,height:1080,url:http://www.google.com,memfile:d46f1c8c-17f0-4cb3-949b-c456274f0be8,port:8753
+2018-12-05 18:03:02,599 [8] INFO  SharedPluginServer.App [(null)] - ==============SHUTTING DOWN==========
+2018-12-05 18:03:09,242 [1] INFO  SharedPluginServer.Program [(null)] - ===============START================
+2018-12-05 18:03:09,270 [1] INFO  SharedPluginServer.Program [(null)] - Starting plugin, settings:width:1920,height:1080,url:http://www.google.com,memfile:2f998802-b9d5-45bb-bcca-aecf56e85ec1,port:8724
+2018-12-05 18:03:20,100 [8] INFO  SharedPluginServer.App [(null)] - ==============SHUTTING DOWN==========
+2018-12-05 18:05:35,711 [1] INFO  SharedPluginServer.Program [(null)] - ===============START================
+2018-12-05 18:05:35,739 [1] INFO  SharedPluginServer.Program [(null)] - Starting plugin, settings:width:1920,height:1080,url:http://www.google.com,memfile:3036bf29-89e9-4754-9d85-7f6cecdc1f32,port:8120
+2018-12-05 18:05:55,960 [8] INFO  SharedPluginServer.App [(null)] - ==============SHUTTING DOWN==========
+2018-12-05 18:20:22,946 [1] INFO  SharedPluginServer.Program [(null)] - ===============START================
+2018-12-05 18:20:22,973 [1] INFO  SharedPluginServer.Program [(null)] - Starting plugin, settings:width:1920,height:1080,url:http://www.google.com,memfile:ef3c7422-8999-421d-9300-b3b7e05ce186,port:8961
+2018-12-05 18:21:17,047 [3] INFO  SharedPluginServer.App [(null)] - ==============SHUTTING DOWN==========
+2018-12-05 18:21:41,322 [1] INFO  SharedPluginServer.Program [(null)] - ===============START================
+2018-12-05 18:21:41,356 [1] INFO  SharedPluginServer.Program [(null)] - Starting plugin, settings:width:1920,height:1080,url:https://9gag.com/,memfile:52903ad7-29ce-4562-a940-25b457c7be21,port:8830
+2018-12-05 18:22:12,148 [8] INFO  SharedPluginServer.App [(null)] - ==============SHUTTING DOWN==========
+2018-12-05 18:23:08,977 [1] INFO  SharedPluginServer.Program [(null)] - ===============START================
+2018-12-05 18:23:09,006 [1] INFO  SharedPluginServer.Program [(null)] - Starting plugin, settings:width:1920,height:1080,url:https://9gag.com/,memfile:a53e498c-0bce-4ca4-b3fb-a13fba5dec9b,port:8793
+2018-12-05 18:23:17,640 [8] INFO  SharedPluginServer.App [(null)] - ==============SHUTTING DOWN==========
+2018-12-05 18:23:20,875 [1] INFO  SharedPluginServer.Program [(null)] - ===============START================
+2018-12-05 18:23:20,903 [1] INFO  SharedPluginServer.Program [(null)] - Starting plugin, settings:width:1920,height:1080,url:https://9gag.com/,memfile:170f2f4c-4e57-4c12-8bb2-3e1057645c85,port:8520
+2018-12-05 18:23:29,421 [8] INFO  SharedPluginServer.App [(null)] - ==============SHUTTING DOWN==========
+2018-12-05 18:23:58,098 [1] INFO  SharedPluginServer.Program [(null)] - ===============START================
+2018-12-05 18:23:58,134 [1] INFO  SharedPluginServer.Program [(null)] - Starting plugin, settings:width:1920,height:1080,url:https://9gag.com/,memfile:557f147b-0b9c-43ce-b6f4-b84d1024b092,port:8897
+2018-12-05 18:27:16,907 [10] INFO  SharedPluginServer.App [(null)] - ==============SHUTTING DOWN==========
+2018-12-05 18:32:11,868 [1] INFO  SharedPluginServer.Program [(null)] - ===============START================
+2018-12-05 18:32:11,904 [1] INFO  SharedPluginServer.Program [(null)] - Starting plugin, settings:width:1920,height:1080,url:https://9gag.com/,memfile:1a8189cb-d08a-45a8-ac9e-072c99969070,port:8272
+2018-12-05 18:32:54,545 [8] INFO  SharedPluginServer.App [(null)] - ==============SHUTTING DOWN==========
+2018-12-05 18:33:01,685 [1] INFO  SharedPluginServer.Program [(null)] - ===============START================
+2018-12-05 18:33:01,721 [1] INFO  SharedPluginServer.Program [(null)] - Starting plugin, settings:width:1920,height:1080,url:https://9gag.com/,memfile:91fcb4d2-7199-4f90-a515-072746aff3e0,port:8885
+2018-12-05 18:33:33,442 [8] INFO  SharedPluginServer.App [(null)] - ==============SHUTTING DOWN==========
+2018-12-05 18:33:49,885 [1] INFO  SharedPluginServer.Program [(null)] - ===============START================
+2018-12-05 18:33:49,914 [1] INFO  SharedPluginServer.Program [(null)] - Starting plugin, settings:width:1920,height:1080,url:https://9gag.com/,memfile:5891a034-88f9-42e5-884c-c59834a230c2,port:8558
+2018-12-05 18:34:25,729 [8] INFO  SharedPluginServer.App [(null)] - ==============SHUTTING DOWN==========
+2018-12-05 19:04:50,315 [1] INFO  SharedPluginServer.Program [(null)] - ===============START================
+2018-12-05 19:04:50,343 [1] INFO  SharedPluginServer.Program [(null)] - Starting plugin, settings:width:1920,height:1080,url:https://9gag.com/,memfile:d28f8ae1-5208-4e86-9c80-9204c87d4502,port:8284
+2018-12-05 19:05:21,566 [8] INFO  SharedPluginServer.App [(null)] - ==============SHUTTING DOWN==========
+2018-12-05 19:08:06,362 [1] INFO  SharedPluginServer.Program [(null)] - ===============START================
+2018-12-05 19:08:06,390 [1] INFO  SharedPluginServer.Program [(null)] - Starting plugin, settings:width:1920,height:1080,url:https://9gag.com/,memfile:4fca1720-4f93-4d7b-9779-8d0ba993a938,port:8837
+2018-12-05 19:08:40,331 [8] INFO  SharedPluginServer.App [(null)] - ==============SHUTTING DOWN==========
+2018-12-05 19:11:31,233 [1] INFO  SharedPluginServer.Program [(null)] - ===============START================
+2018-12-05 19:11:31,261 [1] INFO  SharedPluginServer.Program [(null)] - Starting plugin, settings:width:1920,height:1080,url:https://9gag.com/,memfile:a738a4eb-85cf-4d51-8a58-b1ca86b9f179,port:8126
+2018-12-05 19:12:11,020 [8] INFO  SharedPluginServer.App [(null)] - ==============SHUTTING DOWN==========
+2018-12-05 19:12:33,813 [1] INFO  SharedPluginServer.Program [(null)] - ===============START================
+2018-12-05 19:12:33,842 [1] INFO  SharedPluginServer.Program [(null)] - Starting plugin, settings:width:1920,height:1080,url:https://9gag.com/,memfile:d64c73cb-a55b-41d6-8af0-3936f38d401f,port:8361
+2018-12-05 19:12:51,789 [8] INFO  SharedPluginServer.App [(null)] - ==============SHUTTING DOWN==========
+2018-12-05 19:14:13,597 [1] INFO  SharedPluginServer.Program [(null)] - ===============START================
+2018-12-05 19:14:13,625 [1] INFO  SharedPluginServer.Program [(null)] - Starting plugin, settings:width:1920,height:1080,url:https://9gag.com/,memfile:f760a6af-4058-4549-a08a-8ec61406a0ef,port:8116
+2018-12-05 19:14:20,658 [8] INFO  SharedPluginServer.App [(null)] - ==============SHUTTING DOWN==========
+2018-12-05 19:14:49,196 [1] INFO  SharedPluginServer.Program [(null)] - ===============START================
+2018-12-05 19:14:49,223 [1] INFO  SharedPluginServer.Program [(null)] - Starting plugin, settings:width:1920,height:1080,url:https://9gag.com/,memfile:3fd090af-8859-4687-ad38-5d3451868fbb,port:8641
+2018-12-05 19:14:52,972 [8] INFO  SharedPluginServer.App [(null)] - ==============SHUTTING DOWN==========
+2018-12-05 19:18:08,024 [1] INFO  SharedPluginServer.Program [(null)] - ===============START================
+2018-12-05 19:18:08,062 [1] INFO  SharedPluginServer.Program [(null)] - Starting plugin, settings:width:1920,height:1080,url:https://9gag.com/,memfile:c1cac1d1-b313-4fa3-9e50-28473f8ce0c1,port:8464
+2018-12-05 19:18:22,746 [3] INFO  SharedPluginServer.App [(null)] - ==============SHUTTING DOWN==========
+2018-12-05 19:18:39,484 [1] INFO  SharedPluginServer.Program [(null)] - ===============START================
+2018-12-05 19:18:39,512 [1] INFO  SharedPluginServer.Program [(null)] - Starting plugin, settings:width:1920,height:1080,url:https://9gag.com/,memfile:9f9764d4-29c0-4392-85f1-cd8873fa856f,port:8932
+2018-12-05 19:18:57,607 [8] INFO  SharedPluginServer.App [(null)] - ==============SHUTTING DOWN==========
+2018-12-17 17:21:07,053 [1] INFO  SharedPluginServer.Program [(null)] - ===============START================
+2018-12-17 17:21:07,305 [1] INFO  SharedPluginServer.Program [(null)] - Starting plugin, settings:width:1920,height:1080,url:https://9gag.com/,memfile:16acd048-003e-4003-aef9-cb1be730ec7d,port:8276
+2018-12-17 17:21:14,185 [4] INFO  SharedPluginServer.App [(null)] - ==============SHUTTING DOWN==========
+2018-12-17 17:23:29,391 [1] INFO  SharedPluginServer.Program [(null)] - ===============START================
+2018-12-17 17:23:29,432 [1] INFO  SharedPluginServer.Program [(null)] - Starting plugin, settings:width:1920,height:1080,url:https://9gag.com/,memfile:de54b58c-0336-43d3-953a-67e7e80745e1,port:8967
+2018-12-17 17:23:52,994 [3] INFO  SharedPluginServer.App [(null)] - ==============SHUTTING DOWN==========
+2018-12-17 17:24:07,565 [1] INFO  SharedPluginServer.Program [(null)] - ===============START================
+2018-12-17 17:24:07,672 [1] INFO  SharedPluginServer.Program [(null)] - Starting plugin, settings:width:1920,height:1080,url:https://9gag.com/,memfile:427e5473-5ec0-4c77-b2f3-e021573cb780,port:8077
+2018-12-17 17:24:43,097 [9] INFO  SharedPluginServer.App [(null)] - ==============SHUTTING DOWN==========
+2018-12-17 17:26:13,604 [1] INFO  SharedPluginServer.Program [(null)] - ===============START================
+2018-12-17 17:26:13,634 [1] INFO  SharedPluginServer.Program [(null)] - Starting plugin, settings:width:1920,height:1080,url:https://9gag.com/,memfile:37b0701c-9a3f-4e89-9226-a09828622aa0,port:8959
+2018-12-17 17:26:27,857 [8] INFO  SharedPluginServer.App [(null)] - ==============SHUTTING DOWN==========
+2018-12-17 17:43:03,095 [1] INFO  SharedPluginServer.Program [(null)] - ===============START================
+2018-12-17 17:43:03,127 [1] INFO  SharedPluginServer.Program [(null)] - Starting plugin, settings:width:1920,height:1080,url:https://9gag.com/,memfile:7da69710-8c78-41fe-939b-9947cf6574f0,port:8344
+2018-12-17 17:43:22,382 [8] INFO  SharedPluginServer.App [(null)] - ==============SHUTTING DOWN==========
+2018-12-17 17:49:43,440 [1] INFO  SharedPluginServer.Program [(null)] - ===============START================
+2018-12-17 17:49:43,472 [1] INFO  SharedPluginServer.Program [(null)] - Starting plugin, settings:width:1920,height:1080,url:https://9gag.com/,memfile:875e1ee1-3389-42eb-b608-bb87b7d677a8,port:8868
+2018-12-17 17:49:47,737 [8] INFO  SharedPluginServer.App [(null)] - ==============SHUTTING DOWN==========
+2018-12-17 17:51:56,765 [1] INFO  SharedPluginServer.Program [(null)] - ===============START================
+2018-12-17 17:51:56,796 [1] INFO  SharedPluginServer.Program [(null)] - Starting plugin, settings:width:1920,height:1080,url:https://9gag.com/,memfile:de2952bb-d491-4977-ac59-59b6cd8614e7,port:8243
+2018-12-17 17:52:02,542 [8] INFO  SharedPluginServer.App [(null)] - ==============SHUTTING DOWN==========
+2018-12-17 17:53:05,491 [1] INFO  SharedPluginServer.Program [(null)] - ===============START================
+2018-12-17 17:53:05,521 [1] INFO  SharedPluginServer.Program [(null)] - Starting plugin, settings:width:1920,height:1080,url:https://9gag.com/,memfile:a417ba85-2c8d-44e0-9cc9-7d0b990052e7,port:8068
+2018-12-17 17:53:27,798 [8] INFO  SharedPluginServer.App [(null)] - ==============SHUTTING DOWN==========
+2018-12-17 17:53:50,757 [1] INFO  SharedPluginServer.Program [(null)] - ===============START================
+2018-12-17 17:53:50,787 [1] INFO  SharedPluginServer.Program [(null)] - Starting plugin, settings:width:1920,height:1080,url:https://9gag.com/,memfile:258e16c0-7347-4e48-b9b6-0f2481d63442,port:8780
+2018-12-17 17:54:12,979 [8] INFO  SharedPluginServer.App [(null)] - ==============SHUTTING DOWN==========
+2018-12-17 18:22:50,580 [1] INFO  SharedPluginServer.Program [(null)] - ===============START================
+2018-12-17 18:22:50,618 [1] INFO  SharedPluginServer.Program [(null)] - Starting plugin, settings:width:1920,height:1080,url:https://9gag.com/,memfile:d565eefc-2892-458c-a8cc-5681483cb0a3,port:8078
+2018-12-17 18:23:16,153 [8] INFO  SharedPluginServer.App [(null)] - ==============SHUTTING DOWN==========
+2018-12-17 18:23:52,727 [1] INFO  SharedPluginServer.Program [(null)] - ===============START================
+2018-12-17 18:23:52,757 [1] INFO  SharedPluginServer.Program [(null)] - Starting plugin, settings:width:1920,height:1080,url:https://9gag.com/,memfile:b0d41147-0472-495e-a79f-566b0463ae3f,port:8936
+2018-12-17 18:24:10,856 [8] INFO  SharedPluginServer.App [(null)] - ==============SHUTTING DOWN==========
+2018-12-17 19:22:16,256 [1] INFO  SharedPluginServer.Program [(null)] - ===============START================
+2018-12-17 19:22:16,287 [1] INFO  SharedPluginServer.Program [(null)] - Starting plugin, settings:width:1920,height:1080,url:https://9gag.com/,memfile:27340e80-341c-4740-b312-0536e25bd08d,port:8804
+2018-12-17 19:22:33,368 [8] INFO  SharedPluginServer.App [(null)] - ==============SHUTTING DOWN==========
+2018-12-17 19:22:47,615 [1] INFO  SharedPluginServer.Program [(null)] - ===============START================
+2018-12-17 19:22:47,647 [1] INFO  SharedPluginServer.Program [(null)] - Starting plugin, settings:width:1920,height:1080,url:https://9gag.com/,memfile:c81b2298-c241-41e6-9deb-3ad73ee4e425,port:8169
+2018-12-17 19:23:06,822 [8] INFO  SharedPluginServer.App [(null)] - ==============SHUTTING DOWN==========
+2018-12-17 19:23:17,106 [1] INFO  SharedPluginServer.Program [(null)] - ===============START================
+2018-12-17 19:23:17,139 [1] INFO  SharedPluginServer.Program [(null)] - Starting plugin, settings:width:1920,height:1080,url:https://9gag.com/,memfile:480eca9a-50a2-49ed-892d-6b2b3fc50e6b,port:8998
+2018-12-17 19:27:15,172 [8] INFO  SharedPluginServer.App [(null)] - ==============SHUTTING DOWN==========
+2018-12-17 19:37:40,457 [1] INFO  SharedPluginServer.Program [(null)] - ===============START================
+2018-12-17 19:37:40,489 [1] INFO  SharedPluginServer.Program [(null)] - Starting plugin, settings:width:1920,height:1080,url:https://9gag.com/,memfile:4c16c18d-1deb-497a-a75a-bb65c38dfcbd,port:8261
+2018-12-17 19:38:50,316 [9] INFO  SharedPluginServer.App [(null)] - ==============SHUTTING DOWN==========
+2018-12-17 19:43:54,671 [1] INFO  SharedPluginServer.Program [(null)] - ===============START================
+2018-12-17 19:43:54,703 [1] INFO  SharedPluginServer.Program [(null)] - Starting plugin, settings:width:1920,height:1080,url:https://9gag.com/,memfile:0e79b3ef-9854-437a-8d2b-806828b8a95a,port:8133
+2018-12-17 19:44:34,911 [3] INFO  SharedPluginServer.App [(null)] - ==============SHUTTING DOWN==========
+2018-12-18 13:09:39,285 [1] INFO  SharedPluginServer.Program [(null)] - ===============START================
+2018-12-18 13:09:39,500 [1] INFO  SharedPluginServer.Program [(null)] - Starting plugin, settings:width:1920,height:1080,url:https://9gag.com/,memfile:64cef33a-abe2-4d9a-b392-1b0bb268f688,port:8618
+2018-12-18 13:10:26,027 [3] INFO  SharedPluginServer.App [(null)] - ==============SHUTTING DOWN==========
+2018-12-18 13:20:33,547 [1] INFO  SharedPluginServer.Program [(null)] - ===============START================
+2018-12-18 13:20:33,587 [1] INFO  SharedPluginServer.Program [(null)] - Starting plugin, settings:width:1920,height:1080,url:https://9gag.com/,memfile:51f58bc5-05b0-4822-a7f1-52b91cfce905,port:8496
+2018-12-18 13:20:41,092 [8] INFO  SharedPluginServer.App [(null)] - ==============SHUTTING DOWN==========
+2018-12-18 13:28:48,907 [1] INFO  SharedPluginServer.Program [(null)] - ===============START================
+2018-12-18 13:28:48,941 [1] INFO  SharedPluginServer.Program [(null)] - Starting plugin, settings:width:1920,height:1080,url:https://9gag.com/,memfile:56b31f8f-08d5-49e5-ab41-d6146027b45c,port:8295
+2018-12-18 13:29:13,860 [8] INFO  SharedPluginServer.App [(null)] - ==============SHUTTING DOWN==========
+2018-12-18 13:30:37,898 [1] INFO  SharedPluginServer.Program [(null)] - ===============START================
+2018-12-18 13:30:37,931 [1] INFO  SharedPluginServer.Program [(null)] - Starting plugin, settings:width:1920,height:1080,url:https://9gag.com/,memfile:aaaf95fe-e9b2-4962-94ff-10912945bb22,port:8021
+2018-12-18 13:32:11,025 [11] INFO  SharedPluginServer.App [(null)] - ==============SHUTTING DOWN==========
+2018-12-18 13:32:16,891 [1] INFO  SharedPluginServer.Program [(null)] - ===============START================
+2018-12-18 13:32:16,921 [1] INFO  SharedPluginServer.Program [(null)] - Starting plugin, settings:width:1920,height:1080,url:https://9gag.com/,memfile:83afaaa6-3a79-4cca-8adf-fbc1ed92ecd0,port:8698
+2018-12-18 13:32:37,656 [10] INFO  SharedPluginServer.App [(null)] - ==============SHUTTING DOWN==========
+2018-12-18 13:46:08,221 [1] INFO  SharedPluginServer.Program [(null)] - ===============START================
+2018-12-18 13:46:08,256 [1] INFO  SharedPluginServer.Program [(null)] - Starting plugin, settings:width:1920,height:1080,url:https://9gag.com/,memfile:52bdf528-cf2e-4b7d-985d-cc7ccb3d2f98,port:8068
+2018-12-18 13:46:18,474 [8] INFO  SharedPluginServer.App [(null)] - ==============SHUTTING DOWN==========
+2018-12-18 13:46:36,894 [1] INFO  SharedPluginServer.Program [(null)] - ===============START================
+2018-12-18 13:46:36,924 [1] INFO  SharedPluginServer.Program [(null)] - Starting plugin, settings:width:1920,height:1080,url:https://9gag.com/,memfile:38db034f-7228-4449-ba82-da77ef2d7c98,port:8677
+2018-12-18 13:50:08,017 [8] INFO  SharedPluginServer.App [(null)] - ==============SHUTTING DOWN==========
+2018-12-18 13:50:53,734 [1] INFO  SharedPluginServer.Program [(null)] - ===============START================
+2018-12-18 13:50:53,765 [1] INFO  SharedPluginServer.Program [(null)] - Starting plugin, settings:width:1920,height:1080,url:https://9gag.com/,memfile:a6509be3-7421-49c2-accf-cbc24113aed2,port:8605
+2018-12-18 13:50:58,633 [8] INFO  SharedPluginServer.App [(null)] - ==============SHUTTING DOWN==========
+2018-12-18 13:51:11,780 [1] INFO  SharedPluginServer.Program [(null)] - ===============START================
+2018-12-18 13:51:11,813 [1] INFO  SharedPluginServer.Program [(null)] - Starting plugin, settings:width:1920,height:1080,url:https://9gag.com/,memfile:1026e636-fb83-4e1a-b2ef-2d54ef0f9d95,port:8314
+2018-12-18 13:51:43,972 [3] INFO  SharedPluginServer.App [(null)] - ==============SHUTTING DOWN==========
+2018-12-18 13:52:14,323 [1] INFO  SharedPluginServer.Program [(null)] - ===============START================
+2018-12-18 13:52:14,355 [1] INFO  SharedPluginServer.Program [(null)] - Starting plugin, settings:width:1920,height:1080,url:https://9gag.com/,memfile:0f62c48a-4a27-4edc-a7c1-09765880d10a,port:8569
+2018-12-18 13:53:12,583 [8] INFO  SharedPluginServer.App [(null)] - ==============SHUTTING DOWN==========
+2018-12-18 14:12:08,349 [1] INFO  SharedPluginServer.Program [(null)] - ===============START================
+2018-12-18 14:12:08,383 [1] INFO  SharedPluginServer.Program [(null)] - Starting plugin, settings:width:1920,height:1080,url:https://9gag.com/,memfile:b54b9a4e-ded4-45cc-b643-de1320bca55b,port:8176
+2018-12-18 14:13:00,888 [3] INFO  SharedPluginServer.App [(null)] - ==============SHUTTING DOWN==========
+2018-12-18 14:13:07,669 [1] INFO  SharedPluginServer.Program [(null)] - ===============START================
+2018-12-18 14:13:07,699 [1] INFO  SharedPluginServer.Program [(null)] - Starting plugin, settings:width:1920,height:1080,url:https://9gag.com/,memfile:dee6d2f5-2f35-4f42-9c35-81bc901ea8ff,port:8641
+2018-12-18 14:13:19,918 [8] INFO  SharedPluginServer.App [(null)] - ==============SHUTTING DOWN==========
+2018-12-18 14:14:06,381 [1] INFO  SharedPluginServer.Program [(null)] - ===============START================
+2018-12-18 14:14:06,415 [1] INFO  SharedPluginServer.Program [(null)] - Starting plugin, settings:width:1920,height:1080,url:https://9gag.com/,memfile:072d0497-ec70-45ab-b740-49412699c446,port:8417
+2018-12-18 14:14:20,552 [8] INFO  SharedPluginServer.App [(null)] - ==============SHUTTING DOWN==========
+2018-12-18 14:14:49,738 [1] INFO  SharedPluginServer.Program [(null)] - ===============START================
+2018-12-18 14:14:49,772 [1] INFO  SharedPluginServer.Program [(null)] - Starting plugin, settings:width:1920,height:1080,url:https://9gag.com/,memfile:58d664b7-2cfb-4400-87db-55cbd1491130,port:8309
+2018-12-18 14:15:09,681 [10] INFO  SharedPluginServer.App [(null)] - ==============SHUTTING DOWN==========
+2018-12-18 14:16:21,683 [1] INFO  SharedPluginServer.Program [(null)] - ===============START================
+2018-12-18 14:16:21,714 [1] INFO  SharedPluginServer.Program [(null)] - Starting plugin, settings:width:1920,height:1080,url:https://9gag.com/,memfile:0a1c3b60-15ff-477d-8268-b2dc6eb01623,port:8270
+2018-12-18 14:16:44,307 [8] INFO  SharedPluginServer.App [(null)] - ==============SHUTTING DOWN==========
+2018-12-18 14:17:57,732 [1] INFO  SharedPluginServer.Program [(null)] - ===============START================
+2018-12-18 14:17:57,762 [1] INFO  SharedPluginServer.Program [(null)] - Starting plugin, settings:width:1920,height:1080,url:https://9gag.com/,memfile:e9afe81f-5ee0-4744-a6eb-40e419e6497d,port:8898
+2018-12-18 14:18:13,763 [8] INFO  SharedPluginServer.App [(null)] - ==============SHUTTING DOWN==========
+2018-12-18 14:22:15,050 [1] INFO  SharedPluginServer.Program [(null)] - ===============START================
+2018-12-18 14:22:15,084 [1] INFO  SharedPluginServer.Program [(null)] - Starting plugin, settings:width:1920,height:1080,url:https://9gag.com/,memfile:763e6d68-6f76-4883-8522-f83bcbfbe21e,port:8879
+2018-12-18 14:22:25,891 [8] INFO  SharedPluginServer.App [(null)] - ==============SHUTTING DOWN==========
+2018-12-18 14:24:07,689 [1] INFO  SharedPluginServer.Program [(null)] - ===============START================
+2018-12-18 14:24:07,723 [1] INFO  SharedPluginServer.Program [(null)] - Starting plugin, settings:width:1920,height:1080,url:https://9gag.com/,memfile:3580fc68-1268-4b50-ba3e-08a464b2c56b,port:8324
+2018-12-18 14:24:08,690 [8] INFO  SharedPluginServer.App [(null)] - ==============SHUTTING DOWN==========
+2018-12-18 14:24:41,190 [1] INFO  SharedPluginServer.Program [(null)] - ===============START================
+2018-12-18 14:24:41,220 [1] INFO  SharedPluginServer.Program [(null)] - Starting plugin, settings:width:1920,height:1080,url:https://9gag.com/,memfile:6bb84f9f-bc76-433f-a52b-3514de6ca0bd,port:8554
+2018-12-18 14:26:02,760 [9] INFO  SharedPluginServer.App [(null)] - ==============SHUTTING DOWN==========
+2018-12-18 14:26:08,047 [1] INFO  SharedPluginServer.Program [(null)] - ===============START================
+2018-12-18 14:26:08,078 [1] INFO  SharedPluginServer.Program [(null)] - Starting plugin, settings:width:1920,height:1080,url:https://9gag.com/,memfile:4aed7e70-f6fa-496b-964b-c7574696d070,port:8906
+2018-12-18 14:26:36,739 [10] INFO  SharedPluginServer.App [(null)] - ==============SHUTTING DOWN==========
+2018-12-18 14:27:28,174 [1] INFO  SharedPluginServer.Program [(null)] - ===============START================
+2018-12-18 14:27:28,207 [1] INFO  SharedPluginServer.Program [(null)] - Starting plugin, settings:width:1920,height:1080,url:https://9gag.com/,memfile:f17bba92-7dbd-41ed-870c-98b1be2ca64e,port:8958
+2018-12-18 14:27:59,529 [8] INFO  SharedPluginServer.App [(null)] - ==============SHUTTING DOWN==========
+2018-12-18 14:38:02,409 [1] INFO  SharedPluginServer.Program [(null)] - ===============START================
+2018-12-18 14:38:02,439 [1] INFO  SharedPluginServer.Program [(null)] - Starting plugin, settings:width:1920,height:1080,url:https://9gag.com/,memfile:bd470b73-79a8-4bf7-a4df-0b3950d1204e,port:8121
+2018-12-18 14:38:51,043 [8] INFO  SharedPluginServer.App [(null)] - ==============SHUTTING DOWN==========
+2018-12-18 14:39:09,259 [1] INFO  SharedPluginServer.Program [(null)] - ===============START================
+2018-12-18 14:39:09,289 [1] INFO  SharedPluginServer.Program [(null)] - Starting plugin, settings:width:1920,height:1080,url:https://9gag.com/,memfile:a7b758a2-18ae-4963-a680-44d4b792d97d,port:8335
+2018-12-18 14:40:55,297 [3] INFO  SharedPluginServer.App [(null)] - ==============SHUTTING DOWN==========
+2018-12-18 14:41:51,623 [1] INFO  SharedPluginServer.Program [(null)] - ===============START================
+2018-12-18 14:41:51,653 [1] INFO  SharedPluginServer.Program [(null)] - Starting plugin, settings:width:1920,height:1080,url:https://9gag.com/,memfile:30e1d33f-eddc-4df6-af76-ea9fe6dede2d,port:8487
+2018-12-18 14:42:37,798 [11] INFO  SharedPluginServer.App [(null)] - ==============SHUTTING DOWN==========
+2018-12-18 14:43:39,027 [1] INFO  SharedPluginServer.Program [(null)] - ===============START================
+2018-12-18 14:43:39,056 [1] INFO  SharedPluginServer.Program [(null)] - Starting plugin, settings:width:1920,height:1080,url:https://9gag.com/,memfile:02e683ab-a04c-466f-ab96-0b5f7ab0f401,port:8362
+2018-12-18 14:44:08,525 [3] INFO  SharedPluginServer.App [(null)] - ==============SHUTTING DOWN==========
+2018-12-18 14:44:18,461 [1] INFO  SharedPluginServer.Program [(null)] - ===============START================
+2018-12-18 14:44:18,491 [1] INFO  SharedPluginServer.Program [(null)] - Starting plugin, settings:width:1920,height:1080,url:https://9gag.com/,memfile:db717c04-cd17-434b-9e87-ccb60217e828,port:8832
+2018-12-18 14:44:54,817 [3] INFO  SharedPluginServer.App [(null)] - ==============SHUTTING DOWN==========
+2018-12-18 14:46:01,422 [1] INFO  SharedPluginServer.Program [(null)] - ===============START================
+2018-12-18 14:46:01,455 [1] INFO  SharedPluginServer.Program [(null)] - Starting plugin, settings:width:1920,height:1080,url:https://9gag.com/,memfile:10d54fcb-7a18-497b-a8e0-a9c490492580,port:8759
+2018-12-18 14:47:46,609 [8] INFO  SharedPluginServer.App [(null)] - ==============SHUTTING DOWN==========
+2018-12-18 16:01:06,044 [1] INFO  SharedPluginServer.Program [(null)] - ===============START================
+2018-12-18 16:01:06,081 [1] INFO  SharedPluginServer.Program [(null)] - Starting plugin, settings:width:1920,height:1080,url:https://9gag.com/,memfile:7d014589-4bfc-438c-8802-2f3ee384c0fe,port:8842
+2018-12-18 16:01:55,186 [8] INFO  SharedPluginServer.App [(null)] - ==============SHUTTING DOWN==========
+2018-12-18 16:02:31,645 [1] INFO  SharedPluginServer.Program [(null)] - ===============START================
+2018-12-18 16:02:31,684 [1] INFO  SharedPluginServer.Program [(null)] - Starting plugin, settings:width:1920,height:1080,url:https://9gag.com/,memfile:3ff6877b-09af-4321-959a-9e455953e60c,port:8348
+2018-12-18 16:02:46,189 [8] INFO  SharedPluginServer.App [(null)] - ==============SHUTTING DOWN==========
+2018-12-18 16:02:52,995 [1] INFO  SharedPluginServer.Program [(null)] - ===============START================
+2018-12-18 16:02:53,025 [1] INFO  SharedPluginServer.Program [(null)] - Starting plugin, settings:width:1920,height:1080,url:https://9gag.com/,memfile:7d2fa46b-c3b3-4a03-8dcf-c34b233bfea3,port:8786
+2018-12-18 16:03:11,116 [8] INFO  SharedPluginServer.App [(null)] - ==============SHUTTING DOWN==========
+2018-12-18 16:03:34,139 [1] INFO  SharedPluginServer.Program [(null)] - ===============START================
+2018-12-18 16:03:34,169 [1] INFO  SharedPluginServer.Program [(null)] - Starting plugin, settings:width:1920,height:1080,url:https://9gag.com/,memfile:05f1a408-fb4c-4ec8-9c6d-b20a01ecde62,port:8603
+2018-12-18 16:03:57,479 [8] INFO  SharedPluginServer.App [(null)] - ==============SHUTTING DOWN==========
+2018-12-18 16:09:24,608 [1] INFO  SharedPluginServer.Program [(null)] - ===============START================
+2018-12-18 16:09:24,638 [1] INFO  SharedPluginServer.Program [(null)] - Starting plugin, settings:width:1920,height:1080,url:https://9gag.com/,memfile:95687bbb-9478-47fa-85a4-1708f1dd036d,port:8554
+2018-12-18 16:09:37,710 [8] INFO  SharedPluginServer.App [(null)] - ==============SHUTTING DOWN==========
+2018-12-18 16:12:05,093 [1] INFO  SharedPluginServer.Program [(null)] - ===============START================
+2018-12-18 16:12:05,123 [1] INFO  SharedPluginServer.Program [(null)] - Starting plugin, settings:width:1920,height:1080,url:https://9gag.com/,memfile:cb977ec2-6fbf-4fda-b1a0-85276ccb6188,port:8114
+2018-12-18 16:13:18,279 [8] INFO  SharedPluginServer.App [(null)] - ==============SHUTTING DOWN==========
+2018-12-18 16:14:20,838 [1] INFO  SharedPluginServer.Program [(null)] - ===============START================
+2018-12-18 16:14:20,867 [1] INFO  SharedPluginServer.Program [(null)] - Starting plugin, settings:width:1920,height:1080,url:https://9gag.com/,memfile:b7a0402f-1aa9-43b6-ba13-e907032c7831,port:8648
+2018-12-18 16:14:44,332 [8] INFO  SharedPluginServer.App [(null)] - ==============SHUTTING DOWN==========
+2018-12-18 16:17:09,858 [1] INFO  SharedPluginServer.Program [(null)] - ===============START================
+2018-12-18 16:17:09,891 [1] INFO  SharedPluginServer.Program [(null)] - Starting plugin, settings:width:1920,height:1080,url:https://9gag.com/,memfile:d591f9ec-7e83-433a-8786-74019357ae1e,port:8672
+2018-12-18 16:17:25,028 [8] INFO  SharedPluginServer.App [(null)] - ==============SHUTTING DOWN==========
+2018-12-18 16:17:52,621 [1] INFO  SharedPluginServer.Program [(null)] - ===============START================
+2018-12-18 16:17:52,652 [1] INFO  SharedPluginServer.Program [(null)] - Starting plugin, settings:width:1920,height:1080,url:https://9gag.com/,memfile:7315f966-cfa0-406e-b728-d358bad0626a,port:8016
+2018-12-18 16:18:19,570 [9] INFO  SharedPluginServer.App [(null)] - ==============SHUTTING DOWN==========
+2018-12-18 16:20:25,922 [1] INFO  SharedPluginServer.Program [(null)] - ===============START================
+2018-12-18 16:20:25,955 [1] INFO  SharedPluginServer.Program [(null)] - Starting plugin, settings:width:1920,height:1080,url:https://9gag.com/,memfile:b77821a7-58c6-4e8c-9a09-19954a5116bb,port:8367
+2018-12-18 16:22:08,801 [10] INFO  SharedPluginServer.App [(null)] - ==============SHUTTING DOWN==========
+2018-12-18 16:22:47,880 [1] INFO  SharedPluginServer.Program [(null)] - ===============START================
+2018-12-18 16:22:47,909 [1] INFO  SharedPluginServer.Program [(null)] - Starting plugin, settings:width:1920,height:1080,url:https://9gag.com/,memfile:a2e7aa6d-f2b3-4696-8fa4-117b44dbf4f5,port:8700
+2018-12-18 16:22:54,521 [8] INFO  SharedPluginServer.App [(null)] - ==============SHUTTING DOWN==========
+2018-12-18 16:23:17,344 [1] INFO  SharedPluginServer.Program [(null)] - ===============START================
+2018-12-18 16:23:17,373 [1] INFO  SharedPluginServer.Program [(null)] - Starting plugin, settings:width:1920,height:1080,url:https://9gag.com/,memfile:8a284115-aaad-456c-9771-cdb5cc0a9947,port:8387
+2018-12-18 16:23:32,221 [8] INFO  SharedPluginServer.App [(null)] - ==============SHUTTING DOWN==========
+2018-12-18 16:27:58,948 [1] INFO  SharedPluginServer.Program [(null)] - ===============START================
+2018-12-18 16:27:58,978 [1] INFO  SharedPluginServer.Program [(null)] - Starting plugin, settings:width:1920,height:1080,url:https://9gag.com/,memfile:42c1f827-2bf3-4597-ae4a-61d7327f7697,port:8323
+2018-12-18 16:28:23,714 [8] INFO  SharedPluginServer.App [(null)] - ==============SHUTTING DOWN==========
+2018-12-18 16:29:45,175 [1] INFO  SharedPluginServer.Program [(null)] - ===============START================
+2018-12-18 16:29:45,207 [1] INFO  SharedPluginServer.Program [(null)] - Starting plugin, settings:width:1920,height:1080,url:https://9gag.com/,memfile:5c6bf165-fdd0-417a-b6e9-251238bd1164,port:8047
+2018-12-18 16:29:54,997 [8] INFO  SharedPluginServer.App [(null)] - ==============SHUTTING DOWN==========
+2018-12-18 16:30:10,971 [1] INFO  SharedPluginServer.Program [(null)] - ===============START================
+2018-12-18 16:30:11,000 [1] INFO  SharedPluginServer.Program [(null)] - Starting plugin, settings:width:1920,height:1080,url:https://9gag.com/,memfile:c62645c0-ae6f-422c-bf8c-61bb38999f70,port:8730
+2018-12-18 16:30:57,195 [8] INFO  SharedPluginServer.App [(null)] - ==============SHUTTING DOWN==========
+2018-12-18 17:31:41,753 [1] INFO  SharedPluginServer.Program [(null)] - ===============START================
+2018-12-18 17:31:41,783 [1] INFO  SharedPluginServer.Program [(null)] - Starting plugin, settings:width:1920,height:1080,url:https://9gag.com/,memfile:3dfbbffc-84f2-49ab-89b3-d5231697d6a9,port:8251
+2018-12-18 17:32:12,148 [9] INFO  SharedPluginServer.App [(null)] - ==============SHUTTING DOWN==========
+2018-12-18 17:32:31,760 [1] INFO  SharedPluginServer.Program [(null)] - ===============START================
+2018-12-18 17:32:31,789 [1] INFO  SharedPluginServer.Program [(null)] - Starting plugin, settings:width:1920,height:1080,url:https://9gag.com/,memfile:7d7f10ec-bf9b-4ac9-b506-07f90ba9836f,port:8480
+2018-12-18 17:32:38,173 [8] INFO  SharedPluginServer.App [(null)] - ==============SHUTTING DOWN==========
+2018-12-18 17:32:55,934 [1] INFO  SharedPluginServer.Program [(null)] - ===============START================
+2018-12-18 17:32:55,966 [1] INFO  SharedPluginServer.Program [(null)] - Starting plugin, settings:width:1920,height:1080,url:https://9gag.com/,memfile:086638a4-0cbd-4e2b-8a17-1696436f498d,port:8494
+2018-12-18 17:33:07,972 [9] INFO  SharedPluginServer.App [(null)] - ==============SHUTTING DOWN==========
+2018-12-18 17:34:31,196 [1] INFO  SharedPluginServer.Program [(null)] - ===============START================
+2018-12-18 17:34:31,225 [1] INFO  SharedPluginServer.Program [(null)] - Starting plugin, settings:width:1920,height:1080,url:https://9gag.com/,memfile:2faec52c-604b-461b-a671-71b4cd6817c4,port:8490
+2018-12-18 17:34:42,999 [9] INFO  SharedPluginServer.App [(null)] - ==============SHUTTING DOWN==========
+2018-12-18 17:35:11,188 [1] INFO  SharedPluginServer.Program [(null)] - ===============START================
+2018-12-18 17:35:11,218 [1] INFO  SharedPluginServer.Program [(null)] - Starting plugin, settings:width:1920,height:1080,url:https://9gag.com/,memfile:d412e053-5e80-48aa-b551-3e67b69c25a6,port:8117
+2018-12-18 17:35:18,483 [9] INFO  SharedPluginServer.App [(null)] - ==============SHUTTING DOWN==========
+2018-12-18 17:35:32,142 [1] INFO  SharedPluginServer.Program [(null)] - ===============START================
+2018-12-18 17:35:32,175 [1] INFO  SharedPluginServer.Program [(null)] - Starting plugin, settings:width:1920,height:1080,url:https://9gag.com/,memfile:3b318a53-901f-40d9-a697-41252a033fcb,port:8502
+2018-12-18 17:35:37,608 [8] INFO  SharedPluginServer.App [(null)] - ==============SHUTTING DOWN==========
+2018-12-18 17:35:52,124 [1] INFO  SharedPluginServer.Program [(null)] - ===============START================
+2018-12-18 17:35:52,154 [1] INFO  SharedPluginServer.Program [(null)] - Starting plugin, settings:width:1920,height:1080,url:https://9gag.com/,memfile:8452dc1a-a612-4e80-a34f-7e51f36af79b,port:8012
+2018-12-18 17:35:57,637 [8] INFO  SharedPluginServer.App [(null)] - ==============SHUTTING DOWN==========
+2018-12-18 17:36:10,146 [1] INFO  SharedPluginServer.Program [(null)] - ===============START================
+2018-12-18 17:36:10,176 [1] INFO  SharedPluginServer.Program [(null)] - Starting plugin, settings:width:1920,height:1080,url:https://9gag.com/,memfile:42605d14-112f-4ef1-b0ff-af024f39ce58,port:8186
+2018-12-18 17:36:15,604 [9] INFO  SharedPluginServer.App [(null)] - ==============SHUTTING DOWN==========
+2018-12-18 17:36:29,802 [1] INFO  SharedPluginServer.Program [(null)] - ===============START================
+2018-12-18 17:36:29,832 [1] INFO  SharedPluginServer.Program [(null)] - Starting plugin, settings:width:1920,height:1080,url:https://9gag.com/,memfile:d2246fc6-0e0a-4ea0-b7e1-469d2b971fef,port:8441
+2018-12-18 17:36:35,000 [8] INFO  SharedPluginServer.App [(null)] - ==============SHUTTING DOWN==========
+2018-12-18 17:36:48,444 [1] INFO  SharedPluginServer.Program [(null)] - ===============START================
+2018-12-18 17:36:48,477 [1] INFO  SharedPluginServer.Program [(null)] - Starting plugin, settings:width:1920,height:1080,url:https://9gag.com/,memfile:301b3ec8-d970-4315-a516-f5bae7378503,port:8467
+2018-12-18 17:51:28,130 [9] INFO  SharedPluginServer.App [(null)] - ==============SHUTTING DOWN==========
+2018-12-18 17:52:23,906 [1] INFO  SharedPluginServer.Program [(null)] - ===============START================
+2018-12-18 17:52:23,935 [1] INFO  SharedPluginServer.Program [(null)] - Starting plugin, settings:width:1920,height:1080,url:https://9gag.com/,memfile:d2d8c26a-574d-449d-9727-073b4ffc12c4,port:8800
+2018-12-18 17:52:29,051 [8] INFO  SharedPluginServer.App [(null)] - ==============SHUTTING DOWN==========
+2018-12-18 17:52:34,209 [1] INFO  SharedPluginServer.Program [(null)] - ===============START================
+2018-12-18 17:52:34,239 [1] INFO  SharedPluginServer.Program [(null)] - Starting plugin, settings:width:1920,height:1080,url:https://9gag.com/,memfile:c6130f54-ac9b-44b5-8874-f3e764c7f6d0,port:8285
+2018-12-18 17:53:32,627 [10] INFO  SharedPluginServer.App [(null)] - ==============SHUTTING DOWN==========
+2018-12-18 17:54:10,018 [1] INFO  SharedPluginServer.Program [(null)] - ===============START================
+2018-12-18 17:54:10,050 [1] INFO  SharedPluginServer.Program [(null)] - Starting plugin, settings:width:1920,height:1080,url:https://9gag.com/,memfile:68ac3eab-19b5-45ce-8140-37baad486b31,port:8173
+2018-12-18 17:54:38,706 [3] INFO  SharedPluginServer.App [(null)] - ==============SHUTTING DOWN==========
+2018-12-18 17:54:50,490 [1] INFO  SharedPluginServer.Program [(null)] - ===============START================
+2018-12-18 17:54:50,519 [1] INFO  SharedPluginServer.Program [(null)] - Starting plugin, settings:width:1920,height:1080,url:https://9gag.com/,memfile:641c3a4c-2b74-43fc-be62-2e706ecbbca2,port:8299
+2018-12-18 17:54:52,694 [3] INFO  SharedPluginServer.App [(null)] - ==============SHUTTING DOWN==========
+2018-12-18 17:55:20,453 [1] INFO  SharedPluginServer.Program [(null)] - ===============START================
+2018-12-18 17:55:20,483 [1] INFO  SharedPluginServer.Program [(null)] - Starting plugin, settings:width:2560,height:1440,url:https://9gag.com/,memfile:2e643463-0e4f-4772-bfcd-fc37d040f97d,port:8039
+2018-12-18 17:55:26,259 [8] INFO  SharedPluginServer.App [(null)] - ==============SHUTTING DOWN==========
+2018-12-18 17:56:00,842 [1] INFO  SharedPluginServer.Program [(null)] - ===============START================
+2018-12-18 17:56:00,870 [1] INFO  SharedPluginServer.Program [(null)] - Starting plugin, settings:width:1920,height:1080,url:https://9gag.com/,memfile:9ce90d89-899f-4782-9220-b4b7f67ea6e3,port:8900
+2018-12-18 17:56:12,461 [8] INFO  SharedPluginServer.App [(null)] - ==============SHUTTING DOWN==========
+2018-12-18 17:58:42,984 [1] INFO  SharedPluginServer.Program [(null)] - ===============START================
+2018-12-18 17:58:43,013 [1] INFO  SharedPluginServer.Program [(null)] - Starting plugin, settings:width:1920,height:1080,url:https://9gag.com/,memfile:87692b88-c69e-4b7f-b08a-865abf443ae1,port:8131
+2018-12-18 17:58:58,954 [8] INFO  SharedPluginServer.App [(null)] - ==============SHUTTING DOWN==========
+2018-12-18 18:00:00,869 [1] INFO  SharedPluginServer.Program [(null)] - ===============START================
+2018-12-18 18:00:00,898 [1] INFO  SharedPluginServer.Program [(null)] - Starting plugin, settings:width:1920,height:1080,url:https://9gag.com/,memfile:c5c25a47-2938-4d2e-a713-14ae102bdb7a,port:8804
+2018-12-18 18:00:14,240 [10] INFO  SharedPluginServer.App [(null)] - ==============SHUTTING DOWN==========
+2018-12-18 18:00:49,312 [1] INFO  SharedPluginServer.Program [(null)] - ===============START================
+2018-12-18 18:00:49,341 [1] INFO  SharedPluginServer.Program [(null)] - Starting plugin, settings:width:1920,height:1080,url:https://9gag.com/,memfile:5e920dd7-3cd4-4bd4-a003-c64cc3d1f67c,port:8772
+2018-12-18 18:00:56,977 [8] INFO  SharedPluginServer.App [(null)] - ==============SHUTTING DOWN==========
+2018-12-18 18:08:24,821 [1] INFO  SharedPluginServer.Program [(null)] - ===============START================
+2018-12-18 18:08:24,855 [1] INFO  SharedPluginServer.Program [(null)] - Starting plugin, settings:width:1920,height:1080,url:https://9gag.com/,memfile:c78a391e-bd7a-4533-9041-3ab0bbb1dd76,port:8724
+2018-12-18 18:08:27,987 [8] INFO  SharedPluginServer.App [(null)] - ==============SHUTTING DOWN==========
+2018-12-18 18:09:55,925 [1] INFO  SharedPluginServer.Program [(null)] - ===============START================
+2018-12-18 18:09:55,958 [1] INFO  SharedPluginServer.Program [(null)] - Starting plugin, settings:width:1920,height:1080,url:https://9gag.com/,memfile:50a9b315-e0e2-475b-8f28-d23bae455f08,port:8789
+2018-12-18 18:09:58,536 [8] INFO  SharedPluginServer.App [(null)] - ==============SHUTTING DOWN==========
+2018-12-18 18:11:53,986 [1] INFO  SharedPluginServer.Program [(null)] - ===============START================
+2018-12-18 18:11:54,015 [1] INFO  SharedPluginServer.Program [(null)] - Starting plugin, settings:width:1920,height:1080,url:https://9gag.com/,memfile:b2951eb1-bda7-48b2-bee4-8319049f8811,port:8154
+2018-12-18 18:12:04,391 [8] INFO  SharedPluginServer.App [(null)] - ==============SHUTTING DOWN==========
+2018-12-18 18:12:40,167 [1] INFO  SharedPluginServer.Program [(null)] - ===============START================
+2018-12-18 18:12:40,196 [1] INFO  SharedPluginServer.Program [(null)] - Starting plugin, settings:width:1920,height:1080,url:https://9gag.com/,memfile:c9eab8cb-935e-4a45-b96f-acf32b89fbf1,port:8457
+2018-12-18 18:12:51,012 [8] INFO  SharedPluginServer.App [(null)] - ==============SHUTTING DOWN==========
+2018-12-18 18:13:36,011 [1] INFO  SharedPluginServer.Program [(null)] - ===============START================
+2018-12-18 18:13:36,041 [1] INFO  SharedPluginServer.Program [(null)] - Starting plugin, settings:width:1920,height:1080,url:https://9gag.com/,memfile:712609e1-b8a9-4ea0-92af-35870bec298f,port:8698
+2018-12-18 18:13:38,655 [8] INFO  SharedPluginServer.App [(null)] - ==============SHUTTING DOWN==========
+2018-12-18 18:14:49,550 [1] INFO  SharedPluginServer.Program [(null)] - ===============START================
+2018-12-18 18:14:49,580 [1] INFO  SharedPluginServer.Program [(null)] - Starting plugin, settings:width:1920,height:1080,url:https://9gag.com/,memfile:78e40119-8d12-4626-b14d-52d246ea8e8f,port:8393
+2018-12-18 18:14:55,474 [8] INFO  SharedPluginServer.App [(null)] - ==============SHUTTING DOWN==========
+2018-12-18 18:15:38,826 [1] INFO  SharedPluginServer.Program [(null)] - ===============START================
+2018-12-18 18:15:38,855 [1] INFO  SharedPluginServer.Program [(null)] - Starting plugin, settings:width:1920,height:1080,url:https://9gag.com/,memfile:2df72c4c-f37c-4de6-a08c-8d0e588f8d2d,port:8972
+2018-12-18 18:15:54,384 [8] INFO  SharedPluginServer.App [(null)] - ==============SHUTTING DOWN==========
+2018-12-18 18:24:21,476 [1] INFO  SharedPluginServer.Program [(null)] - ===============START================
+2018-12-18 18:24:21,509 [1] INFO  SharedPluginServer.Program [(null)] - Starting plugin, settings:width:1920,height:1080,url:https://9gag.com/,memfile:afcf88b8-39a7-46f4-ac50-342c6b94a002,port:8202
+2018-12-18 18:25:18,010 [8] INFO  SharedPluginServer.App [(null)] - ==============SHUTTING DOWN==========
+2018-12-18 18:27:29,386 [1] INFO  SharedPluginServer.Program [(null)] - ===============START================
+2018-12-18 18:27:29,419 [1] INFO  SharedPluginServer.Program [(null)] - Starting plugin, settings:width:1920,height:1080,url:https://9gag.com/,memfile:3ff8ad9d-ce0f-4f37-97b7-7c07c313d645,port:8830
+2018-12-18 18:28:48,372 [3] INFO  SharedPluginServer.App [(null)] - ==============SHUTTING DOWN==========
+2018-12-18 18:34:25,135 [1] INFO  SharedPluginServer.Program [(null)] - ===============START================
+2018-12-18 18:34:25,165 [1] INFO  SharedPluginServer.Program [(null)] - Starting plugin, settings:width:1920,height:1080,url:https://9gag.com/,memfile:c26652dc-0b6d-44d2-913d-235e361e166f,port:8448
+2018-12-18 18:34:48,107 [8] INFO  SharedPluginServer.App [(null)] - ==============SHUTTING DOWN==========
+2018-12-18 18:44:54,282 [1] INFO  SharedPluginServer.Program [(null)] - ===============START================
+2018-12-18 18:44:54,316 [1] INFO  SharedPluginServer.Program [(null)] - Starting plugin, settings:width:1920,height:1080,url:https://9gag.com/,memfile:5763b822-9fbe-4a22-a652-dea9c11c04d2,port:8981
+2018-12-18 18:44:55,256 [8] INFO  SharedPluginServer.App [(null)] - ==============SHUTTING DOWN==========
+2018-12-18 18:45:01,151 [1] INFO  SharedPluginServer.Program [(null)] - ===============START================
+2018-12-18 18:45:01,191 [1] INFO  SharedPluginServer.Program [(null)] - Starting plugin, settings:width:1920,height:1080,url:https://9gag.com/,memfile:ff8980af-eeef-4a4f-8b27-609e78c4502c,port:8897
+2018-12-18 18:45:06,051 [8] INFO  SharedPluginServer.App [(null)] - ==============SHUTTING DOWN==========
+2018-12-18 18:46:01,667 [1] INFO  SharedPluginServer.Program [(null)] - ===============START================
+2018-12-18 18:46:01,704 [1] INFO  SharedPluginServer.Program [(null)] - Starting plugin, settings:width:1920,height:1080,url:https://9gag.com/,memfile:de389f44-d2e3-4ee5-848a-40ac5abcd302,port:8695
+2018-12-18 18:47:53,263 [11] INFO  SharedPluginServer.App [(null)] - ==============SHUTTING DOWN==========
+2018-12-18 18:48:10,234 [1] INFO  SharedPluginServer.Program [(null)] - ===============START================
+2018-12-18 18:48:10,266 [1] INFO  SharedPluginServer.Program [(null)] - Starting plugin, settings:width:1920,height:1080,url:https://9gag.com/,memfile:38f5c660-6d87-44e6-a4cb-2a3eac940545,port:8857
+2018-12-18 18:48:22,475 [8] INFO  SharedPluginServer.App [(null)] - ==============SHUTTING DOWN==========
+2018-12-18 18:48:42,700 [1] INFO  SharedPluginServer.Program [(null)] - ===============START================
+2018-12-18 18:48:42,730 [1] INFO  SharedPluginServer.Program [(null)] - Starting plugin, settings:width:1920,height:1080,url:https://9gag.com/,memfile:dc78e58e-be31-44f1-ac44-e9db03c8c9f7,port:8270
+2018-12-18 18:48:46,947 [8] INFO  SharedPluginServer.App [(null)] - ==============SHUTTING DOWN==========
+2018-12-18 18:49:51,474 [1] INFO  SharedPluginServer.Program [(null)] - ===============START================
+2018-12-18 18:49:51,506 [1] INFO  SharedPluginServer.Program [(null)] - Starting plugin, settings:width:1920,height:1080,url:https://9gag.com/,memfile:a47f6fef-f8e4-4c2f-af36-3cd03c8a3e33,port:8628
+2018-12-18 18:50:30,710 [10] INFO  SharedPluginServer.App [(null)] - ==============SHUTTING DOWN==========
+2018-12-18 18:51:27,151 [1] INFO  SharedPluginServer.Program [(null)] - ===============START================
+2018-12-18 18:51:27,180 [1] INFO  SharedPluginServer.Program [(null)] - Starting plugin, settings:width:1920,height:1080,url:https://9gag.com/,memfile:1a986a75-2a95-4b16-a4b6-1bd7e57cd18a,port:8555
+2018-12-18 18:51:46,809 [3] INFO  SharedPluginServer.App [(null)] - ==============SHUTTING DOWN==========
+2018-12-18 18:52:24,714 [1] INFO  SharedPluginServer.Program [(null)] - ===============START================
+2018-12-18 18:52:24,746 [1] INFO  SharedPluginServer.Program [(null)] - Starting plugin, settings:width:1920,height:1080,url:https://9gag.com/,memfile:7fac2003-b931-42e8-b135-a0138106fc60,port:8999
+2018-12-18 18:52:46,482 [9] INFO  SharedPluginServer.App [(null)] - ==============SHUTTING DOWN==========
+2018-12-18 19:06:38,972 [1] INFO  SharedPluginServer.Program [(null)] - ===============START================
+2018-12-18 19:06:39,001 [1] INFO  SharedPluginServer.Program [(null)] - Starting plugin, settings:width:1920,height:1080,url:https://9gag.com/,memfile:c631466d-fafe-414d-af77-5d0837b85fb0,port:8375
+2018-12-18 19:07:02,094 [9] INFO  SharedPluginServer.App [(null)] - ==============SHUTTING DOWN==========
+2018-12-18 19:17:35,263 [1] INFO  SharedPluginServer.Program [(null)] - ===============START================
+2018-12-18 19:17:35,293 [1] INFO  SharedPluginServer.Program [(null)] - Starting plugin, settings:width:1920,height:1080,url:https://9gag.com/,memfile:79b719f7-1cb1-4203-a923-30a17be0f13e,port:8092
+2018-12-18 19:17:45,952 [8] INFO  SharedPluginServer.App [(null)] - ==============SHUTTING DOWN==========
+2018-12-18 19:18:11,018 [1] INFO  SharedPluginServer.Program [(null)] - ===============START================
+2018-12-18 19:18:11,047 [1] INFO  SharedPluginServer.Program [(null)] - Starting plugin, settings:width:1920,height:1080,url:https://9gag.com/,memfile:8ffc3ee9-dc35-48e2-ab5c-92d6674ac8b1,port:8701
+2018-12-18 19:18:26,817 [9] INFO  SharedPluginServer.App [(null)] - ==============SHUTTING DOWN==========
+2018-12-18 19:18:45,126 [1] INFO  SharedPluginServer.Program [(null)] - ===============START================
+2018-12-18 19:18:45,155 [1] INFO  SharedPluginServer.Program [(null)] - Starting plugin, settings:width:1920,height:1080,url:https://9gag.com/,memfile:d5bdba82-e5f9-451d-8482-1c9dadee1ea1,port:8641
+2018-12-18 19:19:07,839 [9] INFO  SharedPluginServer.App [(null)] - ==============SHUTTING DOWN==========
+2018-12-18 19:19:25,763 [1] INFO  SharedPluginServer.Program [(null)] - ===============START================
+2018-12-18 19:19:25,792 [1] INFO  SharedPluginServer.Program [(null)] - Starting plugin, settings:width:1920,height:1080,url:https://9gag.com/,memfile:d7e130ad-5a77-4a31-aa05-7ad79d0163a9,port:8262
+2018-12-18 19:19:28,667 [8] INFO  SharedPluginServer.App [(null)] - ==============SHUTTING DOWN==========
+2018-12-18 19:19:40,345 [1] INFO  SharedPluginServer.Program [(null)] - ===============START================
+2018-12-18 19:19:40,375 [1] INFO  SharedPluginServer.Program [(null)] - Starting plugin, settings:width:1920,height:1080,url:https://9gag.com/,memfile:a380d952-f190-4c75-9684-62efdd6f355c,port:8887
+2018-12-18 19:19:42,024 [3] INFO  SharedPluginServer.App [(null)] - ==============SHUTTING DOWN==========
+2018-12-18 19:19:56,814 [1] INFO  SharedPluginServer.Program [(null)] - ===============START================
+2018-12-18 19:19:56,843 [1] INFO  SharedPluginServer.Program [(null)] - Starting plugin, settings:width:1920,height:1080,url:https://9gag.com/,memfile:adff267e-7d9c-4452-b370-e5ef4c11e115,port:8495
+2018-12-18 19:20:13,240 [3] INFO  SharedPluginServer.App [(null)] - ==============SHUTTING DOWN==========
+2018-12-18 19:20:41,520 [1] INFO  SharedPluginServer.Program [(null)] - ===============START================
+2018-12-18 19:20:41,549 [1] INFO  SharedPluginServer.Program [(null)] - Starting plugin, settings:width:1920,height:1080,url:https://9gag.com/,memfile:b3f24512-bc29-4a75-bef3-1ce6e58df7f4,port:8497
+2018-12-18 19:21:01,338 [10] INFO  SharedPluginServer.App [(null)] - ==============SHUTTING DOWN==========
+2018-12-18 19:21:29,337 [1] INFO  SharedPluginServer.Program [(null)] - ===============START================
+2018-12-18 19:21:29,369 [1] INFO  SharedPluginServer.Program [(null)] - Starting plugin, settings:width:1920,height:1080,url:https://9gag.com/,memfile:abdfb23f-4ff5-46e0-8341-0d69c424a26d,port:8633
+2018-12-18 19:21:59,213 [11] INFO  SharedPluginServer.App [(null)] - ==============SHUTTING DOWN==========
+2018-12-18 19:24:49,636 [1] INFO  SharedPluginServer.Program [(null)] - ===============START================
+2018-12-18 19:24:49,668 [1] INFO  SharedPluginServer.Program [(null)] - Starting plugin, settings:width:1920,height:1080,url:https://9gag.com/,memfile:dfcaab4f-500b-4356-952e-33aefa8dc31c,port:8345
+2018-12-18 19:25:19,459 [10] INFO  SharedPluginServer.App [(null)] - ==============SHUTTING DOWN==========
+2018-12-18 19:26:02,137 [1] INFO  SharedPluginServer.Program [(null)] - ===============START================
+2018-12-18 19:26:02,167 [1] INFO  SharedPluginServer.Program [(null)] - Starting plugin, settings:width:1920,height:1080,url:https://9gag.com/,memfile:664d6ae4-f8e7-4aa3-9938-de0a4ae945e9,port:8365
+2018-12-18 19:26:35,783 [8] INFO  SharedPluginServer.App [(null)] - ==============SHUTTING DOWN==========
+2018-12-18 19:27:12,845 [1] INFO  SharedPluginServer.Program [(null)] - ===============START================
+2018-12-18 19:27:12,878 [1] INFO  SharedPluginServer.Program [(null)] - Starting plugin, settings:width:1920,height:1080,url:https://9gag.com/,memfile:4132b114-e8eb-46f3-a2f4-b90d21819f62,port:8829
+2018-12-18 19:28:01,549 [10] INFO  SharedPluginServer.App [(null)] - ==============SHUTTING DOWN==========
+2018-12-18 19:30:20,197 [1] INFO  SharedPluginServer.Program [(null)] - ===============START================
+2018-12-18 19:30:20,230 [1] INFO  SharedPluginServer.Program [(null)] - Starting plugin, settings:width:1920,height:1080,url:https://9gag.com/,memfile:269ff89d-deac-44e1-aa55-0a9339b5588d,port:8139
+2018-12-18 19:30:20,974 [8] INFO  SharedPluginServer.App [(null)] - ==============SHUTTING DOWN==========
+2018-12-18 19:31:11,135 [1] INFO  SharedPluginServer.Program [(null)] - ===============START================
+2018-12-18 19:31:11,164 [1] INFO  SharedPluginServer.Program [(null)] - Starting plugin, settings:width:1920,height:1080,url:https://9gag.com/,memfile:af16cb40-618e-43d4-9533-deb0789f0dff,port:8083
+2018-12-18 19:31:37,454 [11] INFO  SharedPluginServer.App [(null)] - ==============SHUTTING DOWN==========
+2018-12-18 19:33:10,435 [1] INFO  SharedPluginServer.Program [(null)] - ===============START================
+2018-12-18 19:33:10,465 [1] INFO  SharedPluginServer.Program [(null)] - Starting plugin, settings:width:1920,height:1080,url:https://9gag.com/,memfile:609b552a-1e39-49ac-b73f-92c9326a2f9e,port:8294
+2018-12-18 19:33:37,213 [8] INFO  SharedPluginServer.App [(null)] - ==============SHUTTING DOWN==========
+2018-12-18 19:36:22,228 [1] INFO  SharedPluginServer.Program [(null)] - ===============START================
+2018-12-18 19:36:22,261 [1] INFO  SharedPluginServer.Program [(null)] - Starting plugin, settings:width:1920,height:1080,url:https://9gag.com/,memfile:15e95fb9-7d78-4a2d-9420-4d0dd134cd91,port:8401
+2018-12-18 19:36:50,671 [8] INFO  SharedPluginServer.App [(null)] - ==============SHUTTING DOWN==========
+2018-12-18 19:37:16,754 [1] INFO  SharedPluginServer.Program [(null)] - ===============START================
+2018-12-18 19:37:16,787 [1] INFO  SharedPluginServer.Program [(null)] - Starting plugin, settings:width:1920,height:1080,url:https://9gag.com/,memfile:ab602525-ad20-4dee-8835-c61c879d903b,port:8977
+2018-12-18 19:37:44,898 [9] INFO  SharedPluginServer.App [(null)] - ==============SHUTTING DOWN==========
+2018-12-18 19:42:32,243 [1] INFO  SharedPluginServer.Program [(null)] - ===============START================
+2018-12-18 19:42:32,273 [1] INFO  SharedPluginServer.Program [(null)] - Starting plugin, settings:width:1920,height:1080,url:https://9gag.com/,memfile:7a02358b-d12c-4971-9b7b-4037f3cdea99,port:8093
+2018-12-18 19:42:51,790 [9] INFO  SharedPluginServer.App [(null)] - ==============SHUTTING DOWN==========
+2018-12-18 19:43:08,023 [1] INFO  SharedPluginServer.Program [(null)] - ===============START================
+2018-12-18 19:43:08,052 [1] INFO  SharedPluginServer.Program [(null)] - Starting plugin, settings:width:1920,height:1080,url:https://9gag.com/,memfile:df3666b6-c2bb-4f8e-afc7-f6fa070b75eb,port:8540
+2018-12-18 19:43:30,961 [3] INFO  SharedPluginServer.App [(null)] - ==============SHUTTING DOWN==========
+2018-12-18 23:05:39,752 [1] INFO  SharedPluginServer.Program [(null)] - ===============START================
+2018-12-18 23:05:39,785 [1] INFO  SharedPluginServer.Program [(null)] - Starting plugin, settings:width:1920,height:1080,url:https://9gag.com/,memfile:f2621333-4592-4c24-b7d7-5cf060e7de34,port:8429
+2018-12-18 23:06:09,826 [8] INFO  SharedPluginServer.App [(null)] - ==============SHUTTING DOWN==========
+2018-12-18 23:06:27,549 [1] INFO  SharedPluginServer.Program [(null)] - ===============START================
+2018-12-18 23:06:27,582 [1] INFO  SharedPluginServer.Program [(null)] - Starting plugin, settings:width:1920,height:1080,url:https://9gag.com/,memfile:cbcf0e10-0039-47e4-9767-c8062e307eed,port:8260
+2018-12-18 23:06:39,062 [8] INFO  SharedPluginServer.App [(null)] - ==============SHUTTING DOWN==========
+2018-12-18 23:06:55,075 [1] INFO  SharedPluginServer.Program [(null)] - ===============START================
+2018-12-18 23:06:55,107 [1] INFO  SharedPluginServer.Program [(null)] - Starting plugin, settings:width:1920,height:1080,url:https://9gag.com/,memfile:2e8b1083-4a09-4d22-adbf-4935261a50fd,port:8145
+2018-12-18 23:07:22,110 [8] INFO  SharedPluginServer.App [(null)] - ==============SHUTTING DOWN==========
+2018-12-18 23:07:44,014 [1] INFO  SharedPluginServer.Program [(null)] - ===============START================
+2018-12-18 23:07:44,333 [1] INFO  SharedPluginServer.Program [(null)] - Starting plugin, settings:width:1920,height:1080,url:https://9gag.com/,memfile:b6924486-c0b0-4ae1-b33f-44d2271471a9,port:8509
+2018-12-18 23:07:48,087 [1] ERROR SharedPluginServer.Program [(null)] - CefRuntime return 0
+2018-12-18 23:07:59,569 [8] INFO  SharedPluginServer.App [(null)] - ==============SHUTTING DOWN==========
+2018-12-18 23:08:27,500 [1] INFO  SharedPluginServer.Program [(null)] - ===============START================
+2018-12-18 23:08:27,533 [1] INFO  SharedPluginServer.Program [(null)] - Starting plugin, settings:width:1920,height:1080,url:https://9gag.com/,memfile:e9e69dbf-fa94-4857-8ddb-16d2961fb5ad,port:8626
+2018-12-18 23:08:47,797 [10] INFO  SharedPluginServer.App [(null)] - ==============SHUTTING DOWN==========
+2018-12-19 10:33:51,395 [1] INFO  SharedPluginServer.Program [(null)] - ===============START================
+2018-12-19 10:33:51,448 [1] INFO  SharedPluginServer.Program [(null)] - Starting plugin, settings:width:1920,height:1080,url:https://9gag.com/,memfile:6d265f60-f430-4191-aea0-e99a1750d9f3,port:8796
+2018-12-19 10:33:55,162 [1] ERROR SharedPluginServer.Program [(null)] - CefRuntime return 0
+2018-12-19 10:36:00,916 [7] INFO  SharedPluginServer.App [(null)] - ==============SHUTTING DOWN==========
+2018-12-19 10:37:33,833 [1] INFO  SharedPluginServer.Program [(null)] - ===============START================
+2018-12-19 10:37:33,864 [1] INFO  SharedPluginServer.Program [(null)] - Starting plugin, settings:width:1920,height:1080,url:https://9gag.com/,memfile:7b9c08a3-3af4-4581-9c43-b559f6012203,port:8657
+2018-12-19 10:37:44,934 [8] INFO  SharedPluginServer.App [(null)] - ==============SHUTTING DOWN==========
+2018-12-19 10:38:18,245 [1] INFO  SharedPluginServer.Program [(null)] - ===============START================
+2018-12-19 10:38:18,275 [1] INFO  SharedPluginServer.Program [(null)] - Starting plugin, settings:width:1920,height:1080,url:https://9gag.com/,memfile:df5c538f-a724-4672-ad4d-d3d7826065de,port:8919
+2018-12-19 10:38:46,476 [8] INFO  SharedPluginServer.App [(null)] - ==============SHUTTING DOWN==========
+2018-12-19 10:53:19,683 [1] INFO  SharedPluginServer.Program [(null)] - ===============START================
+2018-12-19 10:53:19,714 [1] INFO  SharedPluginServer.Program [(null)] - Starting plugin, settings:width:1920,height:1080,url:https://9gag.com/,memfile:672e1469-f918-4315-ac66-862624b4ec2c,port:8293
+2018-12-19 10:53:30,623 [8] INFO  SharedPluginServer.App [(null)] - ==============SHUTTING DOWN==========
+2018-12-19 10:55:07,875 [1] INFO  SharedPluginServer.Program [(null)] - ===============START================
+2018-12-19 10:55:07,909 [1] INFO  SharedPluginServer.Program [(null)] - Starting plugin, settings:width:1920,height:1080,url:https://9gag.com/,memfile:2654dcfa-346c-4a48-a084-bc6f5772e03c,port:8427
+2018-12-19 10:55:25,388 [8] INFO  SharedPluginServer.App [(null)] - ==============SHUTTING DOWN==========
+2018-12-19 10:59:22,483 [1] INFO  SharedPluginServer.Program [(null)] - ===============START================
+2018-12-19 10:59:22,517 [1] INFO  SharedPluginServer.Program [(null)] - Starting plugin, settings:width:1920,height:1080,url:https://9gag.com/,memfile:0e34b098-638b-4b2f-baee-1084b61e21b5,port:8510
+2018-12-19 10:59:44,531 [8] INFO  SharedPluginServer.App [(null)] - ==============SHUTTING DOWN==========
+2018-12-19 11:00:20,989 [1] INFO  SharedPluginServer.Program [(null)] - ===============START================
+2018-12-19 11:00:21,024 [1] INFO  SharedPluginServer.Program [(null)] - Starting plugin, settings:width:1920,height:1080,url:https://9gag.com/,memfile:4946a810-94ad-4664-b267-ba480f922f43,port:8364
+2018-12-19 11:00:37,757 [8] INFO  SharedPluginServer.App [(null)] - ==============SHUTTING DOWN==========
+2018-12-19 11:07:38,308 [1] INFO  SharedPluginServer.Program [(null)] - ===============START================
+2018-12-19 11:07:38,342 [1] INFO  SharedPluginServer.Program [(null)] - Starting plugin, settings:width:1920,height:1080,url:https://9gag.com/,memfile:c05f33c5-9313-40d2-aac6-82ab3df5b793,port:8809
+2018-12-19 11:08:09,648 [8] INFO  SharedPluginServer.App [(null)] - ==============SHUTTING DOWN==========
+2018-12-19 11:35:03,637 [1] INFO  SharedPluginServer.Program [(null)] - ===============START================
+2018-12-19 11:35:03,668 [1] INFO  SharedPluginServer.Program [(null)] - Starting plugin, settings:width:1920,height:1080,url:https://9gag.com/,memfile:605cd6eb-bd6b-4d7d-9dce-620ce55abec0,port:8721
+2018-12-19 11:35:17,691 [8] INFO  SharedPluginServer.App [(null)] - ==============SHUTTING DOWN==========
+2018-12-19 11:36:18,316 [1] INFO  SharedPluginServer.Program [(null)] - ===============START================
+2018-12-19 11:36:18,350 [1] INFO  SharedPluginServer.Program [(null)] - Starting plugin, settings:width:1920,height:1080,url:https://9gag.com/,memfile:75048ec4-e2a6-45ad-8c54-26f8c90b1635,port:8606
+2018-12-19 11:36:48,824 [8] INFO  SharedPluginServer.App [(null)] - ==============SHUTTING DOWN==========
+2018-12-19 11:37:19,163 [1] INFO  SharedPluginServer.Program [(null)] - ===============START================
+2018-12-19 11:37:19,193 [1] INFO  SharedPluginServer.Program [(null)] - Starting plugin, settings:width:1920,height:1080,url:https://9gag.com/,memfile:ba2e3418-8a51-459d-954c-12484a2556cb,port:8496
+2018-12-19 11:38:44,768 [8] INFO  SharedPluginServer.App [(null)] - ==============SHUTTING DOWN==========
+2018-12-19 11:39:11,369 [1] INFO  SharedPluginServer.Program [(null)] - ===============START================
+2018-12-19 11:39:11,400 [1] INFO  SharedPluginServer.Program [(null)] - Starting plugin, settings:width:1920,height:1080,url:https://9gag.com/,memfile:83b09953-3d65-4d8f-b1a6-0e3930a6d184,port:8173
+2018-12-19 11:39:37,181 [8] INFO  SharedPluginServer.App [(null)] - ==============SHUTTING DOWN==========
+2018-12-19 11:40:48,541 [1] INFO  SharedPluginServer.Program [(null)] - ===============START================
+2018-12-19 11:40:48,572 [1] INFO  SharedPluginServer.Program [(null)] - Starting plugin, settings:width:1920,height:1080,url:https://9gag.com/,memfile:c9505d3b-c765-4360-b04f-b41160af51e6,port:8543
+2018-12-19 11:41:08,392 [10] INFO  SharedPluginServer.App [(null)] - ==============SHUTTING DOWN==========
+2018-12-19 11:42:20,029 [1] INFO  SharedPluginServer.Program [(null)] - ===============START================
+2018-12-19 11:42:20,060 [1] INFO  SharedPluginServer.Program [(null)] - Starting plugin, settings:width:1920,height:1080,url:https://9gag.com/,memfile:2191a90d-0cf7-4e31-92fb-367a7469e2a4,port:8574
+2018-12-19 11:42:31,396 [9] INFO  SharedPluginServer.App [(null)] - ==============SHUTTING DOWN==========
+2018-12-19 11:43:42,093 [1] INFO  SharedPluginServer.Program [(null)] - ===============START================
+2018-12-19 11:43:42,127 [1] INFO  SharedPluginServer.Program [(null)] - Starting plugin, settings:width:1920,height:1080,url:https://9gag.com/,memfile:c22cd02f-e981-4264-b3f5-c44a1eb1c55c,port:8610
+2018-12-19 11:43:56,740 [8] INFO  SharedPluginServer.App [(null)] - ==============SHUTTING DOWN==========
+2018-12-19 11:46:25,486 [1] INFO  SharedPluginServer.Program [(null)] - ===============START================
+2018-12-19 11:46:25,515 [1] INFO  SharedPluginServer.Program [(null)] - Starting plugin, settings:width:1920,height:1080,url:https://9gag.com/,memfile:09465fc4-54be-4d5d-9dd8-fcd6d28ded6c,port:8666
+2018-12-19 11:46:35,678 [8] INFO  SharedPluginServer.App [(null)] - ==============SHUTTING DOWN==========
+2018-12-19 11:46:42,767 [1] INFO  SharedPluginServer.Program [(null)] - ===============START================
+2018-12-19 11:46:42,797 [1] INFO  SharedPluginServer.Program [(null)] - Starting plugin, settings:width:1920,height:1080,url:https://9gag.com/,memfile:f1dce7f6-537c-409e-8b07-0c432b962bcc,port:8601
+2018-12-19 11:47:13,348 [8] INFO  SharedPluginServer.App [(null)] - ==============SHUTTING DOWN==========
+2018-12-19 11:48:02,827 [1] INFO  SharedPluginServer.Program [(null)] - ===============START================
+2018-12-19 11:48:02,857 [1] INFO  SharedPluginServer.Program [(null)] - Starting plugin, settings:width:1920,height:1080,url:https://9gag.com/,memfile:a96cbbc3-b86c-419b-9962-326beb69aa57,port:8978
+2018-12-19 11:48:18,894 [8] INFO  SharedPluginServer.App [(null)] - ==============SHUTTING DOWN==========
+2018-12-19 11:48:45,790 [1] INFO  SharedPluginServer.Program [(null)] - ===============START================
+2018-12-19 11:48:45,820 [1] INFO  SharedPluginServer.Program [(null)] - Starting plugin, settings:width:1920,height:1080,url:https://9gag.com/,memfile:4c4dc952-5048-4a0a-81e0-bcae89a32c13,port:8492
+2018-12-19 11:49:02,199 [8] INFO  SharedPluginServer.App [(null)] - ==============SHUTTING DOWN==========
+2018-12-19 11:49:28,205 [1] INFO  SharedPluginServer.Program [(null)] - ===============START================
+2018-12-19 11:49:28,238 [1] INFO  SharedPluginServer.Program [(null)] - Starting plugin, settings:width:1920,height:1080,url:https://9gag.com/,memfile:a5e296d6-9b1e-400f-9d62-0ed07fc2ba9a,port:8581
+2018-12-19 11:49:45,361 [8] INFO  SharedPluginServer.App [(null)] - ==============SHUTTING DOWN==========
+2018-12-19 13:53:12,691 [1] INFO  SharedPluginServer.Program [(null)] - ===============START================
+2018-12-19 13:53:12,722 [1] INFO  SharedPluginServer.Program [(null)] - Starting plugin, settings:width:1920,height:1080,url:https://9gag.com/,memfile:bb6a82a8-70b4-4eb2-9a7b-48dacb63a061,port:8996
+2018-12-19 13:53:52,973 [8] INFO  SharedPluginServer.App [(null)] - ==============SHUTTING DOWN==========
+2018-12-19 13:54:23,060 [1] INFO  SharedPluginServer.Program [(null)] - ===============START================
+2018-12-19 13:54:23,091 [1] INFO  SharedPluginServer.Program [(null)] - Starting plugin, settings:width:1920,height:1080,url:https://9gag.com/,memfile:80c9d85b-0328-4c30-ba31-7931e3afd527,port:8882
+2018-12-19 13:54:54,415 [8] INFO  SharedPluginServer.App [(null)] - ==============SHUTTING DOWN==========
+2018-12-19 13:56:17,028 [1] INFO  SharedPluginServer.Program [(null)] - ===============START================
+2018-12-19 13:56:17,058 [1] INFO  SharedPluginServer.Program [(null)] - Starting plugin, settings:width:1920,height:1080,url:https://9gag.com/,memfile:f391a2ec-d3a2-4dc6-abed-99cd1d7f88e2,port:8439
+2018-12-19 13:56:52,356 [10] INFO  SharedPluginServer.App [(null)] - ==============SHUTTING DOWN==========
+2018-12-19 13:58:05,809 [1] INFO  SharedPluginServer.Program [(null)] - ===============START================
+2018-12-19 13:58:05,840 [1] INFO  SharedPluginServer.Program [(null)] - Starting plugin, settings:width:1920,height:1080,url:https://9gag.com/,memfile:4a1ff3c2-1086-4a7d-907f-cf72a760dbc2,port:8263
+2018-12-19 13:58:26,297 [8] INFO  SharedPluginServer.App [(null)] - ==============SHUTTING DOWN==========
+2018-12-19 13:59:52,450 [1] INFO  SharedPluginServer.Program [(null)] - ===============START================
+2018-12-19 13:59:52,480 [1] INFO  SharedPluginServer.Program [(null)] - Starting plugin, settings:width:1920,height:1080,url:https://9gag.com/,memfile:40c4197a-9d9c-441c-90ca-468ce076af39,port:8506
+2018-12-19 14:00:28,647 [8] INFO  SharedPluginServer.App [(null)] - ==============SHUTTING DOWN==========
+2018-12-19 14:00:50,918 [1] INFO  SharedPluginServer.Program [(null)] - ===============START================
+2018-12-19 14:00:50,951 [1] INFO  SharedPluginServer.Program [(null)] - Starting plugin, settings:width:1920,height:1080,url:https://9gag.com/,memfile:fd620039-e68a-47a3-9f3f-c1fd41a30e9d,port:8684
+2018-12-19 14:01:11,614 [9] INFO  SharedPluginServer.App [(null)] - ==============SHUTTING DOWN==========
+2018-12-19 14:01:48,083 [1] INFO  SharedPluginServer.Program [(null)] - ===============START================
+2018-12-19 14:01:48,113 [1] INFO  SharedPluginServer.Program [(null)] - Starting plugin, settings:width:1920,height:1080,url:https://9gag.com/,memfile:06da4cda-63e9-4b05-86d0-1ee0c706cd37,port:8428
+2018-12-19 14:02:21,075 [8] INFO  SharedPluginServer.App [(null)] - ==============SHUTTING DOWN==========
+2018-12-19 14:02:40,125 [1] INFO  SharedPluginServer.Program [(null)] - ===============START================
+2018-12-19 14:02:40,155 [1] INFO  SharedPluginServer.Program [(null)] - Starting plugin, settings:width:1920,height:1080,url:https://9gag.com/,memfile:dfcccab9-c12f-491c-8a57-13483e89aa4a,port:8723
+2018-12-19 14:03:11,142 [8] INFO  SharedPluginServer.App [(null)] - ==============SHUTTING DOWN==========
+2018-12-19 14:03:23,324 [1] INFO  SharedPluginServer.Program [(null)] - ===============START================
+2018-12-19 14:03:23,354 [1] INFO  SharedPluginServer.Program [(null)] - Starting plugin, settings:width:1920,height:1080,url:https://9gag.com/,memfile:52bdc7b8-59a9-4a42-b21d-5c63cbf33e52,port:8444
+2018-12-19 14:03:48,092 [8] INFO  SharedPluginServer.App [(null)] - ==============SHUTTING DOWN==========
+2018-12-19 14:03:56,475 [1] INFO  SharedPluginServer.Program [(null)] - ===============START================
+2018-12-19 14:03:56,505 [1] INFO  SharedPluginServer.Program [(null)] - Starting plugin, settings:width:1920,height:1080,url:https://9gag.com/,memfile:af1474e9-6138-44b2-b0ff-e36207a4e1ba,port:8973
+2018-12-19 14:04:14,146 [8] INFO  SharedPluginServer.App [(null)] - ==============SHUTTING DOWN==========
+2018-12-19 14:04:24,628 [1] INFO  SharedPluginServer.Program [(null)] - ===============START================
+2018-12-19 14:04:24,662 [1] INFO  SharedPluginServer.Program [(null)] - Starting plugin, settings:width:1920,height:1080,url:https://9gag.com/,memfile:0d9f0389-2093-4124-bf08-fa376854102a,port:8853
+2018-12-19 14:04:47,477 [8] INFO  SharedPluginServer.App [(null)] - ==============SHUTTING DOWN==========
+2018-12-19 14:07:59,603 [1] INFO  SharedPluginServer.Program [(null)] - ===============START================
+2018-12-19 14:07:59,633 [1] INFO  SharedPluginServer.Program [(null)] - Starting plugin, settings:width:1920,height:1080,url:https://9gag.com/,memfile:27a8114f-e4cd-4e19-b8fb-c5c005a60572,port:8705
+2018-12-19 14:08:19,061 [9] INFO  SharedPluginServer.App [(null)] - ==============SHUTTING DOWN==========
+2018-12-19 14:08:33,388 [1] INFO  SharedPluginServer.Program [(null)] - ===============START================
+2018-12-19 14:08:33,418 [1] INFO  SharedPluginServer.Program [(null)] - Starting plugin, settings:width:1920,height:1080,url:https://9gag.com/,memfile:d1c92b69-1979-4ff2-8662-8004462c1f03,port:8229
+2018-12-19 14:09:21,777 [8] INFO  SharedPluginServer.App [(null)] - ==============SHUTTING DOWN==========
+2018-12-19 14:16:56,056 [1] INFO  SharedPluginServer.Program [(null)] - ===============START================
+2018-12-19 14:16:56,086 [1] INFO  SharedPluginServer.Program [(null)] - Starting plugin, settings:width:1920,height:1080,url:https://9gag.com/,memfile:b8ca5c15-273d-4b11-81fe-cbae222551ba,port:8322
+2018-12-19 14:17:47,781 [8] INFO  SharedPluginServer.App [(null)] - ==============SHUTTING DOWN==========
+2018-12-19 14:18:09,898 [1] INFO  SharedPluginServer.Program [(null)] - ===============START================
+2018-12-19 14:18:09,929 [1] INFO  SharedPluginServer.Program [(null)] - Starting plugin, settings:width:1920,height:1080,url:https://9gag.com/,memfile:ade11997-f67a-485a-90fc-2d996207ecf1,port:8452
+2018-12-19 14:18:29,477 [8] INFO  SharedPluginServer.App [(null)] - ==============SHUTTING DOWN==========
+2018-12-19 14:18:39,915 [1] INFO  SharedPluginServer.Program [(null)] - ===============START================
+2018-12-19 14:18:39,949 [1] INFO  SharedPluginServer.Program [(null)] - Starting plugin, settings:width:1920,height:1080,url:https://9gag.com/,memfile:ba694f5e-06ef-4c39-9d5f-43af09da9a9c,port:8315
+2018-12-19 14:18:51,860 [8] INFO  SharedPluginServer.App [(null)] - ==============SHUTTING DOWN==========
+2018-12-19 14:19:03,824 [1] INFO  SharedPluginServer.Program [(null)] - ===============START================
+2018-12-19 14:19:03,855 [1] INFO  SharedPluginServer.Program [(null)] - Starting plugin, settings:width:1920,height:1080,url:https://9gag.com/,memfile:060ee467-02d6-45e8-9025-ebdc651896f8,port:8568
+2018-12-19 14:19:18,871 [8] INFO  SharedPluginServer.App [(null)] - ==============SHUTTING DOWN==========
+2018-12-19 14:19:29,740 [1] INFO  SharedPluginServer.Program [(null)] - ===============START================
+2018-12-19 14:19:29,771 [1] INFO  SharedPluginServer.Program [(null)] - Starting plugin, settings:width:1920,height:1080,url:https://9gag.com/,memfile:3e858f60-1cd3-41bb-8663-b169c4e382ab,port:8211
+2018-12-19 14:19:44,376 [8] INFO  SharedPluginServer.App [(null)] - ==============SHUTTING DOWN==========
+2018-12-19 14:19:59,699 [1] INFO  SharedPluginServer.Program [(null)] - ===============START================
+2018-12-19 14:19:59,728 [1] INFO  SharedPluginServer.Program [(null)] - Starting plugin, settings:width:1920,height:1080,url:https://9gag.com/,memfile:bc2b0ef6-01e1-4bdb-a81e-6a4962f25bfe,port:8951
+2018-12-19 14:20:08,926 [8] INFO  SharedPluginServer.App [(null)] - ==============SHUTTING DOWN==========
+2018-12-19 14:20:31,357 [1] INFO  SharedPluginServer.Program [(null)] - ===============START================
+2018-12-19 14:20:31,388 [1] INFO  SharedPluginServer.Program [(null)] - Starting plugin, settings:width:1920,height:1080,url:https://9gag.com/,memfile:f681b83f-9ede-4e6e-8994-2ae78ad60c06,port:8894
+2018-12-19 14:21:03,207 [8] INFO  SharedPluginServer.App [(null)] - ==============SHUTTING DOWN==========
+2018-12-20 12:14:36,235 [1] INFO  SharedPluginServer.Program [(null)] - ===============START================
+2018-12-20 12:14:36,485 [1] INFO  SharedPluginServer.Program [(null)] - Starting plugin, settings:width:1920,height:1080,url:https://9gag.com/,memfile:0172fcee-0628-4327-baac-2e58698e5c72,port:8924
+2018-12-20 12:14:41,622 [1] ERROR SharedPluginServer.Program [(null)] - CefRuntime return 0
+2018-12-20 12:14:48,699 [7] INFO  SharedPluginServer.App [(null)] - ==============SHUTTING DOWN==========
+2018-12-20 12:16:50,028 [1] INFO  SharedPluginServer.Program [(null)] - ===============START================
+2018-12-20 12:16:50,064 [1] INFO  SharedPluginServer.Program [(null)] - Starting plugin, settings:width:1920,height:1080,url:https://9gag.com/,memfile:dfe27076-b98b-4481-ab3b-4b0de824bad8,port:8313
+2018-12-20 12:16:56,892 [8] INFO  SharedPluginServer.App [(null)] - ==============SHUTTING DOWN==========
+2018-12-20 12:31:44,798 [1] INFO  SharedPluginServer.Program [(null)] - ===============START================
+2018-12-20 12:31:44,834 [1] INFO  SharedPluginServer.Program [(null)] - Starting plugin, settings:width:1920,height:1080,url:https://9gag.com/,memfile:e0245110-7c7b-4b0c-8fbd-addcbcec0091,port:8511
+2018-12-20 12:33:38,417 [11] INFO  SharedPluginServer.App [(null)] - ==============SHUTTING DOWN==========
+2018-12-20 12:44:30,390 [1] INFO  SharedPluginServer.Program [(null)] - ===============START================
+2018-12-20 12:44:30,429 [1] INFO  SharedPluginServer.Program [(null)] - Starting plugin, settings:width:1920,height:1080,url:https://9gag.com/,memfile:6d3ce623-81d4-41a7-bb68-cf95acf4655f,port:8390
+2018-12-20 12:45:06,270 [8] INFO  SharedPluginServer.App [(null)] - ==============SHUTTING DOWN==========
+2018-12-20 12:46:14,062 [1] INFO  SharedPluginServer.Program [(null)] - ===============START================
+2018-12-20 12:46:14,099 [1] INFO  SharedPluginServer.Program [(null)] - Starting plugin, settings:width:1920,height:1080,url:https://9gag.com/,memfile:6e9ddcd9-ad0b-4695-8232-8f0d2850c46a,port:8442
+2018-12-20 12:46:39,395 [11] INFO  SharedPluginServer.App [(null)] - ==============SHUTTING DOWN==========
+2018-12-20 12:49:52,771 [1] INFO  SharedPluginServer.Program [(null)] - ===============START================
+2018-12-20 12:49:52,808 [1] INFO  SharedPluginServer.Program [(null)] - Starting plugin, settings:width:1920,height:1080,url:https://9gag.com/,memfile:4a2a4bd6-1093-40f3-a35d-270fa40e7fa4,port:8422
+2018-12-20 12:50:28,314 [10] INFO  SharedPluginServer.App [(null)] - ==============SHUTTING DOWN==========
+2018-12-20 12:52:34,848 [1] INFO  SharedPluginServer.Program [(null)] - ===============START================
+2018-12-20 12:52:34,893 [1] INFO  SharedPluginServer.Program [(null)] - Starting plugin, settings:width:1920,height:1080,url:https://9gag.com/,memfile:56061feb-7e4e-427c-8cbe-8e334e36bb31,port:8529
+2018-12-20 12:53:11,326 [9] INFO  SharedPluginServer.App [(null)] - ==============SHUTTING DOWN==========
+2018-12-20 12:55:59,740 [1] INFO  SharedPluginServer.Program [(null)] - ===============START================
+2018-12-20 12:55:59,781 [1] INFO  SharedPluginServer.Program [(null)] - Starting plugin, settings:width:1920,height:1080,url:https://9gag.com/,memfile:2f6f2772-9d33-429d-9ae2-8d66eb397a70,port:8819
+2018-12-20 12:56:38,257 [9] INFO  SharedPluginServer.App [(null)] - ==============SHUTTING DOWN==========
+2019-01-07 11:56:30,799 [1] INFO  SharedPluginServer.Program [(null)] - ===============START================
+2019-01-07 11:56:31,636 [1] INFO  SharedPluginServer.Program [(null)] - Starting plugin, settings:width:1920,height:1080,url:https://9gag.com/,memfile:bcbcc879-d5a5-42f3-aedd-e40ffd4dd073,port:8753
+2019-01-07 11:56:40,504 [1] ERROR SharedPluginServer.Program [(null)] - CefRuntime return 0
+2019-01-07 12:07:54,606 [1] INFO  SharedPluginServer.Program [(null)] - ===============START================
+2019-01-07 12:07:54,633 [1] INFO  SharedPluginServer.Program [(null)] - Starting plugin, settings:width:1920,height:1080,url:https://9gag.com/,memfile:50f2e2f7-90ef-431d-b481-0fbe1f68b75a,port:8155
+2019-01-07 12:08:15,106 [8] INFO  SharedPluginServer.App [(null)] - ==============SHUTTING DOWN==========
+2019-01-07 12:08:52,188 [1] INFO  SharedPluginServer.Program [(null)] - ===============START================
+2019-01-07 12:08:52,215 [1] INFO  SharedPluginServer.Program [(null)] - Starting plugin, settings:width:1920,height:1080,url:https://9gag.com/,memfile:f18152fa-21dd-449e-bf33-291d5b45342d,port:8437
+2019-01-07 12:08:55,104 [8] INFO  SharedPluginServer.App [(null)] - ==============SHUTTING DOWN==========
+2019-01-07 12:09:02,815 [1] INFO  SharedPluginServer.Program [(null)] - ===============START================
+2019-01-07 12:09:02,843 [1] INFO  SharedPluginServer.Program [(null)] - Starting plugin, settings:width:1920,height:1080,url:https://9gag.com/,memfile:78682c77-98d5-4190-bcd6-6d9c97cef0d9,port:8338
+2019-01-07 12:09:17,381 [8] INFO  SharedPluginServer.App [(null)] - ==============SHUTTING DOWN==========
+2019-01-07 12:09:36,789 [1] INFO  SharedPluginServer.Program [(null)] - ===============START================
+2019-01-07 12:09:36,817 [1] INFO  SharedPluginServer.Program [(null)] - Starting plugin, settings:width:1920,height:1080,url:https://9gag.com/,memfile:ee2b79be-f87e-4f7c-b880-190ba4763002,port:8925
+2019-01-07 12:09:47,440 [9] INFO  SharedPluginServer.App [(null)] - ==============SHUTTING DOWN==========
+2019-01-07 12:10:24,154 [1] INFO  SharedPluginServer.Program [(null)] - ===============START================
+2019-01-07 12:10:24,182 [1] INFO  SharedPluginServer.Program [(null)] - Starting plugin, settings:width:1920,height:1080,url:https://9gag.com/,memfile:00053c46-a625-4734-9803-7d60701411ec,port:8541
+2019-01-07 12:10:26,470 [8] INFO  SharedPluginServer.App [(null)] - ==============SHUTTING DOWN==========
+2019-01-07 12:10:40,228 [1] INFO  SharedPluginServer.Program [(null)] - ===============START================
+2019-01-07 12:10:40,255 [1] INFO  SharedPluginServer.Program [(null)] - Starting plugin, settings:width:1920,height:1080,url:https://9gag.com/,memfile:384b9cad-1849-45de-ac5f-8492c3a100f1,port:8610
+2019-01-07 12:10:49,242 [8] INFO  SharedPluginServer.App [(null)] - ==============SHUTTING DOWN==========
+2019-01-07 12:18:22,266 [1] INFO  SharedPluginServer.Program [(null)] - ===============START================
+2019-01-07 12:18:22,293 [1] INFO  SharedPluginServer.Program [(null)] - Starting plugin, settings:width:1920,height:1080,url:https://9gag.com/,memfile:232d3990-d37c-42e5-8d53-64e4cffada90,port:8940
+2019-01-07 12:18:35,535 [3] INFO  SharedPluginServer.App [(null)] - ==============SHUTTING DOWN==========
+2019-01-07 12:18:45,858 [1] INFO  SharedPluginServer.Program [(null)] - ===============START================
+2019-01-07 12:18:45,885 [1] INFO  SharedPluginServer.Program [(null)] - Starting plugin, settings:width:1920,height:1080,url:https://9gag.com/,memfile:e3e332bb-6c31-4036-b43b-85ae20fa4aed,port:8081
+2019-01-07 12:18:50,871 [8] INFO  SharedPluginServer.App [(null)] - ==============SHUTTING DOWN==========
+2019-01-07 14:04:39,882 [1] INFO  SharedPluginServer.Program [(null)] - ===============START================
+2019-01-07 14:04:39,917 [1] INFO  SharedPluginServer.Program [(null)] - Starting plugin, settings:width:1920,height:1080,url:https://9gag.com/,memfile:d9b190e5-dd54-4b81-81ef-7aff9fbc2959,port:8564
+2019-01-07 14:04:47,831 [8] INFO  SharedPluginServer.App [(null)] - ==============SHUTTING DOWN==========
+2019-01-07 14:04:59,277 [1] INFO  SharedPluginServer.Program [(null)] - ===============START================
+2019-01-07 14:04:59,304 [1] INFO  SharedPluginServer.Program [(null)] - Starting plugin, settings:width:1920,height:1080,url:https://9gag.com/,memfile:0e65caa1-e611-4bd0-ae6c-106763920a2f,port:8222
+2019-01-07 14:05:23,649 [8] INFO  SharedPluginServer.App [(null)] - ==============SHUTTING DOWN==========
+2019-01-07 14:05:50,361 [1] INFO  SharedPluginServer.Program [(null)] - ===============START================
+2019-01-07 14:05:50,396 [1] INFO  SharedPluginServer.Program [(null)] - Starting plugin, settings:width:1920,height:1080,url:https://9gag.com/,memfile:999b5901-cef4-4b29-b1a1-64218a385e3d,port:8965
+2019-01-07 14:05:59,815 [8] INFO  SharedPluginServer.App [(null)] - ==============SHUTTING DOWN==========
+2019-01-07 14:06:12,577 [1] INFO  SharedPluginServer.Program [(null)] - ===============START================
+2019-01-07 14:06:12,604 [1] INFO  SharedPluginServer.Program [(null)] - Starting plugin, settings:width:1920,height:1080,url:https://9gag.com/,memfile:8c3de63f-6176-43c1-bae0-3d15a4e07d03,port:8319
+2019-01-07 14:06:21,075 [8] INFO  SharedPluginServer.App [(null)] - ==============SHUTTING DOWN==========
+2019-01-08 12:56:53,912 [1] INFO  SharedPluginServer.Program [(null)] - ===============START================
+2019-01-08 12:56:54,161 [1] INFO  SharedPluginServer.Program [(null)] - Starting plugin, settings:width:1920,height:1080,url:https://9gag.com/,memfile:f0bf8a90-c3c5-425f-aa3b-a40c813453be,port:8641
+2019-01-08 12:57:03,236 [4] INFO  SharedPluginServer.App [(null)] - ==============SHUTTING DOWN==========
+2019-01-08 13:35:17,741 [1] INFO  SharedPluginServer.Program [(null)] - ===============START================
+2019-01-08 13:35:17,773 [1] INFO  SharedPluginServer.Program [(null)] - Starting plugin, settings:width:1920,height:1080,url:https://9gag.com/,memfile:b62dfc82-8c4e-43a0-b766-15eb8493ea11,port:8239
+2019-01-08 13:35:23,021 [8] INFO  SharedPluginServer.App [(null)] - ==============SHUTTING DOWN==========
+2019-01-08 14:13:56,639 [1] INFO  SharedPluginServer.Program [(null)] - ===============START================
+2019-01-08 14:13:56,680 [1] INFO  SharedPluginServer.Program [(null)] - Starting plugin, settings:width:1920,height:1080,url:https://9gag.com/,memfile:fe44db07-59a8-4b39-962a-2aec4a3899d5,port:8850
+2019-01-08 14:13:57,920 [7] INFO  SharedPluginServer.App [(null)] - ==============SHUTTING DOWN==========
+2019-01-08 14:13:59,959 [1] ERROR SharedPluginServer.Program [(null)] - CefRuntime return 0
+2019-01-08 14:57:03,788 [1] INFO  SharedPluginServer.Program [(null)] - ===============START================
+2019-01-08 14:57:03,819 [1] INFO  SharedPluginServer.Program [(null)] - Starting plugin, settings:width:1920,height:1080,url:https://9gag.com/,memfile:21dfcf49-08c0-40cd-8ac5-1445655a2922,port:8850
+2019-01-08 14:57:17,633 [8] INFO  SharedPluginServer.App [(null)] - ==============SHUTTING DOWN==========
+2019-01-08 14:59:22,717 [1] INFO  SharedPluginServer.Program [(null)] - ===============START================
+2019-01-08 14:59:22,745 [1] INFO  SharedPluginServer.Program [(null)] - Starting plugin, settings:width:1920,height:1080,url:https://9gag.com/,memfile:8f0e57e4-7071-4e38-ad73-21ef92944fb0,port:8478
+2019-01-08 14:59:33,997 [3] INFO  SharedPluginServer.App [(null)] - ==============SHUTTING DOWN==========
+2019-01-08 15:00:23,077 [1] INFO  SharedPluginServer.Program [(null)] - ===============START================
+2019-01-08 15:00:23,106 [1] INFO  SharedPluginServer.Program [(null)] - Starting plugin, settings:width:1920,height:1080,url:https://9gag.com/,memfile:03ed1c92-891a-4846-92aa-f622e16bff1c,port:8172
+2019-01-08 15:00:44,568 [10] INFO  SharedPluginServer.App [(null)] - ==============SHUTTING DOWN==========
+2019-01-08 15:00:53,402 [1] INFO  SharedPluginServer.Program [(null)] - ===============START================
+2019-01-08 15:00:53,430 [1] INFO  SharedPluginServer.Program [(null)] - Starting plugin, settings:width:1920,height:1080,url:https://9gag.com/,memfile:dbabd040-e721-4c28-b934-3b37b3cf9014,port:8309
+2019-01-08 15:00:59,323 [9] INFO  SharedPluginServer.App [(null)] - ==============SHUTTING DOWN==========
+2019-01-08 15:01:06,024 [1] INFO  SharedPluginServer.Program [(null)] - ===============START================
+2019-01-08 15:01:06,052 [1] INFO  SharedPluginServer.Program [(null)] - Starting plugin, settings:width:1920,height:1080,url:https://9gag.com/,memfile:86868a4b-3bef-41b8-95d1-e1044e376508,port:8991
+2019-01-08 15:01:12,409 [8] INFO  SharedPluginServer.App [(null)] - ==============SHUTTING DOWN==========
+2019-01-08 15:01:38,651 [1] INFO  SharedPluginServer.Program [(null)] - ===============START================
+2019-01-08 15:01:38,682 [1] INFO  SharedPluginServer.Program [(null)] - Starting plugin, settings:width:1920,height:1080,url:https://9gag.com/,memfile:f8eae208-c6fa-4e6c-b8cb-c18e9cbdd059,port:8791
+2019-01-08 15:02:10,016 [8] INFO  SharedPluginServer.App [(null)] - ==============SHUTTING DOWN==========
+2019-01-08 15:06:56,985 [1] INFO  SharedPluginServer.Program [(null)] - ===============START================
+2019-01-08 15:06:57,013 [1] INFO  SharedPluginServer.Program [(null)] - Starting plugin, settings:width:1920,height:1080,url:https://9gag.com/,memfile:473c6995-1ee1-4559-861c-fa4330949917,port:8583
+2019-01-10 11:05:15,225 [8] INFO  SharedPluginServer.App [(null)] - ==============SHUTTING DOWN==========
+2019-01-11 15:32:38,656 [1] INFO  SharedPluginServer.Program [(null)] - ===============START================
+2019-01-11 15:32:38,691 [1] INFO  SharedPluginServer.Program [(null)] - Starting plugin, settings:width:1920,height:1080,url:https://9gag.com/,memfile:03ac09ae-ed6e-43a3-879e-bdd639c2dc95,port:8595
+2019-01-11 15:36:12,849 [1] INFO  SharedPluginServer.Program [(null)] - ===============START================
+2019-01-11 15:36:12,881 [1] INFO  SharedPluginServer.Program [(null)] - Starting plugin, settings:width:1920,height:1080,url:https://9gag.com/,memfile:ee5d847e-a046-4984-9a5a-e5536bb78ffd,port:8978
+2019-01-11 15:37:31,445 [1] INFO  SharedPluginServer.Program [(null)] - ===============START================
+2019-01-11 15:37:31,483 [1] INFO  SharedPluginServer.Program [(null)] - Starting plugin, settings:width:1920,height:1080,url:https://9gag.com/,memfile:3f102a43-03e7-4ca2-8fc9-a3f26883aa3d,port:8302
+2019-01-11 15:37:35,700 [8] INFO  SharedPluginServer.App [(null)] - ==============SHUTTING DOWN==========
+2019-01-11 15:38:40,697 [1] INFO  SharedPluginServer.Program [(null)] - ===============START================
+2019-01-11 15:38:40,727 [1] INFO  SharedPluginServer.Program [(null)] - Starting plugin, settings:width:1920,height:1080,url:https://9gag.com/,memfile:267087a5-c089-45df-b736-9942a7d1fce9,port:8513
+2019-01-11 15:39:56,480 [10] INFO  SharedPluginServer.App [(null)] - ==============SHUTTING DOWN==========
+2019-01-11 15:40:18,717 [1] INFO  SharedPluginServer.Program [(null)] - ===============START================
+2019-01-11 15:40:18,749 [1] INFO  SharedPluginServer.Program [(null)] - Starting plugin, settings:width:1920,height:1080,url:https://9gag.com/,memfile:716c8a93-3c8e-4fca-9bd9-c77a8fcdec01,port:8084
+2019-01-11 15:40:42,054 [8] INFO  SharedPluginServer.App [(null)] - ==============SHUTTING DOWN==========
+2019-01-11 15:41:15,221 [1] INFO  SharedPluginServer.Program [(null)] - ===============START================
+2019-01-11 15:41:15,254 [1] INFO  SharedPluginServer.Program [(null)] - Starting plugin, settings:width:1920,height:1080,url:https://9gag.com/,memfile:bd2d294d-3c74-4a47-9889-9fe193bb4eb4,port:8015
+2019-01-11 15:41:27,367 [3] INFO  SharedPluginServer.App [(null)] - ==============SHUTTING DOWN==========
+2019-01-11 15:41:53,827 [1] INFO  SharedPluginServer.Program [(null)] - ===============START================
+2019-01-11 15:41:53,858 [1] INFO  SharedPluginServer.Program [(null)] - Starting plugin, settings:width:1920,height:1080,url:https://9gag.com/,memfile:3de6f6ed-7f8b-4537-aa32-55667286d02c,port:8712
+2019-01-11 15:42:39,351 [9] INFO  SharedPluginServer.App [(null)] - ==============SHUTTING DOWN==========
+2019-01-11 15:42:58,944 [1] INFO  SharedPluginServer.Program [(null)] - ===============START================
+2019-01-11 15:42:58,975 [1] INFO  SharedPluginServer.Program [(null)] - Starting plugin, settings:width:1920,height:1080,url:https://9gag.com/,memfile:cc2bcda7-47bd-4b7c-9222-37a380469908,port:8228
+2019-01-11 15:43:35,598 [3] INFO  SharedPluginServer.App [(null)] - ==============SHUTTING DOWN==========
+2019-01-11 16:02:58,493 [1] INFO  SharedPluginServer.Program [(null)] - ===============START================
+2019-01-11 16:02:58,527 [1] INFO  SharedPluginServer.Program [(null)] - Starting plugin, settings:width:1920,height:1080,url:https://9gag.com/,memfile:be974eaf-d217-42f1-ad43-3b760fa679a0,port:8660
+2019-01-11 16:04:18,165 [10] INFO  SharedPluginServer.App [(null)] - ==============SHUTTING DOWN==========
+2019-01-11 16:04:44,663 [1] INFO  SharedPluginServer.Program [(null)] - ===============START================
+2019-01-11 16:04:44,692 [1] INFO  SharedPluginServer.Program [(null)] - Starting plugin, settings:width:1920,height:1080,url:https://9gag.com/,memfile:dd0a6fbe-476b-4b65-a2ad-44d812bee1bb,port:8851
+2019-01-11 16:05:54,965 [1] INFO  SharedPluginServer.Program [(null)] - ===============START================
+2019-01-11 16:05:54,993 [1] INFO  SharedPluginServer.Program [(null)] - Starting plugin, settings:width:1920,height:1080,url:https://9gag.com/,memfile:1e6dd7ea-97f8-4723-a718-e5caed8b919f,port:8634
+2019-01-11 16:06:33,996 [3] INFO  SharedPluginServer.App [(null)] - ==============SHUTTING DOWN==========
+2019-01-11 16:19:39,443 [1] INFO  SharedPluginServer.Program [(null)] - ===============START================
+2019-01-11 16:19:39,473 [1] INFO  SharedPluginServer.Program [(null)] - Starting plugin, settings:width:1920,height:1080,url:https://9gag.com/,memfile:58fc9ae1-e5cd-4534-b933-17d0a0db5704,port:8602
+2019-01-11 16:19:40,537 [8] INFO  SharedPluginServer.App [(null)] - ==============SHUTTING DOWN==========
+2019-01-11 16:19:45,456 [1] INFO  SharedPluginServer.Program [(null)] - ===============START================
+2019-01-11 16:19:45,485 [1] INFO  SharedPluginServer.Program [(null)] - Starting plugin, settings:width:1920,height:1080,url:https://9gag.com/,memfile:0d0ef789-d602-408c-9226-f9e1a77e3061,port:8088
+2019-01-11 16:19:46,359 [8] INFO  SharedPluginServer.App [(null)] - ==============SHUTTING DOWN==========
+2019-01-11 16:25:09,090 [1] INFO  SharedPluginServer.Program [(null)] - ===============START================
+2019-01-11 16:25:09,120 [1] INFO  SharedPluginServer.Program [(null)] - Starting plugin, settings:width:1920,height:1080,url:https://9gag.com/,memfile:c4257ac7-121b-4fe7-8f8c-ed56a3999fde,port:8432
+2019-01-11 16:25:17,313 [8] INFO  SharedPluginServer.App [(null)] - ==============SHUTTING DOWN==========
+2019-01-11 16:42:55,887 [1] INFO  SharedPluginServer.Program [(null)] - ===============START================
+2019-01-11 16:42:55,917 [1] INFO  SharedPluginServer.Program [(null)] - Starting plugin, settings:width:1920,height:1080,url:https://9gag.com/,memfile:4ef93b28-0f55-4e3e-a566-af4aa88bee01,port:8644
+2019-01-11 16:43:08,458 [8] INFO  SharedPluginServer.App [(null)] - ==============SHUTTING DOWN==========
+2019-01-11 16:44:13,246 [1] INFO  SharedPluginServer.Program [(null)] - ===============START================
+2019-01-11 16:44:13,281 [1] INFO  SharedPluginServer.Program [(null)] - Starting plugin, settings:width:1920,height:1080,url:https://9gag.com/,memfile:ba5df91c-08f3-42e1-b6be-7cc9194e2be8,port:8142
