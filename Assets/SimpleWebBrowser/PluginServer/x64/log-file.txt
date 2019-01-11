@@ -739,3 +739,33 @@
 2019-01-11 16:43:08,458 [8] INFO  SharedPluginServer.App [(null)] - ==============SHUTTING DOWN==========
 2019-01-11 16:44:13,246 [1] INFO  SharedPluginServer.Program [(null)] - ===============START================
 2019-01-11 16:44:13,281 [1] INFO  SharedPluginServer.Program [(null)] - Starting plugin, settings:width:1920,height:1080,url:https://9gag.com/,memfile:ba5df91c-08f3-42e1-b6be-7cc9194e2be8,port:8142
+2019-01-11 19:11:15,623 [1] INFO  SharedPluginServer.Program [(null)] - ===============START================
+2019-01-11 19:11:15,663 [1] INFO  SharedPluginServer.Program [(null)] - Starting plugin, settings:width:1920,height:1080,url:https://9gag.com/,memfile:8f39e4db-a310-4361-8098-bd86a201eb3a,port:8062
+2019-01-11 19:11:30,863 [8] INFO  SharedPluginServer.App [(null)] - ==============SHUTTING DOWN==========
+2019-01-11 19:37:05,892 [1] INFO  SharedPluginServer.Program [(null)] - ===============START================
+2019-01-11 19:37:05,922 [1] INFO  SharedPluginServer.Program [(null)] - Starting plugin, settings:width:1920,height:1080,url:https://9gag.com/,memfile:b316bd79-063a-420a-9663-fdc91660da04,port:8022
+2019-01-11 19:37:44,965 [8] INFO  SharedPluginServer.App [(null)] - ==============SHUTTING DOWN==========
+2019-01-11 19:37:54,527 [1] INFO  SharedPluginServer.Program [(null)] - ===============START================
+2019-01-11 19:37:54,557 [1] INFO  SharedPluginServer.Program [(null)] - Starting plugin, settings:width:1920,height:1080,url:https://9gag.com/,memfile:bc4ddda5-9bfc-4652-aafc-6406506a61c9,port:8465
+2019-01-11 19:38:31,957 [8] INFO  SharedPluginServer.App [(null)] - ==============SHUTTING DOWN==========
+2019-01-11 19:39:04,666 [1] INFO  SharedPluginServer.Program [(null)] - ===============START================
+2019-01-11 19:39:04,697 [1] INFO  SharedPluginServer.Program [(null)] - Starting plugin, settings:width:1920,height:1080,url:https://9gag.com/,memfile:07cfe919-dcfc-443c-a67c-ddb4b8e98b27,port:8611
+2019-01-11 19:39:20,006 [8] INFO  SharedPluginServer.App [(null)] - ==============SHUTTING DOWN==========
+2019-01-11 23:05:08,421 [1] INFO  SharedPluginServer.Program [(null)] - ===============START================
+2019-01-11 23:05:08,452 [1] INFO  SharedPluginServer.Program [(null)] - Starting plugin, settings:width:1920,height:1080,url:https://9gag.com/,memfile:321ac3b8-78cc-4623-a621-d52dabf41830,port:8769
+2019-01-11 23:05:21,443 [8] INFO  SharedPluginServer.App [(null)] - ==============SHUTTING DOWN==========
+2019-01-11 23:06:18,408 [1] INFO  SharedPluginServer.Program [(null)] - ===============START================
+2019-01-11 23:06:18,437 [1] INFO  SharedPluginServer.Program [(null)] - Starting plugin, settings:width:1920,height:1080,url:https://9gag.com/,memfile:82bc77d8-26f1-4aad-9c4c-29cf6a255b42,port:8650
+2019-01-11 23:06:40,310 [8] INFO  SharedPluginServer.App [(null)] - ==============SHUTTING DOWN==========
+2019-01-11 23:08:21,246 [1] INFO  SharedPluginServer.Program [(null)] - ===============START================
+2019-01-11 23:08:21,278 [1] INFO  SharedPluginServer.Program [(null)] - Starting plugin, settings:width:1920,height:1080,url:https://9gag.com/,memfile:1b63b64d-2000-4800-8f3c-334e7033684f,port:8066
+2019-01-11 23:08:28,055 [8] INFO  SharedPluginServer.App [(null)] - ==============SHUTTING DOWN==========
+2019-01-11 23:12:55,772 [1] INFO  SharedPluginServer.Program [(null)] - ===============START================
+2019-01-11 23:12:55,802 [1] INFO  SharedPluginServer.Program [(null)] - Starting plugin, settings:width:1920,height:1080,url:https://9gag.com/,memfile:50c76d6f-7e6e-4c9c-95ef-a5091f559062,port:8144
+2019-01-11 23:13:04,147 [8] INFO  SharedPluginServer.App [(null)] - ==============SHUTTING DOWN==========
+2019-01-11 23:13:24,331 [1] INFO  SharedPluginServer.Program [(null)] - ===============START================
+2019-01-11 23:13:24,364 [1] INFO  SharedPluginServer.Program [(null)] - Starting plugin, settings:width:1920,height:1080,url:https://9gag.com/,memfile:92385269-d2af-4883-ba30-3bcd8c17f71d,port:8563
+2019-01-11 23:13:33,702 [8] INFO  SharedPluginServer.App [(null)] - ==============SHUTTING DOWN==========
+2019-01-11 23:13:52,915 [1] INFO  SharedPluginServer.Program [(null)] - ===============START================
+2019-01-11 23:13:52,946 [1] INFO  SharedPluginServer.Program [(null)] - Starting plugin, settings:width:1920,height:1080,url:https://9gag.com/,memfile:dad9f6ff-4147-44a9-b18c-eb6bdaea63f1,port:8211
+2019-01-11 23:14:02,327 [8] INFO  SharedPluginServer.App [(null)] - ==============SHUTTING DOWN==========

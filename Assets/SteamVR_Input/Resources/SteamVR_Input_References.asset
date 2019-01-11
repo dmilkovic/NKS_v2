@@ -23,14 +23,10 @@ MonoBehaviour:
   - {fileID: 11400000, guid: 419f921f812861d4ab356247cf1ac7d2, type: 2}
   - {fileID: 11400000, guid: eaccd9edeed219a44a7830ef6665f6a3, type: 2}
   actionNames:
-  - __actions_default_in_InteractUI
   - __actions_default_in_Teleport
-  - __actions_default_in_GrabPinch
-  - __actions_default_in_GrabGrip
-  - __actions_default_in_Pose
+  - __actions_default_in_Grab
   - __actions_default_in_SkeletonLeftHand
   - __actions_default_in_SkeletonRightHand
-  - __actions_default_in_Squeeze
   - __actions_default_out_Haptic
   - __actions_platformer_in_Move
   - __actions_platformer_in_Jump
@@ -78,14 +74,10 @@ MonoBehaviour:
   - __actions_htc_viu_in_viu_axis_3xy
   - __actions_htc_viu_in_viu_axis_4xy
   actionObjects:
-  - {fileID: 11400000, guid: 3225eab59f2a3b1448cff646837f90f0, type: 2}
   - {fileID: 11400000, guid: e77ff025c291cb74e8b4203ceada7acb, type: 2}
-  - {fileID: 11400000, guid: d2ef6c01c6f216f468c488abc078ce6b, type: 2}
-  - {fileID: 11400000, guid: 6fbac2be87c40b746ae991ee21283380, type: 2}
-  - {fileID: 11400000, guid: 537d22eb955eb0e448cd399b505ab32f, type: 2}
+  - {fileID: 11400000, guid: e5043955307ca4e4bb0f4c8930c023ae, type: 2}
   - {fileID: 11400000, guid: fbb7865e1c267ca4f9e8468489520177, type: 2}
   - {fileID: 11400000, guid: 1f6ed2f3dd034254ebf3a6980cdf7f35, type: 2}
-  - {fileID: 11400000, guid: 6fc62772c1e8525479b0a2b544fe316c, type: 2}
   - {fileID: 11400000, guid: c74deec2b2e2f8d45a9dfcdb4e0472a6, type: 2}
   - {fileID: 11400000, guid: 4c06e428a89cc5e4aa3844dfe2220da3, type: 2}
   - {fileID: 11400000, guid: b8ea921175d60744da37a5ede136b59a, type: 2}
