@@ -320,7 +320,7 @@ namespace SimpleWebBrowser
 
                 }
             }
-
+            Debug.Log("KLIK KRUTI");
         }
 
 

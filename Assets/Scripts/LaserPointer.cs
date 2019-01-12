@@ -12,12 +12,34 @@ public class LaserPointer : MonoBehaviour
     private GameObject laser; // 2
     private Transform laserTransform; // 3
     private Vector3 hitPoint; // 4
+    public Camera cam;
+
+    // 1
+    public Transform cameraRigTransform;
+    // 2
+    public GameObject teleportReticlePrefab;
+    // 3
+    private GameObject reticle;
+    // 4
+    private Transform teleportReticleTransform;
+    // 5
+    public Transform headTransform;
+    // 6
+    public Vector3 teleportReticleOffset;
+
+
     // Start is called before the first frame update
+
+
     void Start()
     {
         laser = Instantiate(laserPrefab);
         // 2
         laserTransform = laser.transform;
+        // 1
+        reticle = Instantiate(teleportReticlePrefab);
+        // 2
+        teleportReticleTransform = reticle.transform; 
     }
 
     // Update is called once per frame
@@ -32,6 +54,11 @@ public class LaserPointer : MonoBehaviour
             {
                 hitPoint = hit.point;
                 ShowLaser(hit);
+                // 1
+                reticle.SetActive(true);
+                // 2
+                teleportReticleTransform.position = hitPoint + teleportReticleOffset;
+             
             }
        /*}
         else // 3
@@ -53,5 +80,12 @@ public class LaserPointer : MonoBehaviour
         laserTransform.localScale = new Vector3(laserTransform.localScale.x,
                                                 laserTransform.localScale.y,
                                                 hit.distance);
+
+        Vector2 pointOnScreenPosition = cam.WorldToScreenPoint(laserTransform.position);
+        int X = (int)System.Math.Round(pointOnScreenPosition.x);
+        int Y = (int)System.Math.Round(pointOnScreenPosition.y);
+        MouseOperations.SetCursorPosition(X, Y);
+        MouseOperations.MouseEvent(MouseOperations.MouseEventFlags.LeftUp | MouseOperations.MouseEventFlags.LeftDown);
+
     }
 }
