@@ -111,8 +111,8 @@ namespace HTC.UnityPlugin.VRModuleManagement
             {
                 UpdateKeyDown();
 
-                Cursor.visible = !hasControlFocus;
-                Cursor.lockState = hasControlFocus ? CursorLockMode.Locked : CursorLockMode.None;
+                //Cursor.visible = !hasControlFocus;
+                //Cursor.lockState = hasControlFocus ? CursorLockMode.Locked : CursorLockMode.None;
             }
         }
 

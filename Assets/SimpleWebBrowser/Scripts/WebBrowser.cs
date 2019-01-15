@@ -397,13 +397,8 @@ namespace SimpleWebBrowser
 
         private Vector2 GetScreenCoords()
         {
-
-
             RaycastHit hit;
-            if (
-                !Physics.Raycast(
-                    MainCamera.ScreenPointToRay(Input.mousePosition), out hit))
-                return new Vector2(-1f, -1f);
+            if (!Physics.Raycast( MainCamera.ScreenPointToRay(Input.mousePosition), out hit))return new Vector2(-1f, -1f);
             Texture tex = _mainMaterial.mainTexture;
 
 
@@ -411,10 +406,6 @@ namespace SimpleWebBrowser
             pixelUV.x = (1 - pixelUV.x)*tex.width;
             pixelUV.y *= tex.height;
             return pixelUV;
-
-
-
-
         }
 
         private void SendMouseButtonEvent(int x, int y, MouseButton btn, MouseEventType type)
@@ -511,7 +502,7 @@ namespace SimpleWebBrowser
 
 
             }
-
+            Debug.Log(Input.GetJoystickNames().ToString());
         }
 
         #region Keys
@@ -538,6 +529,25 @@ namespace SimpleWebBrowser
         void OnDisable()
         {
             _mainEngine.Shutdown();
+        }
+
+        void RaycastUV(ArrayList arr)
+        {
+            Vector2 UV = (Vector2)arr[0];
+            bool triggerDown = (bool)arr[1];
+            Debug.Log("Coords: " + UV.x + "  " + UV.y);
+
+            if (_mainEngine.Initialized)
+            {
+               // Vector2 pixelUV = GetScreenCoords();
+
+                if (UV.x > 0)
+                {
+                    if(triggerDown) SendMouseButtonEvent((int)UV.x, (int)UV.y, MouseButton.Left, MouseEventType.ButtonDown);   
+                    else if(!triggerDown) SendMouseButtonEvent((int)UV.x, (int)UV.y, MouseButton.Left, MouseEventType.ButtonUp);
+                }
+            }
+            Debug.Log("KLIK KRUTI");
         }
 
 

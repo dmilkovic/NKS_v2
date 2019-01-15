@@ -39,32 +39,54 @@ public class LaserPointer : MonoBehaviour
         // 1
         reticle = Instantiate(teleportReticlePrefab);
         // 2
-        teleportReticleTransform = reticle.transform; 
+        teleportReticleTransform = reticle.transform;
+
+        Cursor.visible = true;
+        Cursor.lockState = CursorLockMode.None;
     }
 
     // Update is called once per frame
     void Update()
     {
+        Cursor.visible = true;
+        Cursor.lockState = CursorLockMode.None;
         //if (teleportAction.GetState(handType))
-       // {
-            RaycastHit hit;
+        // {
+        RaycastHit hit;
 
-            // 2
-            if (Physics.Raycast(controllerPose.transform.position, transform.forward, out hit, 10000))
-            {
-                hitPoint = hit.point;
-                ShowLaser(hit);
-                // 1
-                reticle.SetActive(true);
-                // 2
-                teleportReticleTransform.position = hitPoint + teleportReticleOffset;
-             
-            }
-       /*}
-        else // 3
+        if (Physics.Raycast(controllerPose.transform.position, transform.forward, out hit))
         {
-            laser.SetActive(false);
-        }*/
+            hitPoint = hit.point;
+            ShowLaser(hit);
+            // 1
+            reticle.SetActive(true);
+            // 2
+            teleportReticleTransform.position = hitPoint + teleportReticleOffset;
+            Vector3 forward = teleportReticleTransform.TransformDirection(Vector3.forward) * 10;
+            Debug.DrawRay(transform.position, forward, Color.green);
+
+        }
+
+
+
+        if (GetTriggerDown())
+        {
+           
+            sendMessage(hit, true);
+        }
+
+
+        if (GetTriggerUp())
+        {
+
+            sendMessage(hit, false);
+        }
+
+        /*}
+         else // 3
+         {
+             laser.SetActive(false);
+         }*/
 
     }
 
@@ -81,11 +103,38 @@ public class LaserPointer : MonoBehaviour
                                                 laserTransform.localScale.y,
                                                 hit.distance);
 
-        Vector2 pointOnScreenPosition = cam.WorldToScreenPoint(laserTransform.position);
+       /* Vector2 pointOnScreenPosition = cam.WorldToScreenPoint(laserTransform.position);
         int X = (int)System.Math.Round(pointOnScreenPosition.x);
         int Y = (int)System.Math.Round(pointOnScreenPosition.y);
         MouseOperations.SetCursorPosition(X, Y);
-        MouseOperations.MouseEvent(MouseOperations.MouseEventFlags.LeftUp | MouseOperations.MouseEventFlags.LeftDown);
+        MouseOperations.MouseEvent(MouseOperations.MouseEventFlags.LeftUp | MouseOperations.MouseEventFlags.LeftDown);*/
 
     }
+
+    private void sendMessage(RaycastHit hit, bool flag)
+    {
+        Vector2 pixelUV = hit.textureCoord;
+        pixelUV.x = (1 - pixelUV.x) * 1920;
+        pixelUV.y *= 1080;
+
+        //string s = pixelUV.x + "|" + pixelUV.y;
+        ArrayList arr = new ArrayList();
+        arr.Add(pixelUV);
+        arr.Add(flag);
+        hit.transform.SendMessage("RaycastUV", arr);
+        Debug.Log(handType);
+
+    }
+
+    public bool GetTriggerUp()
+    {
+        return teleportAction.GetStateUp(handType);
+        //return teleportAction.GetStateDown(handType);
+    }
+
+    public bool GetTriggerDown()
+    {
+        return teleportAction.GetStateDown(handType);
+    }
+
 }

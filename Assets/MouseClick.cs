@@ -5,7 +5,6 @@ public class MouseClick : MonoBehaviour
 {
     void OnMouseDown()
     {
-
         Debug.Log("Click");
     }
 }
