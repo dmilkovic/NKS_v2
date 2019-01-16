@@ -324,9 +324,7 @@ namespace SimpleWebBrowser
         }
 
 
-
-
-        void OnMouseUp()
+    void OnMouseUp()
         {
             if (_mainEngine.Initialized)
             {
@@ -503,6 +501,36 @@ namespace SimpleWebBrowser
 
             }
             Debug.Log(Input.GetJoystickNames().ToString());
+
+            if (Input.GetButtonDown("Fire1"))
+            {
+                if (_mainEngine.Initialized)
+                {
+                    Vector2 pixelUV = GetScreenCoords();
+
+                    if (pixelUV.x > 0)
+                    {
+                        SendMouseButtonEvent((int)pixelUV.x, (int)pixelUV.y, MouseButton.Left, MouseEventType.ButtonDown);
+
+                    }
+                }
+            }
+
+            if (Input.GetButtonUp("Fire1"))
+            {
+                if (_mainEngine.Initialized)
+                {
+                    Vector2 pixelUV = GetScreenCoords();
+
+                    if (pixelUV.x > 0)
+                    {
+                        SendMouseButtonEvent((int)pixelUV.x, (int)pixelUV.y, MouseButton.Left, MouseEventType.ButtonUp);
+
+                    }
+                }
+            }
+
+
         }
 
         #region Keys

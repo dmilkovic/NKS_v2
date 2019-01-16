@@ -16,10 +16,24 @@ public class PS4Controller : MonoBehaviour
     void Update()
     {
         MouseOperations.MousePoint m = MouseOperations.GetCursorPosition();
-        Debug.Log(m.X + m.Y);
         float translation = m.X + Input.GetAxis("Mouse X") * speed;
         float rotation = m.Y + Input.GetAxis("Mouse Y") * rotationSpeed;
 
         MouseOperations.SetCursorPosition((int)translation, (int)rotation);
+
+        if (Input.GetMouseButtonDown(0))
+            Debug.Log("Pressed primary button.");
+
+        if (Input.GetMouseButtonDown(1))
+            Debug.Log("Pressed secondary button.");
+
+        if (Input.GetMouseButtonDown(2))
+            Debug.Log("Pressed middle click.");
+
+        if (Input.GetButtonDown("Fire1"))
+        {
+            Debug.Log("Fire1");
+        }
+
     }
 }
