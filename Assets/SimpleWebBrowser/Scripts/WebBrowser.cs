@@ -500,8 +500,7 @@ namespace SimpleWebBrowser
 
 
             }
-            Debug.Log(Input.GetJoystickNames().ToString());
-
+            
             if (Input.GetButtonDown("Fire1"))
             {
                 if (_mainEngine.Initialized)
@@ -511,7 +510,11 @@ namespace SimpleWebBrowser
                     if (pixelUV.x > 0)
                     {
                         SendMouseButtonEvent((int)pixelUV.x, (int)pixelUV.y, MouseButton.Left, MouseEventType.ButtonDown);
-
+                    }
+                    else
+                    {
+                        MouseOperations.MouseEvent(MouseOperations.MouseEventFlags.LeftDown);
+                        Debug.Log("VAN BROWSERA Down");
                     }
                 }
             }
@@ -525,7 +528,12 @@ namespace SimpleWebBrowser
                     if (pixelUV.x > 0)
                     {
                         SendMouseButtonEvent((int)pixelUV.x, (int)pixelUV.y, MouseButton.Left, MouseEventType.ButtonUp);
-
+                    }
+                    else
+                    {
+                        Debug.Log("VAN BROWSERA Up");
+                        MouseOperations.MouseEvent(MouseOperations.MouseEventFlags.LeftUp);
+                        //      MouseOperations.MouseEvent(MouseOperations.MouseEventFlags.LeftUp);
                     }
                 }
             }
