@@ -6,7 +6,7 @@ public class PS4Controller : MonoBehaviour
 {
     public float speed = 10.0F;
     public float rotationSpeed = 100.0F;
-    bool up = false;
+    public static bool keyboardUp = false;
     MouseOperations.MousePoint lastPoint;
     // Start is called before the first frame update
 
@@ -43,17 +43,24 @@ public class PS4Controller : MonoBehaviour
             //vk.ShowTouchKeyboard();
         }
 
+        if (Input.GetButtonDown("Submit"))
+        {
+            Debug.Log("Submit");
+            //vk.ShowTouchKeyboard();
+        }
+
+
         if (Input.GetButtonDown("Fire2"))
         {
-            if(!up)
+            if(!keyboardUp)
             {
                 vk.ShowTouchKeyboard();
-                up = true;
+                keyboardUp = true;
             }
             else
             {
                 vk.HideTouchKeyboard();
-                up = false;
+                keyboardUp = false;
             }
             
             Debug.Log("Fire2");
