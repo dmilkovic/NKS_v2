@@ -10,6 +10,9 @@ using System.Collections.Generic;
 namespace SimpleWebBrowser
 {
 
+
+
+
     public class WebBrowser : MonoBehaviour
     {
 
@@ -181,7 +184,6 @@ namespace SimpleWebBrowser
 
             DialogCanvas.worldCamera = MainCamera;
             DialogCanvas.gameObject.SetActive(false);
-
 
         }
 
@@ -505,7 +507,7 @@ namespace SimpleWebBrowser
                 {
                     Vector2 pixelUV = GetScreenCoords();
 
-                    if (pixelUV.x > 0 && !PS4Controller.keyboardUp)
+                    if (pixelUV.x > 0)
                     {
                         SendMouseButtonEvent((int)pixelUV.x, (int)pixelUV.y, MouseButton.Left, MouseEventType.ButtonDown);
                     }
@@ -523,7 +525,7 @@ namespace SimpleWebBrowser
                 {
                     Vector2 pixelUV = GetScreenCoords();
 
-                    if (pixelUV.x > 0 && !PS4Controller.keyboardUp)
+                    if (pixelUV.x > 0)
                     {
                         SendMouseButtonEvent((int)pixelUV.x, (int)pixelUV.y, MouseButton.Left, MouseEventType.ButtonUp);
                     }
@@ -582,43 +584,6 @@ namespace SimpleWebBrowser
                 }
             }
             Debug.Log("KLIK KRUTI");
-        }
-
-        private void NuitrackManager_onNewGesture(nuitrack.Gesture gesture)
-        {
-
-            if (gesture.Type == nuitrack.GestureType.GestureSwipeUp)
-            {
-                //MouseOperations.
-                float scroll = 0.1f;
-                Debug.Log("Ovo je scroll" + scroll);
-
-                scroll = scroll * _mainEngine.BrowserTexture.height;
-
-                int scInt = (int)scroll;
-
-                if (scInt != 0)
-                {
-                    MouseMessage msg = new MouseMessage
-                    {
-                        Type = MouseEventType.Wheel,
-                        X = 0,
-                        Y = 0,
-                        GenericType = MessageLibrary.BrowserEventType.Mouse,
-                        Delta = scInt,
-                        Button = MouseButton.None
-                    };
-
-                    if (Input.GetMouseButton(0))
-                        msg.Button = MouseButton.Left;
-                    if (Input.GetMouseButton(1))
-                        msg.Button = MouseButton.Right;
-                    if (Input.GetMouseButton(1))
-                        msg.Button = MouseButton.Middle;
-
-                    _mainEngine.SendMouseEvent(msg);
-                }
-            }
         }
 
 

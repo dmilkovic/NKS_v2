@@ -104,18 +104,78 @@ public class PointerWeb : MonoBehaviour
         background.enabled = active;
         background.sprite = active && press ? pressSprite : defaultSprite;
 
+      /*  if (Input.inputString != "")
+        {
+            int buttonIndex;
+            int.TryParse(Input.inputString, out buttonIndex);
+            buttonIndex -= 1;
+            if(buttonIndex >= 0 && buttonIndex < buttons.Length)
+            {
+                ExecuteEvents.Execute<IPointerClickHandler>(buttons[buttonIndex], new PointerEventData(EventSystem.current), ExecuteEvents.pointerClickHandler);
+            }
+            Debug.Log("Press");
+        }*/
         if (press && !pressActive)
         {
+            /*   if (Input.GetKeyDown(KeyCode.Space))*/
+            //MouseOperations.SetCursorPosition(handX, handY);
+
+            // Debug.Log("Press" + handX + "     "+ handY + "mouse: " + MouseOperations.GetCursorPosition().X + "  " + MouseOperations.GetCursorPosition().Y);
+            //Debug.Log("Size of rect: " + (int)System.Math.Round(baseRect.sizeDelta.x) + "   " + (int)System.Math.Round(baseRect.sizeDelta.y));
+            //MouseOperations.SetCursorPosition(handX-55, handY+100);
+
+            //MouseOperations.MouseEvent(MouseOperations.MouseEventFlags.LeftUp | MouseOperations.MouseEventFlags.LeftDown);
             pressActive = true;
-            MouseOperations.MouseEvent(MouseOperations.MouseEventFlags.LeftDown);
-            // StartCoroutine(Example());
+            StartCoroutine(Example());
+            
+            //  var pointer = new PointerEventData(EventSystem.current); // pointer event for Execute
+            //   ExecuteEvents.Execute<IPointerClickHandler>(gameObject, new PointerEventData(EventSystem.current), ExecuteEvents.pointerClickHandler);
+            //  Debug.Log("Press");
         }
-        else if (!press)
-        {
-            pressActive = false;
-            MouseOperations.MouseEvent(MouseOperations.MouseEventFlags.LeftUp);
-        }
-   
+        /*  if (!active)
+              return;
+
+          Vector2 pointOnScreenPosition = cam.WorldToScreenPoint(transform.position);
+          eventData.delta = pointOnScreenPosition - eventData.position;
+          eventData.position = pointOnScreenPosition;
+
+          raycastResults.Clear();
+          EventSystem.current.RaycastAll(eventData, raycastResults);
+
+          ImageItem newButton = null;
+
+          for (int i = 0; i < raycastResults.Count && newButton == null; i++)
+              newButton = raycastResults[i].gameObject.GetComponent<ImageItem>();
+
+          if (newButton != selectedButton)
+          {
+              if (selectedButton != null)
+                  selectedButton.OnPointerExit(eventData);
+
+              selectedButton = newButton;
+
+              if (selectedButton != null)
+                  selectedButton.OnPointerEnter(eventData);
+          }
+          else if (selectedButton != null)
+          {
+              if (press)
+              {
+                  if (eventData.delta.sqrMagnitude < dragSensitivity && !eventData.dragging)
+                  {
+                      eventData.dragging = true;
+                      selectedButton.OnPointerDown(eventData);
+                  }
+              }
+              else if (eventData.dragging)
+              {
+                  eventData.dragging = false;
+                  selectedButton.OnPointerUp(eventData);
+              }
+
+              if (press)
+                  selectedButton.OnDrag(eventData);
+          }*/
     }
 
     IEnumerator Example()
@@ -126,7 +186,4 @@ public class PointerWeb : MonoBehaviour
         pressActive = false;
         Debug.Log(Time.time);
     }
-
-   
-
 }
