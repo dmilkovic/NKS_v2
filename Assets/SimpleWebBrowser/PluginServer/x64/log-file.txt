@@ -1389,3 +1389,55 @@
 2019-01-18 17:38:51,421 [1] INFO  SharedPluginServer.Program [(null)] - ===============START================
 2019-01-18 17:38:51,454 [1] INFO  SharedPluginServer.Program [(null)] - Starting plugin, settings:width:1920,height:1080,url:https://9gag.com/,memfile:41e93594-f466-4cf0-bf07-582e5be587b0,port:8865
 2019-01-18 17:40:09,740 [9] INFO  SharedPluginServer.App [(null)] - ==============SHUTTING DOWN==========
+2019-01-21 16:31:21,675 [1] INFO  SharedPluginServer.Program [(null)] - ===============START================
+2019-01-21 16:31:21,705 [1] INFO  SharedPluginServer.Program [(null)] - Starting plugin, settings:width:1280,height:720,url:https://9gag.com/,memfile:9d8cf006-1e19-4f38-a28d-77f55460f3d4,port:8035
+2019-01-21 16:31:26,290 [8] INFO  SharedPluginServer.App [(null)] - ==============SHUTTING DOWN==========
+2019-01-21 16:31:38,465 [1] INFO  SharedPluginServer.Program [(null)] - ===============START================
+2019-01-21 16:31:38,495 [1] INFO  SharedPluginServer.Program [(null)] - Starting plugin, settings:width:1280,height:720,url:https://9gag.com/,memfile:7fc5c179-478c-4bb3-bab4-b5da3208900d,port:8735
+2019-01-21 16:31:45,331 [9] INFO  SharedPluginServer.App [(null)] - ==============SHUTTING DOWN==========
+2019-01-21 16:31:58,548 [1] INFO  SharedPluginServer.Program [(null)] - ===============START================
+2019-01-21 16:31:58,579 [1] INFO  SharedPluginServer.Program [(null)] - Starting plugin, settings:width:1280,height:720,url:https://9gag.com/,memfile:8263503c-e6d1-443d-9e36-76270d7b2ae8,port:8205
+2019-01-21 16:32:05,122 [8] ERROR SharedPluginServer.Interprocess.SocketServer [(null)] - Exception in receive:The input stream is not a valid binary format. The starting contents (in bytes) are: 65-73-73-61-67-65-4C-69-62-72-61-72-79-2E-4D-6F-75 ...
+2019-01-21 16:32:10,729 [8] ERROR SharedPluginServer.Interprocess.SocketServer [(null)] - Exception in receive:The input stream is not a valid binary format. The starting contents (in bytes) are: 65-73-73-61-67-65-4C-69-62-72-61-72-79-2E-4D-6F-75 ...
+2019-01-21 16:32:17,385 [8] INFO  SharedPluginServer.App [(null)] - ==============SHUTTING DOWN==========
+2019-01-21 16:36:03,976 [1] INFO  SharedPluginServer.Program [(null)] - ===============START================
+2019-01-21 16:36:04,014 [1] INFO  SharedPluginServer.Program [(null)] - Starting plugin, settings:width:1280,height:720,url:http://www.google.com,memfile:e971fce0-5efb-4315-a047-ac0373e210b3,port:8459
+2019-01-21 16:36:27,977 [9] INFO  SharedPluginServer.App [(null)] - ==============SHUTTING DOWN==========
+2019-01-21 16:44:52,868 [1] INFO  SharedPluginServer.Program [(null)] - ===============START================
+2019-01-21 16:44:52,908 [1] INFO  SharedPluginServer.Program [(null)] - Starting plugin, settings:width:1280,height:720,url:http://www.google.com,memfile:b73b5ed5-4a60-48e6-b30c-e1a73fff6549,port:8165
+2019-01-21 16:44:56,830 [3] INFO  SharedPluginServer.App [(null)] - ==============SHUTTING DOWN==========
+2019-01-21 16:45:03,555 [1] INFO  SharedPluginServer.App [(null)] - Exiting by timer,timeout:10000
+2019-01-21 16:45:03,573 [1] INFO  SharedPluginServer.App [(null)] - ==============SHUTTING DOWN==========
+2019-01-21 16:45:20,729 [1] INFO  SharedPluginServer.Program [(null)] - ===============START================
+2019-01-21 16:45:20,759 [1] INFO  SharedPluginServer.Program [(null)] - Starting plugin, settings:width:1280,height:720,url:https://9gag.com/,memfile:5f35d63a-6095-49b3-aa7d-5237b7331ca5,port:8609
+2019-01-21 16:45:30,151 [3] ERROR SharedPluginServer.Interprocess.SocketServer [(null)] - Exception in receive:The input stream is not a valid binary format. The starting contents (in bytes) are: 65-73-73-61-67-65-4C-69-62-72-61-72-79-2E-4D-6F-75 ...
+2019-01-21 16:45:31,284 [3] ERROR SharedPluginServer.Interprocess.SocketServer [(null)] - Exception in receive:The input stream is not a valid binary format. The starting contents (in bytes) are: 65-73-73-61-67-65-4C-69-62-72-61-72-79-2E-4D-6F-75 ...
+2019-01-21 16:45:32,249 [3] ERROR SharedPluginServer.Interprocess.SocketServer [(null)] - Exception in receive:The input stream is not a valid binary format. The starting contents (in bytes) are: 65-73-73-61-67-65-4C-69-62-72-61-72-79-2E-4D-6F-75 ...
+2019-01-21 16:45:34,321 [3] ERROR SharedPluginServer.Interprocess.SocketServer [(null)] - Exception in receive:The input stream is not a valid binary format. The starting contents (in bytes) are: 65-73-73-61-67-65-4C-69-62-72-61-72-79-2E-4D-6F-75 ...
+2019-01-21 16:45:35,350 [3] ERROR SharedPluginServer.Interprocess.SocketServer [(null)] - Exception in receive:The input stream is not a valid binary format. The starting contents (in bytes) are: 65-73-73-61-67-65-4C-69-62-72-61-72-79-2E-4D-6F-75 ...
+2019-01-21 16:45:46,588 [9] INFO  SharedPluginServer.App [(null)] - ==============SHUTTING DOWN==========
+2019-01-21 16:46:28,032 [1] INFO  SharedPluginServer.Program [(null)] - ===============START================
+2019-01-21 16:46:28,069 [1] INFO  SharedPluginServer.Program [(null)] - Starting plugin, settings:width:1280,height:720,url:https://9gag.com/,memfile:a4a9d255-971e-4af5-aaab-faafdd1a3a26,port:8362
+2019-01-21 16:47:59,611 [11] INFO  SharedPluginServer.App [(null)] - ==============SHUTTING DOWN==========
+2019-01-21 16:59:07,566 [1] INFO  SharedPluginServer.Program [(null)] - ===============START================
+2019-01-21 16:59:07,609 [1] INFO  SharedPluginServer.Program [(null)] - Starting plugin, settings:width:1280,height:720,url:https://9gag.com/,memfile:7bea2e3a-206e-45ed-81e5-04fa664e114f,port:8917
+2019-01-21 16:59:35,370 [10] INFO  SharedPluginServer.App [(null)] - ==============SHUTTING DOWN==========
+2019-01-21 16:59:38,281 [1] ERROR SharedPluginServer.Program [(null)] - CefRuntime return 0
+2019-01-21 17:36:27,224 [1] INFO  SharedPluginServer.Program [(null)] - ===============START================
+2019-01-21 17:36:27,257 [1] INFO  SharedPluginServer.Program [(null)] - Starting plugin, settings:width:1280,height:720,url:https://9gag.com/,memfile:c18b0444-46f6-47dd-bff6-d937a7f415c8,port:8420
+2019-01-21 17:37:26,271 [11] INFO  SharedPluginServer.App [(null)] - ==============SHUTTING DOWN==========
+2019-01-21 18:04:27,170 [1] INFO  SharedPluginServer.Program [(null)] - ===============START================
+2019-01-21 18:04:27,206 [1] INFO  SharedPluginServer.Program [(null)] - Starting plugin, settings:width:1280,height:720,url:https://9gag.com/,memfile:3ff8e8cc-4bfd-45dc-8d4c-d37a529d303a,port:8564
+2019-01-21 18:06:03,065 [10] INFO  SharedPluginServer.App [(null)] - ==============SHUTTING DOWN==========
+2019-01-21 18:07:06,187 [1] INFO  SharedPluginServer.Program [(null)] - ===============START================
+2019-01-21 18:07:06,226 [1] INFO  SharedPluginServer.Program [(null)] - Starting plugin, settings:width:1280,height:720,url:https://9gag.com/,memfile:b4f0240c-fed4-46fb-b927-e4af2c8b9298,port:8681
+2019-01-21 18:07:52,354 [10] INFO  SharedPluginServer.App [(null)] - ==============SHUTTING DOWN==========
+2019-01-21 18:07:59,963 [1] INFO  SharedPluginServer.Program [(null)] - ===============START================
+2019-01-21 18:07:59,992 [1] INFO  SharedPluginServer.Program [(null)] - Starting plugin, settings:width:1280,height:720,url:https://9gag.com/,memfile:352af5dc-06f8-477a-818c-40fd1098d23d,port:8160
+2019-01-21 18:08:36,591 [9] INFO  SharedPluginServer.App [(null)] - ==============SHUTTING DOWN==========
+2019-01-21 18:09:02,796 [1] INFO  SharedPluginServer.Program [(null)] - ===============START================
+2019-01-21 18:09:02,833 [1] INFO  SharedPluginServer.Program [(null)] - Starting plugin, settings:width:1280,height:720,url:https://9gag.com/,memfile:dfaa6e04-c9da-4eea-81d3-2cfbdf62b4fe,port:8851
+2019-01-21 18:10:55,322 [10] INFO  SharedPluginServer.App [(null)] - ==============SHUTTING DOWN==========
+2019-01-21 18:11:56,364 [1] INFO  SharedPluginServer.Program [(null)] - ===============START================
+2019-01-21 18:11:56,393 [1] INFO  SharedPluginServer.Program [(null)] - Starting plugin, settings:width:1280,height:720,url:https://9gag.com/,memfile:86418121-fc74-4b97-8c2a-9e5b47b97ce8,port:8594
+2019-01-21 18:13:26,524 [3] INFO  SharedPluginServer.App [(null)] - ==============SHUTTING DOWN==========
