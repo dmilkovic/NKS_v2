@@ -188,6 +188,11 @@ namespace SimpleWebBrowser
             NuitrackManager.onNewGesture += NuitrackManager_onNewGesture;
         }
 
+        private void OnDestroy()
+        {
+            NuitrackManager.onNewGesture -= NuitrackManager_onNewGesture;
+        }
+
         private void _mainEngine_OnPageLoaded(string url)
         {
             _setUrl = true;

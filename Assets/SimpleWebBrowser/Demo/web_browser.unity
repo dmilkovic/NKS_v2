@@ -171,6 +171,10 @@ PrefabInstance:
       propertyPath: handsTrackerModuleOn
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 11458970, guid: e999ace05c586574fa1b964016f28531, type: 3}
+      propertyPath: calibrationTime
+      value: 5
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e999ace05c586574fa1b964016f28531, type: 3}
 --- !u!114 &153738312 stripped
@@ -292,7 +296,7 @@ MonoBehaviour:
   pressSprite: {fileID: 21300000, guid: 2efa4199f7db2e04589ea36ca0a202a5, type: 3}
   buttons: []
   cam: {fileID: 2095462471}
-  dragSensitivity: 5
+  dragSensitivity: 4
 --- !u!114 &423752805
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -482,7 +486,7 @@ MonoBehaviour:
   pressSprite: {fileID: 21300000, guid: 2efa4199f7db2e04589ea36ca0a202a5, type: 3}
   buttons: []
   cam: {fileID: 2095462471}
-  dragSensitivity: 5
+  dragSensitivity: 4
 --- !u!114 &1005661818
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -686,7 +690,7 @@ RectTransform:
   m_GameObject: {fileID: 1525345386}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: -1.1368684e-11}
-  m_LocalScale: {x: 1.6840156, y: 0.99999267, z: 1.0001665}
+  m_LocalScale: {x: 0.8147163, y: 0.99999267, z: 1.0001665}
   m_Children:
   - {fileID: 1859102950}
   m_Father: {fileID: 1747541146}
@@ -819,7 +823,7 @@ MonoBehaviour:
   RandomPort: 1
   InitialURL: https://9gag.com/
   EnableWebRTC: 1
-  keyBoardUp: 0
+  keyboardUp: 0
   JSInitializationCode: 
   mainUIPanel: {fileID: 581594430}
   KeepUIVisible: 1
@@ -945,12 +949,12 @@ PrefabInstance:
     - target: {fileID: 114000013142423658, guid: 39bf41b66f565fa48b3db156956ceac1,
         type: 3}
       propertyPath: Width
-      value: 1280
+      value: 1920
       objectReference: {fileID: 0}
     - target: {fileID: 114000013142423658, guid: 39bf41b66f565fa48b3db156956ceac1,
         type: 3}
       propertyPath: Height
-      value: 720
+      value: 1080
       objectReference: {fileID: 0}
     - target: {fileID: 114000013142423658, guid: 39bf41b66f565fa48b3db156956ceac1,
         type: 3}

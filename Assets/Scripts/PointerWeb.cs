@@ -72,7 +72,8 @@ public class PointerWeb : MonoBehaviour
                     Vector2 pointOnScreenPosition = cam.WorldToScreenPoint(baseRect.position);
                     handX = (int)System.Math.Round(pointOnScreenPosition.x);
                     handY = (int)System.Math.Round(pointOnScreenPosition.y);
-                    MouseOperations.SetCursorPosition(handX + 140, (int)Screen.height + 100 - handY);
+                    //MouseOperations.SetCursorPosition(handX + 140, (int)Screen.height + 100 - handY);
+                    MouseOperations.SetCursorPosition(handX, (int)Screen.height - handY);
                     //baseRect.anchoredPosition = new Vector2(userHands.RightHand.Value.X * CanvasSize.getCanvasSize().rect.width, -userHands.RightHand.Value.Y * CanvasSize.getCanvasSize().rect.height);
                     // Debug.Log(userHands.RightHand.Value.X * Screen.width + "   " + -userHands.RightHand.Value.Y * Screen.height + "INT: " + (int)System.Math.Round(userHands.RightHand.Value.X * Screen.width) + "   " + (int)System.Math.Round(- userHands.RightHand.Value.Y * Screen.height));
                     //handX = (int)System.Math.Round(userHands.RightHand.Value.X);
@@ -93,7 +94,8 @@ public class PointerWeb : MonoBehaviour
                     handX = (int)System.Math.Round(pointOnScreenPosition.x);
                     //handY = (int)System.Math.Round(userHands.LeftHand.Value.Y * CanvasSize.getCanvasSize().rect.height);
                     handY = (int)System.Math.Round(pointOnScreenPosition.y);
-                    MouseOperations.SetCursorPosition(handX + 140, (int)Screen.height + 100 - handY);
+                    //MouseOperations.SetCursorPosition(handX + 140, (int)Screen.height + 100 - handY);
+                    MouseOperations.SetCursorPosition(handX, (int)Screen.height - handY);
                     //Debug.Log("Base Y: " + baseRect.anchoredPosition.y + "Mouse Y: " + handY);
                     active = true;
                     press = userHands.LeftHand.Value.Click;
