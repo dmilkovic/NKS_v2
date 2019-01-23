@@ -24,5 +24,15 @@ namespace Valve.VR
         public Valve.VR.SteamVR_Action_Skeleton SkeletonLeftHand;
         
         public Valve.VR.SteamVR_Action_Skeleton SkeletonRightHand;
+        
+        public Valve.VR.SteamVR_Action_Boolean InteractUI;
+        
+        public Valve.VR.SteamVR_Action_Boolean GrabPinch;
+        
+        public Valve.VR.SteamVR_Action_Boolean GrabGrip;
+        
+        public Valve.VR.SteamVR_Action_Pose Pose;
+        
+        public Valve.VR.SteamVR_Action_Single Squeeze;
     }
 }

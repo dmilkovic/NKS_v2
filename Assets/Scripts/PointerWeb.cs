@@ -68,7 +68,8 @@ public class PointerWeb : MonoBehaviour
             {
                 if (currentHand == Hands.right && userHands.RightHand != null)
                 {
-                    baseRect.anchoredPosition = new Vector2(userHands.RightHand.Value.X * Screen.width, -userHands.RightHand.Value.Y * Screen.height);
+                 //   baseRect.anchoredPosition = new Vector2(userHands.RightHand.Value.X * Screen.width, -userHands.RightHand.Value.Y * Screen.height);
+                    baseRect.anchoredPosition = new Vector2(userHands.RightHand.Value.X * CanvasSize.getCanvasSize().rect.width, -userHands.RightHand.Value.Y * CanvasSize.getCanvasSize().rect.height);
                     Vector2 pointOnScreenPosition = cam.WorldToScreenPoint(baseRect.position);
                     handX = (int)System.Math.Round(pointOnScreenPosition.x);
                     handY = (int)System.Math.Round(pointOnScreenPosition.y);
@@ -85,8 +86,8 @@ public class PointerWeb : MonoBehaviour
                 else if (currentHand == Hands.left && userHands.LeftHand != null)
                 {
 
-                    baseRect.anchoredPosition = new Vector2(userHands.LeftHand.Value.X * Screen.width, -userHands.LeftHand.Value.Y * Screen.height);
-                    //  baseRect.anchoredPosition = new Vector2(userHands.LeftHand.Value.X * CanvasSize.getCanvasSize().rect.width, -userHands.LeftHand.Value.Y * CanvasSize.getCanvasSize().rect.height);
+                    //baseRect.anchoredPosition = new Vector2(userHands.LeftHand.Value.X * Screen.width, -userHands.LeftHand.Value.Y * Screen.height);
+                    baseRect.anchoredPosition = new Vector2(userHands.LeftHand.Value.X * CanvasSize.getCanvasSize().rect.width, -userHands.LeftHand.Value.Y * CanvasSize.getCanvasSize().rect.height);
                     Vector2 pointOnScreenPosition = cam.WorldToScreenPoint(baseRect.position);
                     //  handX = (int)System.Math.Round(userHands.LeftHand.Value.X * Screen.width);
                     //  handY = (int)System.Math.Round(userHands.LeftHand.Value.Y * Screen.height);

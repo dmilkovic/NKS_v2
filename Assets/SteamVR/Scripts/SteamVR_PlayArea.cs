@@ -178,6 +178,10 @@ namespace Valve.VR
 
 #if UNITY_EDITOR
         Hashtable values;
+        public void Awake()
+        {
+            SteamVR.Initialize(true);
+        }
         void Update()
         {
             if (!Application.isPlaying)
