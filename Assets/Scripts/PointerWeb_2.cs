@@ -62,10 +62,17 @@ public class PointerWeb_2 : MonoBehaviour
     // 6
     public Vector3 teleportReticleOffset;
 
+    public GameObject cube;
+    HandRaycast raycast;
+    
     private void Start()
     {
         NuitrackManager.onHandsTrackerUpdate += NuitrackManager_onHandsTrackerUpdate;
         dragSensitivity *= dragSensitivity;
+
+        raycast = cube.GetComponent<HandRaycast>();
+       // raycast = GetComponentInChildren<HandRaycast>();
+        Debug.Log(raycast.name);
 
         laser = Instantiate(laserPrefab);
         // 2
@@ -86,8 +93,6 @@ public class PointerWeb_2 : MonoBehaviour
     {
         active = false;
         press = false;
-        RaycastHit hit;
-
 
         if (handTrackerData != null)
         {
@@ -135,27 +140,34 @@ public class PointerWeb_2 : MonoBehaviour
             }
 
         }
-        Ray landingRay = new Ray(transform.position, Vector3.forward);
-        Debug.DrawRay(transform.position, Vector3.forward*1000, Color.green);
-
-        if (Physics.Raycast(baseRect.transform.position, transform.forward, out hit))
-        {
-            hitPoint = hit.point;
-        }
-
+      
         background.enabled = active;
         background.sprite = active && press ? pressSprite : defaultSprite;
 
+      /*  if (press)
+        {
+            Debug.Log("A " + raycast.click);
+            //raycast.click = true;
+            sendMessage(raycast.getHit(), true);
+            sendMessage(raycast.getHit(), false);
+            //sendMessage(HandRaycast.hitGlobal, true);
+           // sendMessage(HandRaycast.hitGlobal, false);
+            //  Debug.Log("B " + raycast.click);
+            //raycast.click = false;  
+        }*/
         if (press && !pressActive)
         {
-            /*pressActive = true;
-            MouseOperations.MouseEvent(MouseOperations.MouseEventFlags.LeftDown);*/
-            sendMessage(hit, true);
+            pressActive = true;
+            //MouseOperations.MouseEvent(MouseOperations.MouseEventFlags.LeftDown);*/
+      //      raycast.click = true;
+            sendMessage(raycast.getHit(), true);
             // StartCoroutine(Example());
         }
-        else if (!press)
-        {
+        else if (!press && pressActive)
+       {
+            sendMessage(raycast.getHit(), false);
             pressActive = false;
+            //raycast.click = false;
             /*MouseOperations.MouseEvent(MouseOperations.MouseEventFlags.LeftUp);*/
             //sendMessage(hit, false);
         }
@@ -199,7 +211,7 @@ public class PointerWeb_2 : MonoBehaviour
         ArrayList arr = new ArrayList();
         arr.Add(pixelUV);
         arr.Add(flag);
-       // hit.transform.SendMessage("RaycastUV", arr);
+        hit.transform.SendMessage("RaycastUV", arr);
       //  Debug.Log(handType);*/
     }
 }

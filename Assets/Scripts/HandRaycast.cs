@@ -10,7 +10,7 @@ public class HandRaycast : MonoBehaviour
     private Transform laserTransform; // 3
     private Vector3 hitPoint; // 4
     public Camera cam;
-    RectTransform baseRect;
+    public RectTransform baseRect;
     // 1
     public Transform cameraRigTransform;
     // 2
@@ -23,7 +23,10 @@ public class HandRaycast : MonoBehaviour
     public Transform headTransform;
     // 6
     public Vector3 teleportReticleOffset;
-
+   
+    public bool click = false;
+    public string name = "sefs";
+    RaycastHit hit;
 
     // Start is called before the first frame update
 
@@ -36,42 +39,50 @@ public class HandRaycast : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
+
         //if (teleportAction.GetState(handType))
-        // {
-        RaycastHit hit;
-        Ray landingRay = new Ray(transform.position, Vector3.forward);
+
+        if (Physics.Raycast(transform.position, transform.forward, out hit))
+        {
+            // Vector3 forward = teleportReticleTransform.TransformDirection(Vector3.forward) * 10;
+
+        }
+
+        Debug.Log("click " + click);
+
+        if (click)
+        {
+            Debug.Log("pozvan");
+            sendMessage(hit, true);
+            sendMessage(hit, false);
+        }
         Debug.DrawRay(transform.position, Vector3.forward * 1000, Color.green);
-
-        if (Physics.Raycast(landingRay, out hit))
-        {
-
-        }
-
-       /* if (Physics.Raycast(baseRect.transform.position, transform.forward, out hit))
-        {
-            hitPoint = hit.point;
-            ShowLaser(hit);
-            // 1
-            reticle.SetActive(true);
-            // 2
-            teleportReticleTransform.position = hitPoint + teleportReticleOffset;
-            Vector3 forward = teleportReticleTransform.TransformDirection(Vector3.forward) * 10;
-            Debug.DrawRay(transform.position, forward, Color.green);
-
-        }
-
-
-
-     
-
-        /*}
-         else // 3
+        //Debug.DrawRay(transform.position + transform.forward * 3 + transform.up * -1, Vector3.forward * 1000, Color.green);
+        /* if (Physics.Raycast(baseRect.transform.position, transform.forward, out hit))
          {
-             laser.SetActive(false);
-         }*/
+             hitPoint = hit.point;
+             ShowLaser(hit);
+             // 1
+             reticle.SetActive(true);
+             // 2
+             teleportReticleTransform.position = hitPoint + teleportReticleOffset;
+             Vector3 forward = teleportReticleTransform.TransformDirection(Vector3.forward) * 10;
+             Debug.DrawRay(transform.position, forward, Color.green);
+
+         }
+
+
+
+
+
+         /*}
+          else // 3
+          {
+              laser.SetActive(false);
+          }*/
 
     }
+
 
     private void ShowLaser(RaycastHit hit)
     {
@@ -107,6 +118,11 @@ public class HandRaycast : MonoBehaviour
         hit.transform.SendMessage("RaycastUV", arr);
         //Debug.Log(handType);
 
+    }
+
+    public RaycastHit getHit()
+    {
+        return hit;
     }
 
   

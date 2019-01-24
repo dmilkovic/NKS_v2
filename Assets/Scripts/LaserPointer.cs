@@ -13,7 +13,6 @@ public class LaserPointer : MonoBehaviour
     private Transform laserTransform; // 3
     private Vector3 hitPoint; // 4
     public Camera cam;
-    RectTransform baseRect;
 
     // 1
     public Transform cameraRigTransform;
