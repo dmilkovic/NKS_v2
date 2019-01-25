@@ -320,9 +320,10 @@ GameObject:
   - component: {fileID: 222000010574110084}
   - component: {fileID: 114000013656242322}
   - component: {fileID: 114000013345694882}
+  - component: {fileID: 5977236159073769456}
   m_Layer: 0
   m_Name: UrlField
-  m_TagString: Untagged
+  m_TagString: BackButton
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -460,6 +461,19 @@ MonoBehaviour:
   m_CaretBlinkRate: 0.85
   m_CaretWidth: 1
   m_ReadOnly: 0
+--- !u!65 &5977236159073769456
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1000011120266016}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 400, y: 30, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &1000011128165186
 GameObject:
   m_ObjectHideFlags: 0
@@ -1510,6 +1524,7 @@ GameObject:
   - component: {fileID: 114000011384287422}
   - component: {fileID: 114000013558628324}
   - component: {fileID: 114000011061377336}
+  - component: {fileID: 6891826326669636965}
   m_Layer: 0
   m_Name: MainUI
   m_TagString: Untagged
@@ -1618,6 +1633,19 @@ MonoBehaviour:
   Back: {fileID: 114000011289346562}
   Forward: {fileID: 114000013395790180}
   KeepUIVisible: 0
+--- !u!65 &6891826326669636965
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1000012388221712}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 0
+  serializedVersion: 2
+  m_Size: {x: 493.1731, y: 38, z: 0}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &1000013277806534
 GameObject:
   m_ObjectHideFlags: 0
@@ -1630,6 +1658,7 @@ GameObject:
   - component: {fileID: 222000012991335482}
   - component: {fileID: 114000011313614572}
   - component: {fileID: 114000013395790180}
+  - component: {fileID: 4068687957273523309}
   m_Layer: 0
   m_Name: Forward
   m_TagString: Untagged
@@ -1747,6 +1776,19 @@ MonoBehaviour:
         m_CallState: 2
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
+--- !u!65 &4068687957273523309
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1000013277806534}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 32, y: 28.067232, z: 0}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &1000013339158802
 GameObject:
   m_ObjectHideFlags: 0
@@ -1838,6 +1880,7 @@ GameObject:
   - component: {fileID: 222000012688816770}
   - component: {fileID: 114000011426366642}
   - component: {fileID: 114000011289346562}
+  - component: {fileID: 6947061352227734712}
   m_Layer: 0
   m_Name: Back
   m_TagString: Untagged
@@ -1955,6 +1998,19 @@ MonoBehaviour:
         m_CallState: 2
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
+--- !u!65 &6947061352227734712
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1000013582989344}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 32, y: 28.067232, z: 0}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &1000013633838150
 GameObject:
   m_ObjectHideFlags: 0

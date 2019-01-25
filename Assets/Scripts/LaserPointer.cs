@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.EventSystems;
 using Valve.VR;
 
 public class LaserPointer : MonoBehaviour
@@ -65,21 +66,40 @@ public class LaserPointer : MonoBehaviour
             Vector3 forward = teleportReticleTransform.TransformDirection(Vector3.forward) * 10;
             Debug.DrawRay(transform.position, forward, Color.green);
 
+          
+
         }
 
 
 
         if (GetTriggerDown())
         {
-           
-            sendMessage(hit, true);
+
+            if (hit.collider.tag == "BackButton")
+            {
+
+                IPointerClickHandler clickHandler = hit.collider.gameObject.GetComponent<IPointerClickHandler>();
+               // IPointerEnterHandler
+                //do what ever
+                if (clickHandler != null)
+                {
+                    PointerEventData pointerEventData = new PointerEventData(EventSystem.current);
+                    clickHandler.OnPointerClick(pointerEventData);
+                    Debug.Log("backButton");
+                }
+             
+               // sendMessage(hit, true, "back");
+            }else
+            { 
+                sendMessage(hit, true, "click");
+            }
         }
 
 
         if (GetTriggerUp())
         {
 
-            sendMessage(hit, false);
+            sendMessage(hit, false, "click");
         }
 
         /*}
@@ -111,18 +131,26 @@ public class LaserPointer : MonoBehaviour
 
     }
 
-    private void sendMessage(RaycastHit hit, bool flag)
+    private void sendMessage(RaycastHit hit, bool flag, string tag)
     {
-        Vector2 pixelUV = hit.textureCoord;
-        pixelUV.x = (1 - pixelUV.x) * 1920;
-        pixelUV.y *= 1080;
+        if (tag == "click")
+        {
+            Vector2 pixelUV = hit.textureCoord;
+            pixelUV.x = (1 - pixelUV.x) * 1920;
+            pixelUV.y *= 1080;
 
-        //string s = pixelUV.x + "|" + pixelUV.y;
-        ArrayList arr = new ArrayList();
-        arr.Add(pixelUV);
-        arr.Add(flag);
-        hit.transform.SendMessage("RaycastUV", arr);
-        Debug.Log(handType);
+            //string s = pixelUV.x + "|" + pixelUV.y;
+            ArrayList arr = new ArrayList();
+            arr.Add(pixelUV);
+            arr.Add(flag);
+            hit.transform.SendMessage("RaycastUV", arr);
+            Debug.Log(handType);
+        }
+        else if (tag == "back")
+        {
+            hit.transform.SendMessage("GoBackForward", false);
+        }
+       
 
     }
 

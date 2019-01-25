@@ -44,24 +44,6 @@ public class PointerWeb_2 : MonoBehaviour
     float dragSensitivity = 5f;
     private int handX, handY;
 
-    public GameObject laserPrefab; // 1
-    private GameObject laser; // 2
-    private Transform laserTransform; // 3
-    private Vector3 hitPoint; // 4
-
-    // 1
-    public Transform cameraRigTransform;
-    // 2
-    public GameObject teleportReticlePrefab;
-    // 3
-    private GameObject reticle;
-    // 4
-    private Transform teleportReticleTransform;
-    // 5
-    public Transform headTransform;
-    // 6
-    public Vector3 teleportReticleOffset;
-
     public GameObject cube;
     HandRaycast raycast;
     
@@ -71,16 +53,8 @@ public class PointerWeb_2 : MonoBehaviour
         dragSensitivity *= dragSensitivity;
 
         raycast = cube.GetComponent<HandRaycast>();
+        Debug.Log(cube.name);
        // raycast = GetComponentInChildren<HandRaycast>();
-        Debug.Log(raycast.name);
-
-        laser = Instantiate(laserPrefab);
-        // 2
-        laserTransform = laser.transform;
-        // 1
-        reticle = Instantiate(teleportReticlePrefab);
-        // 2
-        teleportReticleTransform = reticle.transform;
         // Debug.Log("Screen: " + Screen.width + "  " + Screen.height + "Canvas:" + CanvasSize.getCanvasSize().rect.width + "  " + CanvasSize.getCanvasSize().rect.height);
     }
 
@@ -144,32 +118,95 @@ public class PointerWeb_2 : MonoBehaviour
         background.enabled = active;
         background.sprite = active && press ? pressSprite : defaultSprite;
 
-      /*  if (press)
+        /*  if (press)
+          {
+              Debug.Log("A " + raycast.click);
+              //raycast.click = true;
+              sendMessage(raycast.getHit(), true);
+              sendMessage(raycast.getHit(), false);
+              //sendMessage(HandRaycast.hitGlobal, true);
+             // sendMessage(HandRaycast.hitGlobal, false);
+              //  Debug.Log("B " + raycast.click);
+              //raycast.click = false;  
+          }*/
+
+        if (raycast != null)
         {
-            Debug.Log("A " + raycast.click);
-            //raycast.click = true;
-            sendMessage(raycast.getHit(), true);
-            sendMessage(raycast.getHit(), false);
-            //sendMessage(HandRaycast.hitGlobal, true);
-           // sendMessage(HandRaycast.hitGlobal, false);
-            //  Debug.Log("B " + raycast.click);
-            //raycast.click = false;  
-        }*/
-        if (press && !pressActive)
-        {
-            pressActive = true;
-            //MouseOperations.MouseEvent(MouseOperations.MouseEventFlags.LeftDown);*/
-      //      raycast.click = true;
-            sendMessage(raycast.getHit(), true);
-            // StartCoroutine(Example());
-        }
-        else if (!press && pressActive)
-       {
-            sendMessage(raycast.getHit(), false);
-            pressActive = false;
-            //raycast.click = false;
-            /*MouseOperations.MouseEvent(MouseOperations.MouseEventFlags.LeftUp);*/
-            //sendMessage(hit, false);
+            if (press && !pressActive)
+            {
+                pressActive = true;
+                Debug.Log("+");
+                //MouseOperations.MouseEvent(MouseOperations.MouseEventFlags.LeftDown);*/
+                //      raycast.click = true;
+
+                try
+                {
+                    if (raycast.getHit().collider.tag == "Browser")
+                    {
+                        sendMessage(raycast.getHit(), true);
+
+                    }
+                    else
+                    //if (raycast.getHit().collider.tag == "BackButton")
+                    {
+                        // clickHandler = raycast.getHit().collider.gameObject.GetComponent<IPointerClickHandler>();
+                        Debug.Log("BackButton");
+                        try
+                        {
+                            IPointerClickHandler clickHandler = raycast.getHit().collider.gameObject.GetComponent<IPointerClickHandler>();
+                            if(clickHandler != null)
+                            { 
+                                PointerEventData pointerEventData = new PointerEventData(EventSystem.current);
+                                clickHandler.OnPointerClick(pointerEventData);
+                            }
+                            Debug.Log("backButton");
+                        }
+                        catch (UnityException e)
+                        {
+                            Debug.Log("Njesra");
+                        }
+                        // IPointerEnterHandler
+                        //do what ever
+                        Debug.Log("f");
+
+                    }
+                }
+                catch (UnityException e)
+                {
+                    Debug.Log("Njesra");
+                }
+
+                //  sendMessage(raycast.getHit(), true);
+                // StartCoroutine(Example());
+            }
+            else if (!press && pressActive)
+            {
+
+                pressActive = false;
+                Debug.Log("-");
+
+                try
+                {
+                    if (raycast.getHit().collider.tag == "Browser")
+                    {
+                        sendMessage(raycast.getHit(), false);
+                    }
+                    else
+                    //if (raycast.getHit().collider.tag == "BackButton")
+                    {
+                        Debug.Log("f");
+                    }
+
+                }
+                catch (UnityException e)
+                {
+                    Debug.Log("Njesra");
+                }
+
+                //raycast.click = false;
+                /*MouseOperations.MouseEvent(MouseOperations.MouseEventFlags.LeftUp);*/
+                //sendMessage(hit, false);
+            }
         }
 
     }
@@ -183,22 +220,6 @@ public class PointerWeb_2 : MonoBehaviour
         Debug.Log(Time.time);
     }
 
-
-
-    private void ShowLaser(RaycastHit hit)
-    {
-        // 1
-        laser.SetActive(true);
-        // 2
-        laserTransform.position = Vector3.Lerp(baseRect.transform.position, hitPoint, .5f);
-        // 3
-        laserTransform.LookAt(hitPoint);
-        // 4
-        laserTransform.localScale = new Vector3(laserTransform.localScale.x,
-                                                laserTransform.localScale.y,
-                                                hit.distance);
-
-    }
 
     private void sendMessage(RaycastHit hit, bool flag)
     {

@@ -8,7 +8,10 @@ EditorBuildSettings:
   - enabled: 0
     path: Assets/Scenes/SampleScene.unity
     guid: 99c9720ab356a0642a771bea13969a05
-  - enabled: 1
+  - enabled: 0
     path: Assets/SimpleWebBrowser/Demo/web_browser.unity
     guid: 9b3f1052fb351c34daa517cc8b00d4e0
+  - enabled: 0
+    path: Assets/Scenes/web_browser_body_tracking.unity
+    guid: 6a13840796e442c44a060faba1133d63
   m_configObjects: {}
