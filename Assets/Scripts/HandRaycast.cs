@@ -1,11 +1,12 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-
+using UnityEngine.UI;
 
 public class HandRaycast : MonoBehaviour
 {
     RaycastHit hit;
+    bool init = false; 
 
     // Start is called before the first frame update
 
@@ -24,10 +25,16 @@ public class HandRaycast : MonoBehaviour
         if (Physics.Raycast(transform.position, transform.forward, out hit))
         {
             // Vector3 forward = teleportReticleTransform.TransformDirection(Vector3.forward) * 10;
-            if (hit.collider.tag == "BackButton")
+            if (/*hit.collider.tag == "BackButton" ||*/ hit.collider.tag == "keyboard")
             {
-                //do what ever
+                Button b = hit.collider.gameObject.GetComponent<Button>();
+                if(b != null)
+                {
+                    b.Select();
+                }
             }
+
+            init = true;
         }
       
         Debug.DrawRay(transform.position, Vector3.forward * 1000, Color.green);
@@ -54,5 +61,10 @@ public class HandRaycast : MonoBehaviour
         return hit;
     }
 
+    public bool checkRay()
+    {
+        if (init) return true;
+        else return false;
+    }
   
 }

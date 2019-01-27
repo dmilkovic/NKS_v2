@@ -63,6 +63,87 @@ public class PointerWeb_2 : MonoBehaviour
         NuitrackManager.onHandsTrackerUpdate -= NuitrackManager_onHandsTrackerUpdate;
     }
 
+    private void Update()
+    {
+
+        if (raycast.checkRay())
+        {
+       
+            if (press && !pressActive)
+            {
+                pressActive = true;
+                Debug.Log("+");
+                //MouseOperations.MouseEvent(MouseOperations.MouseEventFlags.LeftDown);*/
+                //      raycast.click = true;
+                Debug.Log(raycast.getHit().collider.tag);
+
+                if (raycast.getHit().collider.tag == "Browser")
+                {
+                    sendMessage(raycast.getHit(), true);
+
+                }
+                else if (raycast.getHit().collider.tag == "BackButton")
+                {
+                    // clickHandler = raycast.getHit().collider.gameObject.GetComponent<IPointerClickHandler>();
+                    Debug.Log("BackButton");
+                    IPointerClickHandler clickHandler = raycast.getHit().collider.gameObject.GetComponent<IPointerClickHandler>();
+                    if (clickHandler != null)
+                    {
+                        PointerEventData pointerEventData = new PointerEventData(EventSystem.current);
+                        clickHandler.OnPointerClick(pointerEventData);
+                    }
+                    Debug.Log("backButton");
+                }
+                else if (raycast.getHit().collider.tag == "Finish")
+                {
+                    IPointerClickHandler clickHandler = raycast.getHit().collider.gameObject.GetComponent<IPointerClickHandler>();
+                    if (clickHandler != null)
+                    {
+                        PointerEventData pointerEventData = new PointerEventData(EventSystem.current);
+                        clickHandler.OnPointerClick(pointerEventData);
+                    }
+                    Debug.Log("Finish");
+                }
+                else if (raycast.getHit().collider.tag == "keyboard")
+                {
+                    IPointerClickHandler clickHandler = raycast.getHit().collider.gameObject.GetComponent<IPointerClickHandler>();
+                    if (clickHandler != null)
+                    {
+                        PointerEventData pointerEventData = new PointerEventData(EventSystem.current);
+                        clickHandler.OnPointerClick(pointerEventData);
+                    }
+                    Debug.Log("Keyboard");
+                }
+
+
+                //  sendMessage(raycast.getHit(), true);
+                // StartCoroutine(Example());
+            }
+            else if (!press && pressActive)
+            {
+
+                pressActive = false;
+                Debug.Log("-");
+
+
+                if (raycast.getHit().collider.tag == "Browser")
+                {
+                    sendMessage(raycast.getHit(), false);
+                }
+                else
+                //if (raycast.getHit().collider.tag == "BackButton")
+                {
+                    Debug.Log("f");
+                }
+
+                //raycast.click = false;
+                /*MouseOperations.MouseEvent(MouseOperations.MouseEventFlags.LeftUp);*/
+                //sendMessage(hit, false);
+            }
+        }
+
+    }
+
     private void NuitrackManager_onHandsTrackerUpdate(nuitrack.HandTrackerData handTrackerData)
     {
         raycast = cube.GetComponent<HandRaycast>();
@@ -131,86 +212,6 @@ public class PointerWeb_2 : MonoBehaviour
               //raycast.click = false;  
           }*/
 
-        if (raycast != null)
-        {
-            if (press && !pressActive)
-            {
-                pressActive = true;
-                Debug.Log("+");
-                //MouseOperations.MouseEvent(MouseOperations.MouseEventFlags.LeftDown);*/
-                //      raycast.click = true;
-                Debug.Log(raycast.getHit().collider.tag);
-                try
-                {
-                    if (raycast.getHit().collider.tag == "Browser")
-                    {
-                        sendMessage(raycast.getHit(), true);
-
-                    }
-                    else if (raycast.getHit().collider.tag == "BackButton")
-                    {
-                        // clickHandler = raycast.getHit().collider.gameObject.GetComponent<IPointerClickHandler>();
-                        Debug.Log("BackButton");
-                        IPointerClickHandler clickHandler = raycast.getHit().collider.gameObject.GetComponent<IPointerClickHandler>();
-                        if(clickHandler != null)
-                        { 
-                            PointerEventData pointerEventData = new PointerEventData(EventSystem.current);
-                            clickHandler.OnPointerClick(pointerEventData);
-                        }
-                        Debug.Log("backButton");
-                      
-                        // IPointerEnterHandler
-                        //do what ever
-                        Debug.Log("f");
-
-                    }else if (raycast.getHit().collider.tag == "Finish")
-                    {
-                        IPointerClickHandler clickHandler = raycast.getHit().collider.gameObject.GetComponent<IPointerClickHandler>();
-                        if (clickHandler != null)
-                        {
-                            PointerEventData pointerEventData = new PointerEventData(EventSystem.current);
-                            clickHandler.OnPointerClick(pointerEventData);
-                        }
-                        Debug.Log("Finish");
-                    }
-                }
-                catch (UnityException e)
-                {
-                    Debug.Log("Njesra");
-                }
-
-                //  sendMessage(raycast.getHit(), true);
-                // StartCoroutine(Example());
-            }
-            else if (!press && pressActive)
-            {
-
-                pressActive = false;
-                Debug.Log("-");
-
-                try
-                {
-                    if (raycast.getHit().collider.tag == "Browser")
-                    {
-                        sendMessage(raycast.getHit(), false);
-                    }
-                    else
-                    //if (raycast.getHit().collider.tag == "BackButton")
-                    {
-                        Debug.Log("f");
-                    }
-
-                }
-                catch (UnityException e)
-                {
-                    Debug.Log("Njesra");
-                }
-
-                //raycast.click = false;
-                /*MouseOperations.MouseEvent(MouseOperations.MouseEventFlags.LeftUp);*/
-                //sendMessage(hit, false);
-            }
-        }
 
     }
 
