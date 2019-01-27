@@ -7,6 +7,8 @@ TagManager:
   - BackButton
   - Browser
   - keyboard
+  - UI
+  - Scroll
   layers:
   - Default
   - TransparentFX

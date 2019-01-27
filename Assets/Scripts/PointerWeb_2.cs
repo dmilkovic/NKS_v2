@@ -68,7 +68,7 @@ public class PointerWeb_2 : MonoBehaviour
 
         if (raycast.checkRay())
         {
-       
+
             if (press && !pressActive)
             {
                 pressActive = true;
@@ -82,7 +82,7 @@ public class PointerWeb_2 : MonoBehaviour
                     sendMessage(raycast.getHit(), true);
 
                 }
-                else if (raycast.getHit().collider.tag == "BackButton")
+                else if (raycast.getHit().collider.tag == "BackButton" || raycast.getHit().collider.tag == "keyboard" || raycast.getHit().collider.tag == "Scroll")
                 {
                     // clickHandler = raycast.getHit().collider.gameObject.GetComponent<IPointerClickHandler>();
                     Debug.Log("BackButton");
@@ -104,18 +104,7 @@ public class PointerWeb_2 : MonoBehaviour
                     }
                     Debug.Log("Finish");
                 }
-                else if (raycast.getHit().collider.tag == "keyboard")
-                {
-                    IPointerClickHandler clickHandler = raycast.getHit().collider.gameObject.GetComponent<IPointerClickHandler>();
-                    if (clickHandler != null)
-                    {
-                        PointerEventData pointerEventData = new PointerEventData(EventSystem.current);
-                        clickHandler.OnPointerClick(pointerEventData);
-                    }
-                    Debug.Log("Keyboard");
-                }
-
-
+               
                 //  sendMessage(raycast.getHit(), true);
                 // StartCoroutine(Example());
             }
@@ -139,6 +128,18 @@ public class PointerWeb_2 : MonoBehaviour
                 //raycast.click = false;
                 /*MouseOperations.MouseEvent(MouseOperations.MouseEventFlags.LeftUp);*/
                 //sendMessage(hit, false);
+            }
+            else if (press && pressActive)
+            {
+                if (raycast.getHit().collider.tag == "Scroll")
+                {
+                    IPointerClickHandler clickHandler = raycast.getHit().collider.gameObject.GetComponent<IPointerClickHandler>();
+                    if (clickHandler != null)
+                    {
+                        PointerEventData pointerEventData = new PointerEventData(EventSystem.current);
+                        clickHandler.OnPointerClick(pointerEventData);
+                    }
+                }
             }
         }
 
@@ -165,13 +166,7 @@ public class PointerWeb_2 : MonoBehaviour
                     Vector2 pointOnScreenPosition = cam.WorldToScreenPoint(baseRect.position);
                     handX = (int)System.Math.Round(pointOnScreenPosition.x);
                     handY = (int)System.Math.Round(pointOnScreenPosition.y);
-                    //MouseOperations.SetCursorPosition(handX + 140, (int)Screen.height + 100 - handY);
-                   // MouseOperations.SetCursorPosition(handX, (int)Screen.height - handY);
-                    //baseRect.anchoredPosition = new Vector2(userHands.RightHand.Value.X * CanvasSize.getCanvasSize().rect.width, -userHands.RightHand.Value.Y * CanvasSize.getCanvasSize().rect.height);
-                    // Debug.Log(userHands.RightHand.Value.X * Screen.width + "   " + -userHands.RightHand.Value.Y * Screen.height + "INT: " + (int)System.Math.Round(userHands.RightHand.Value.X * Screen.width) + "   " + (int)System.Math.Round(- userHands.RightHand.Value.Y * Screen.height));
-                    //handX = (int)System.Math.Round(userHands.RightHand.Value.X);
-                    //handY = (int)System.Math.Round(userHands.RightHand.Value.Y);
-                    //baseRect.anchoredPosition = new Vector2(userHands.LeftHand.Value.X * Screen.width, -userHands.LeftHand.Value.Y * Screen.height);
+
                     active = true;
                     press = userHands.RightHand.Value.Click;
                 }
@@ -181,15 +176,10 @@ public class PointerWeb_2 : MonoBehaviour
                     //baseRect.anchoredPosition = new Vector2(userHands.LeftHand.Value.X * Screen.width, -userHands.LeftHand.Value.Y * Screen.height);
                     baseRect.anchoredPosition = new Vector2(userHands.LeftHand.Value.X * CanvasSize.getCanvasSize().rect.width, -userHands.LeftHand.Value.Y * CanvasSize.getCanvasSize().rect.height);
                     Vector2 pointOnScreenPosition = cam.WorldToScreenPoint(baseRect.position);
-                    //  handX = (int)System.Math.Round(userHands.LeftHand.Value.X * Screen.width);
-                    //  handY = (int)System.Math.Round(userHands.LeftHand.Value.Y * Screen.height);
-                    //handX = (int)System.Math.Round(userHands.LeftHand.Value.X * CanvasSize.getCanvasSize().rect.width);
                     handX = (int)System.Math.Round(pointOnScreenPosition.x);
                     //handY = (int)System.Math.Round(userHands.LeftHand.Value.Y * CanvasSize.getCanvasSize().rect.height);
                     handY = (int)System.Math.Round(pointOnScreenPosition.y);
-                    //MouseOperations.SetCursorPosition(handX + 140, (int)Screen.height + 100 - handY);
-                    //MouseOperations.SetCursorPosition(handX, (int)Screen.height - handY);
-                    //Debug.Log("Base Y: " + baseRect.anchoredPosition.y + "Mouse Y: " + handY);
+
                     active = true;
                     press = userHands.LeftHand.Value.Click;
                 }
@@ -199,20 +189,6 @@ public class PointerWeb_2 : MonoBehaviour
       
         background.enabled = active;
         background.sprite = active && press ? pressSprite : defaultSprite;
-
-        /*  if (press)
-          {
-              Debug.Log("A " + raycast.click);
-              //raycast.click = true;
-              sendMessage(raycast.getHit(), true);
-              sendMessage(raycast.getHit(), false);
-              //sendMessage(HandRaycast.hitGlobal, true);
-             // sendMessage(HandRaycast.hitGlobal, false);
-              //  Debug.Log("B " + raycast.click);
-              //raycast.click = false;  
-          }*/
-
-
     }
 
     IEnumerator Example()

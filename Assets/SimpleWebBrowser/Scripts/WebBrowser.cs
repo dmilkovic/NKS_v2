@@ -38,8 +38,6 @@ namespace SimpleWebBrowser
 
         #endregion
 
-
-
         [Header("UI settings")]
         [SerializeField]
         public BrowserUI mainUIPanel;
@@ -166,10 +164,6 @@ namespace SimpleWebBrowser
 
             mainUIPanel.MainCanvas.worldCamera = MainCamera;
 
-
-
-
-
             // _mainInput = MainUrlInput.GetComponent<Input>();
             mainUIPanel.KeepUIVisible = KeepUIVisible;
             if (!KeepUIVisible)
@@ -182,7 +176,6 @@ namespace SimpleWebBrowser
 
             DialogCanvas.worldCamera = MainCamera;
             DialogCanvas.gameObject.SetActive(false);
-
         }
 
         private void _mainEngine_OnPageLoaded(string url)
@@ -608,8 +601,50 @@ namespace SimpleWebBrowser
             
 
         }
+        public void Scroll(bool up)
+        {
+            //MouseOperations.
+            float scroll;
 
+            if (up)
+            {
+                 scroll = 0.02f;
+            }
+            else
+            {
+                scroll = -0.02f;
+            }
+            
+            Debug.Log("Ovo je scroll" + scroll);
 
+            scroll = scroll * _mainEngine.BrowserTexture.height;
+
+            int scInt = (int)scroll;
+
+            if (scInt != 0)
+            {
+                MouseMessage msg = new MouseMessage
+                {
+                    Type = MouseEventType.Wheel,
+                    X = 0,
+                    Y = 0,
+                    GenericType = MessageLibrary.BrowserEventType.Mouse,
+                    Delta = scInt,
+                    Button = MouseButton.None
+                };
+
+                if (Input.GetMouseButton(0))
+                    msg.Button = MouseButton.Left;
+                if (Input.GetMouseButton(1))
+                    msg.Button = MouseButton.Right;
+                if (Input.GetMouseButton(1))
+                    msg.Button = MouseButton.Middle;
+
+                _mainEngine.SendMouseEvent(msg);
+            }
+        }
         public event BrowserEngine.PageLoaded OnPageLoaded;
+
+
     }
 }
