@@ -279,6 +279,7 @@ namespace SimpleWebBrowser
                 _mainEngine.SendNavigateEvent("", true, false);
         }
 
+
         #endregion
 
         #region Dialogs
@@ -585,6 +586,18 @@ namespace SimpleWebBrowser
             }
             Debug.Log("KLIK KRUTI");
         }
+
+
+        public void backForward(bool go)
+        {
+            GoBackForward(go);
+        }
+
+        public void forward()
+        {
+            GoBackForward(true);
+        }
+
 
 
         public event BrowserEngine.PageLoaded OnPageLoaded;
