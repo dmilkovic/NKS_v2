@@ -10,9 +10,6 @@ using System.Collections.Generic;
 namespace SimpleWebBrowser
 {
 
-
-
-
     public class WebBrowser : MonoBehaviour
     {
 
@@ -64,6 +61,7 @@ namespace SimpleWebBrowser
         public Button NoButton;
         [SerializeField]
         public InputField DialogPrompt;
+        public GameObject keyboard;
 
         //dialog states - threading
         private bool _showDialog = false;
@@ -598,6 +596,18 @@ namespace SimpleWebBrowser
             GoBackForward(true);
         }
 
+        public void showKeyboard()
+        {
+            if (keyboard.activeSelf)
+            {
+                keyboard.SetActive(false);
+            }
+            else {
+                keyboard.SetActive(true);
+            }
+            
+
+        }
 
 
         public event BrowserEngine.PageLoaded OnPageLoaded;
