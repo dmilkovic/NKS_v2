@@ -643,6 +643,21 @@ namespace SimpleWebBrowser
                 _mainEngine.SendMouseEvent(msg);
             }
         }
+
+        public void Bookmark(string name)
+        {
+            if (name == "24 Sata")
+            {
+                mainUIPanel.UrlField.text = "24sata.hr";
+                OnNavigate();
+            }else if (name == "YouTube")
+            {
+                mainUIPanel.UrlField.text = "youtube.com";
+                OnNavigate();
+            }
+
+        }
+
         public event BrowserEngine.PageLoaded OnPageLoaded;
 
 

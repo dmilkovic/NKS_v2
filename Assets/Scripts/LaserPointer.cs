@@ -29,6 +29,8 @@ public class LaserPointer : MonoBehaviour
     // 6
     public Vector3 teleportReticleOffset;
 
+    bool scrollActive = false;
+
 
     // Start is called before the first frame update
 
@@ -55,6 +57,7 @@ public class LaserPointer : MonoBehaviour
         //if (teleportAction.GetState(handType))
         // {
         RaycastHit hit;
+        Button previous = null;
 
         if (Physics.Raycast(controllerPose.transform.position, transform.forward, out hit))
         {
@@ -67,20 +70,21 @@ public class LaserPointer : MonoBehaviour
             Vector3 forward = teleportReticleTransform.TransformDirection(Vector3.forward) * 10;
             Debug.DrawRay(transform.position, forward, Color.green);
 
-            if (hit.collider.tag == "BackButton" || hit.collider.tag == "keyboard")
+            if (hit.collider.tag == "BackButton" || hit.collider.tag == "keyboard" || hit.collider.tag == "Scroll")
             {
                 Button b = hit.collider.gameObject.GetComponent<Button>();
-
                 b.Select();
             }
+            else
+            {
+                EventSystem.current.GetComponent<EventSystem>().SetSelectedGameObject(null);
+            }
         }
-
-
 
         if (GetTriggerDown())
         {
 
-            if (hit.collider.tag == "BackButton" || hit.collider.tag == "keyboard")
+            if (hit.collider.tag == "BackButton" || hit.collider.tag == "keyboard" || hit.collider.tag == "Scroll")
             {
 
                 IPointerClickHandler clickHandler = hit.collider.gameObject.GetComponent<IPointerClickHandler>();
@@ -92,6 +96,11 @@ public class LaserPointer : MonoBehaviour
                     clickHandler.OnPointerClick(pointerEventData);
                     Debug.Log("backButton");
                 }
+
+                if (hit.collider.tag == "Scroll")
+                {
+                    scrollActive = true;
+                }
              
                // sendMessage(hit, true, "back");
             }
@@ -101,15 +110,30 @@ public class LaserPointer : MonoBehaviour
             }
         }
 
-
         if (GetTriggerUp())
         {
-            if (hit.collider.tag == "BackButton" || hit.collider.tag == "keyboard")
+            if (hit.collider.tag == "BackButton" || hit.collider.tag == "keyboard" || hit.collider.tag == "Scroll")
             {
-                
+                if (hit.collider.tag == "Scroll")
+                {
+                    scrollActive = false;
+                }
             }
             else {
                 sendMessage(hit, false, "click");
+            }
+        }
+
+        if (scrollActive)
+        {
+            if (hit.collider.tag == "Scroll")
+            {
+                IPointerClickHandler clickHandler = hit.collider.gameObject.GetComponent<IPointerClickHandler>();
+                if (clickHandler != null)
+                {
+                    PointerEventData pointerEventData = new PointerEventData(EventSystem.current);
+                    clickHandler.OnPointerClick(pointerEventData);
+                }
             }
         }
 
