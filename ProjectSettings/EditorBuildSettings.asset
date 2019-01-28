@@ -14,4 +14,7 @@ EditorBuildSettings:
   - enabled: 0
     path: Assets/Scenes/web_browser_body_tracking.unity
     guid: 6a13840796e442c44a060faba1133d63
+  - enabled: 1
+    path: Assets/Scenes/web_browser_VIVE.unity
+    guid: 2153b34ae38fa3144924f95b3d086dc6
   m_configObjects: {}

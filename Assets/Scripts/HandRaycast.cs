@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.EventSystems;
 using UnityEngine.UI;
 
 public class HandRaycast : MonoBehaviour
@@ -25,13 +26,17 @@ public class HandRaycast : MonoBehaviour
         if (Physics.Raycast(transform.position, transform.forward, out hit))
         {
             // Vector3 forward = teleportReticleTransform.TransformDirection(Vector3.forward) * 10;
-            if (/*hit.collider.tag == "BackButton" ||*/ hit.collider.tag == "keyboard")
+            if (hit.collider.tag == "BackButton" || hit.collider.tag == "keyboard" || hit.collider.tag == "Scroll")
             {
                 Button b = hit.collider.gameObject.GetComponent<Button>();
                 if(b != null)
                 {
                     b.Select();
                 }
+            }
+            else
+            {
+                EventSystem.current.GetComponent<EventSystem>().SetSelectedGameObject(null);
             }
 
             init = true;
