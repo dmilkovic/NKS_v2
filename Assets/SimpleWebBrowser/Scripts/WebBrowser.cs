@@ -646,13 +646,13 @@ namespace SimpleWebBrowser
 
         public void Bookmark(string name)
         {
-            if (name == "24 Sata")
+            if (name == "RITEH")
             {
-                mainUIPanel.UrlField.text = "24sata.hr";
+                mainUIPanel.UrlField.text = "http://www.riteh.uniri.hr";
                 OnNavigate();
-            }else if (name == "YouTube")
+            }else if (name == "Nabava.net")
             {
-                mainUIPanel.UrlField.text = "youtube.com";
+                mainUIPanel.UrlField.text = "nabava.net";
                 OnNavigate();
             }
 
